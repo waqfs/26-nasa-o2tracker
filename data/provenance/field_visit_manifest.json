@@ -1,0 +1,50 @@
+[
+  {
+    "station": "A4261265",
+    "file": "observations/field_A4261265.json",
+    "sha256": "67ce0f0f31864775b613cf68016c5a53053ccb54acf07e74809900b88fb0a96f",
+    "source": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-06-01+00%3A00&EndTime=2026-11-08+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=PointsAsRecorded&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeQualifiers=True&IncludeApprovalLevels=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Level.Field+Visits%40A4261265&Datasets%5B0%5D.Calculation=Instantaneous&Datasets%5B0%5D.UnitId=82",
+    "unit": "m",
+    "identifier": "Water Level.Field Visits@A4261265"
+  },
+  {
+    "station": "A4261264",
+    "file": "observations/field_A4261264.json",
+    "sha256": "81cdc6e79eb0c88d97894f7fabcbaf3cd7feba08330db8fee7e396c0876fa415",
+    "source": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-06-01+00%3A00&EndTime=2026-11-08+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=PointsAsRecorded&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeQualifiers=True&IncludeApprovalLevels=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Level.Field+Visits%40A4261264&Datasets%5B0%5D.Calculation=Instantaneous&Datasets%5B0%5D.UnitId=82",
+    "unit": "m",
+    "identifier": "Water Level.Field Visits@A4261264"
+  },
+  {
+    "station": "A4261106",
+    "file": "observations/field_A4261106.json",
+    "sha256": "66db520ffc77c153257b94c3b9366da446583322dcce3528e11ce77adec24a1d",
+    "source": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-06-01+00%3A00&EndTime=2026-11-08+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=PointsAsRecorded&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeQualifiers=True&IncludeApprovalLevels=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Level.Field+Visits%40A4261106&Datasets%5B0%5D.Calculation=Instantaneous&Datasets%5B0%5D.UnitId=82",
+    "unit": "m",
+    "identifier": "Water Level.Field Visits@A4261106"
+  },
+  {
+    "station": "A4261790",
+    "file": "observations/field_A4261790.json",
+    "sha256": "7c4208e0502d0d83fa168891b67513f39c05ae1096e949015646d004eeefcacd",
+    "source": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-06-01+00%3A00&EndTime=2026-11-08+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=PointsAsRecorded&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeQualifiers=True&IncludeApprovalLevels=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Level.Field+Visits%40A4261790&Datasets%5B0%5D.Calculation=Instantaneous&Datasets%5B0%5D.UnitId=82",
+    "unit": "m",
+    "identifier": "Water Level.Field Visits@A4261790"
+  },
+  {
+    "station": "A4261255",
+    "file": "observations/field_A4261255.json",
+    "sha256": "f352d2e22c2626d0d4f2be2e02e2298bdebc398d1b8268232ca4596792e3c711",
+    "source": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-06-01+00%3A00&EndTime=2026-11-08+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=PointsAsRecorded&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeQualifiers=True&IncludeApprovalLevels=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Level.Field+Visits%40A4261255&Datasets%5B0%5D.Calculation=Instantaneous&Datasets%5B0%5D.UnitId=82",
+    "unit": "m",
+    "identifier": "Water Level.Field Visits@A4261255"
+  },
+  {
+    "station": "A4261258",
+    "file": "observations/field_A4261258.json",
+    "sha256": "713969b4656fdcd395d19160b98a63de43acc90db5f8de0a01e7996ae0e067fd",
+    "source": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-06-01+00%3A00&EndTime=2026-11-08+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=PointsAsRecorded&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeQualifiers=True&IncludeApprovalLevels=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Level.Field+Visits%40A4261258&Datasets%5B0%5D.Calculation=Instantaneous&Datasets%5B0%5D.UnitId=82",
+    "unit": "m",
+    "identifier": "Water Level.Field Visits@A4261258"
+  }
+]

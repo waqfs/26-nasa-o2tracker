@@ -1,0 +1,134 @@
+{
+  "kind": "Software/numerical model audit, not environmental validation",
+  "scenarios": [
+    {
+      "scenario": "default",
+      "members": 512,
+      "step_days": 0.025,
+      "half_step_days": 0.0125,
+      "max_minimum_river_difference_mg_l": 0.00011989226280562093,
+      "maximum_terminal_carbon_inventory_residual_kg": 7.916241884231567e-09,
+      "maximum_oxygen_ledger_residual_kg": 5.9371814131736755e-09,
+      "maximum_carbon_ledger_residual_kg": 7.916241884231567e-09,
+      "water_boundary_continuity_residual_m3_day": 1.862645149230957e-09,
+      "water_scope": "Fixed storage and boundary flows are assumed; this is a dimensional/continuity check, not observed hydrology.",
+      "nonnegative_minimum_oxygen": true,
+      "minimum_river_half_step_diagnostic": "PASS"
+    },
+    {
+      "scenario": "disconnected",
+      "members": 512,
+      "step_days": 0.025,
+      "half_step_days": 0.0125,
+      "max_minimum_river_difference_mg_l": 2.2567800108674874e-06,
+      "maximum_terminal_carbon_inventory_residual_kg": 4.376488504931331e-09,
+      "maximum_oxygen_ledger_residual_kg": 8.731149137020111e-10,
+      "maximum_carbon_ledger_residual_kg": 4.48198989033699e-09,
+      "water_boundary_continuity_residual_m3_day": 0.0,
+      "water_scope": "Fixed storage and boundary flows are assumed; this is a dimensional/continuity check, not observed hydrology.",
+      "nonnegative_minimum_oxygen": true,
+      "minimum_river_half_step_diagnostic": "PASS"
+    },
+    {
+      "scenario": "low_flow_large_area",
+      "members": 512,
+      "step_days": 0.0015625,
+      "half_step_days": 0.00078125,
+      "max_minimum_river_difference_mg_l": 0.004926857687964403,
+      "maximum_terminal_carbon_inventory_residual_kg": 7.977942004799843e-07,
+      "maximum_oxygen_ledger_residual_kg": 1.7277787378588982e-07,
+      "maximum_carbon_ledger_residual_kg": 7.977942004799843e-07,
+      "water_boundary_continuity_residual_m3_day": 2.3283064365386963e-10,
+      "water_scope": "Fixed storage and boundary flows are assumed; this is a dimensional/continuity check, not observed hydrology.",
+      "nonnegative_minimum_oxygen": true,
+      "minimum_river_half_step_diagnostic": "PASS"
+    }
+  ],
+  "stoichiometry_kg_O2_per_kg_C": 2.6666666666666665,
+  "published_parameter_source": {
+    "paper": {
+      "doi": "10.1002/hyp.14529",
+      "authors": "Gibbs, Wallace & Mosley (2022)",
+      "table": "Table 1, page 4",
+      "url": "https://mdbaprdfpbokstgaue.blob.core.windows.net/prdfpbok/resources/4dd64e4d-9263-4158-bd0c-bf74b7f7e601/hydrological-processes-2022-gibbs-constraining-organic-matter-composition-and-dynamics-as-a-domi.pdf",
+      "sha256": "64dbb7e2057a0948e743a645747bf3190354df7bd9a920e21109436eea6d9525",
+      "interpretation": "Published uniform sensitivity bounds, not calibrated 2026 distributions or universal physical bounds."
+    },
+    "parameters": {
+      "litter_fast_g_m2": {
+        "min": 0,
+        "max": 1000,
+        "unit": "g dry litter/m2",
+        "basis": "Gibbs et al. Table 1"
+      },
+      "litter_slow_g_m2": {
+        "min": 0,
+        "max": 3000,
+        "unit": "g dry litter/m2",
+        "basis": "Gibbs et al. Table 1"
+      },
+      "yield_fast_mg_g": {
+        "min": 45,
+        "max": 125,
+        "unit": "mg C/g dry litter",
+        "basis": "Gibbs et al. Table 1"
+      },
+      "yield_slow_mg_g": {
+        "min": 4.5,
+        "max": 12.5,
+        "unit": "mg C/g dry litter",
+        "basis": "Gibbs et al. Table 1"
+      },
+      "release_fast_per_day": {
+        "min": 0.5,
+        "max": 0.99,
+        "unit": "1/day at 20 C",
+        "basis": "Gibbs et al. Table 1"
+      },
+      "release_slow_per_day": {
+        "min": 0.05,
+        "max": 0.3,
+        "unit": "1/day at 20 C",
+        "basis": "Gibbs et al. Table 1"
+      },
+      "decay_per_day": {
+        "min": 0.02,
+        "max": 0.3,
+        "unit": "1/day at 20 C",
+        "basis": "Gibbs et al. Table 1"
+      },
+      "reaeration_per_day": {
+        "min": 0.01,
+        "max": 0.08,
+        "unit": "1/day at 20 C",
+        "basis": "Gibbs et al. Table 1"
+      },
+      "temperature_c": {
+        "min": 10,
+        "max": 25,
+        "unit": "C",
+        "basis": "Gibbs et al. Table 1"
+      }
+    },
+    "dodoc": {
+      "url": "https://github.com/flowmatters/dodoc-source",
+      "commit": "d669f1327a44c36b3efee1d2f03bcc6fd84d2e0b",
+      "file": "Core/DoDocModel.cs",
+      "license": "No repository license declared; source reviewed, not vendored",
+      "equations": {
+        "release_temperature": "1.03**(T-20)",
+        "yield_temperature": "0.93255 + 0.06745*exp(0.2047*(T-20))",
+        "decay_temperature": "-0.2088 + 0.0604*T (rounded empirical BRAT response, 0.9992 at 20 C)",
+        "reaeration_temperature": "1.024**(T-20)",
+        "oxygen_carbon_mass_ratio": "32/12 kg O2/kg C, DODOC uses rounded 2.667"
+      }
+    },
+    "new_implementation": "Two fixed-volume mixed boxes with finite leachable carbon, oxygen-limited consumption and explicit conservative transfer. Not DODOC or BRAT, no Source routing, no long-term litter accumulation or primary productivity."
+  },
+  "limitations": [
+    "Convergence checks minimum river oxygen only, not every quantity/trajectory or every sensitivity hybrid",
+    "All-released-carbon biodegradable assumption and omitted processes are not validated by mass balance",
+    "Input independence, ranges, fixed hydrology and mixing remain assumptions; sensitivity ranks are conditional",
+    "DODOC/BRAT-informed simplified implementation; not a reproduction of their calibrated routing models"
+  ]
+}

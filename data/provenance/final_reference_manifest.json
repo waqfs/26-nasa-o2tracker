@@ -1,0 +1,22 @@
+[
+  {
+    "item": "d124680e-0293-5ada-8eb6-b3b7901c8238",
+    "time": "2026-08-24T00:21:02.467990Z",
+    "created": "2026-09-03T07:45:49.526341Z",
+    "url": "https://dea-public-data.s3.ap-southeast-2.amazonaws.com/derivative/ga_ls_wo_3/1-6-0/095/084/2026/08/24/ga_ls_wo_3_095084_2026-08-24_final_water.tif"
+  },
+  {
+    "path": "data/validation/dea_final_2026-08-24.tif",
+    "sha256": "699dfaa4cbe825a80fd142badce02a76a6aa2a5dfc19daeb1ac55a9e581f8204"
+  },
+  {
+    "item": "87f72ac5-5bec-542f-ac3c-9befe414506d",
+    "time": "2026-10-11T00:21:20.274436Z",
+    "created": "2026-10-23T08:29:15.050185Z",
+    "url": "https://dea-public-data.s3.ap-southeast-2.amazonaws.com/derivative/ga_ls_wo_3/1-6-0/095/084/2026/10/11/ga_ls_wo_3_095084_2026-10-11_final_water.tif"
+  },
+  {
+    "path": "data/validation/dea_final_2026-10-11.tif",
+    "sha256": "699dfaa4cbe825a80fd142badce02a76a6aa2a5dfc19daeb1ac55a9e581f8204"
+  }
+]

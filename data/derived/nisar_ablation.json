@@ -1,0 +1,238 @@
+{
+  "protocol": "Frozen before execution: docs/NISAR_ESSENTIALITY.md",
+  "configuration": {
+    "area_ha": 100,
+    "depth_m": 0.5,
+    "exchange_per_day": 0.1,
+    "river_flow_m3_s": 100,
+    "river_volume_ml": 5000,
+    "connected_fraction": 0.5,
+    "hydrology_spread": 0.5,
+    "upstream_oxygen_mg_l": 9,
+    "temperature_c": null,
+    "days": 14,
+    "seed": 20261115,
+    "samples": 256
+  },
+  "fixed_location": "candidate-2",
+  "fixed_anchor_utc": "2026-09-28T20:34:56.000000Z",
+  "arms": [
+    {
+      "arm": "A",
+      "name": "Field and water quality",
+      "result_sha256": "ad300174cb4b006e6e732eb511bd4ffb605f5e6a0a3bf34a6d6c09fecc671474",
+      "bounds_sha256": "3e225119f53ed44f8b431763eaed76390926978add840e8e24cdb9889449d7d2",
+      "max_absolute_numeric_output_difference_from_A": 0.0,
+      "potential_oxygen_demand_kg": [
+        24217.22478222096,
+        127880.99017012757,
+        306569.4018722789
+      ],
+      "minimum_river_oxygen_mg_l": [
+        8.810411135382868,
+        8.965226054864662,
+        9.0
+      ],
+      "added_observables": [
+        "Independent field/water-quality records"
+      ],
+      "nisar_constrained_parameters": [],
+      "flood_constraint": null,
+      "decision": "Same unmet need for verified inundation, local routing/flow and carbon measurements. C additionally exposes an L-band surface-change/calibration question; no decision outcome evaluated."
+    },
+    {
+      "arm": "B",
+      "name": "Field + conventional satellites",
+      "result_sha256": "ad300174cb4b006e6e732eb511bd4ffb605f5e6a0a3bf34a6d6c09fecc671474",
+      "bounds_sha256": "3e225119f53ed44f8b431763eaed76390926978add840e8e24cdb9889449d7d2",
+      "max_absolute_numeric_output_difference_from_A": 0.0,
+      "potential_oxygen_demand_kg": [
+        24217.22478222096,
+        127880.99017012757,
+        306569.4018722789
+      ],
+      "minimum_river_oxygen_mg_l": [
+        8.810411135382868,
+        8.965226054864662,
+        9.0
+      ],
+      "added_observables": [
+        "Independent field/water-quality records",
+        "Landsat exposed-water labels",
+        "Sentinel-1 VV/VH",
+        "Sentinel-2 labels"
+      ],
+      "nisar_constrained_parameters": [],
+      "flood_constraint": null,
+      "decision": "Same unmet need for verified inundation, local routing/flow and carbon measurements. C additionally exposes an L-band surface-change/calibration question; no decision outcome evaluated."
+    },
+    {
+      "arm": "C",
+      "name": "Field + conventional satellites + NISAR",
+      "result_sha256": "ad300174cb4b006e6e732eb511bd4ffb605f5e6a0a3bf34a6d6c09fecc671474",
+      "bounds_sha256": "3e225119f53ed44f8b431763eaed76390926978add840e8e24cdb9889449d7d2",
+      "max_absolute_numeric_output_difference_from_A": 0.0,
+      "potential_oxygen_demand_kg": [
+        24217.22478222096,
+        127880.99017012757,
+        306569.4018722789
+      ],
+      "minimum_river_oxygen_mg_l": [
+        8.810411135382868,
+        8.965226054864662,
+        9.0
+      ],
+      "added_observables": [
+        "Independent field/water-quality records",
+        "Landsat exposed-water labels",
+        "Sentinel-1 VV/VH",
+        "Sentinel-2 labels",
+        "NISAR HH/HV power and change",
+        "L-band reference-offset sensitivity"
+      ],
+      "nisar_constrained_parameters": [],
+      "flood_constraint": null,
+      "decision": "Same unmet need for verified inundation, local routing/flow and carbon measurements. C additionally exposes an L-band surface-change/calibration question; no decision outcome evaluated."
+    }
+  ],
+  "result": "EXACTLY IDENTICAL oxygen model outputs in A/B/C",
+  "scope": "Structural input ablation of the current implementation, not accuracy validation, causal inference or a test of all possible NISAR methods.",
+  "spatial_selection_caution": "The fixed 26-location set was originally selected using radar candidates plus monitoring contexts. This is not a sensor-blind test population or a placement-benefit validation.",
+  "strongest_contribution": "NISAR adds measured L-band changes for questioning physical explanations; it supplies no validated quantitative environmental constraint in this case.",
+  "reference_sensitivity": {
+    "hh_change_db": 3.6701238429869587,
+    "hv_change_db": 0.06612260545820092,
+    "hh_minus_hv_change_db": 3.604001237528758,
+    "regional_hh_median_change_db": -1.481926225879997,
+    "assumed_reference_offsets_db": {
+      "built_up_proxy": -0.8009021950411102,
+      "bare_sparse_proxy": -1.083292806534649
+    },
+    "local_hh_residuals_under_assumed_offsets_db": {
+      "built_up_proxy": 4.471026038028069,
+      "bare_sparse_proxy": 4.753416649521608
+    },
+    "interpretation": "Measured local changes and sensitivity to two assumed common offsets. Proxies are not invariant; residuals are not calibrated uncertainty bounds or water labels. No correction is applied.",
+    "support": "Local native centered 5x5 20m power mean, versus matched-grid 100m reference medians; footprints may differ by one native-pixel edge."
+  },
+  "measurement_requirements": [
+    {
+      "purpose": "Distinguish water from soil/vegetation/radiometric explanations",
+      "where": {
+        "latitude": -34.29373299153898,
+        "longitude": 140.5189567920993,
+        "support_m": 100
+      },
+      "measurement": "Retrieve a dated, georeferenced archived wet/dry/depth and canopy observation matching the studied interval; for a future repeat collect paired water-depth, soil-moisture and canopy observations at this fixed block.",
+      "why": "This block has no validated radar-to-water label. NISAR adds a local HH/HV question in C, but not proof that this is the best place to sample.",
+      "basis": "Fixed existing location and visible measurement gap; no optimal placement or validated decision improvement"
+    },
+    {
+      "purpose": "Separate shared radiometry from environmental change",
+      "where": "Stable reference targets spanning the scene; exact sites not established",
+      "measurement": "Check invariant radiometric targets and full acquisition QA, alongside moisture observations. Built/bare land cover alone is insufficient.",
+      "basis": "Shared reference-proxy shifts"
+    },
+    {
+      "purpose": "Connect landscape exposure to oxygen",
+      "where": "The actual wetland outlet and receiving reach; hydraulic route not established",
+      "measurement": "Measure outlet discharge, DOC bioavailability and subdaily oxygen upstream/downstream, with travel-time evidence.",
+      "basis": "Missing causal pathway; geographic distance is insufficient"
+    }
+  ],
+  "matched_upstream_control": {
+    "configuration": {
+      "area_ha": 100,
+      "depth_m": 0.5,
+      "exchange_per_day": 0.1,
+      "river_flow_m3_s": 100,
+      "river_volume_ml": 5000,
+      "connected_fraction": 0.5,
+      "hydrology_spread": 0.5,
+      "upstream_oxygen_mg_l": 10.743177083333334,
+      "temperature_c": 14.290381944444444,
+      "days": 14,
+      "seed": 20261115,
+      "samples": 256
+    },
+    "station": "A4261053",
+    "fixed_location": "candidate-2",
+    "fixed_anchor_utc": "2026-08-23T20:34:56.000000Z",
+    "boundary_inputs": {
+      "oxygen": {
+        "station": "A4261023",
+        "name": "River Murray upstream Pike River Outlet (AMTD 547Km)",
+        "source": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=O2+%28Dis%29.Best+Available--DO+Sensor-1m%40A4261023&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=35",
+        "unit": "mg/l",
+        "observation": {
+          "time": "2026-08-24T00:00:00+09:30",
+          "value": 10.743177083333334,
+          "grade": "GOOD"
+        },
+        "offset_hours": -6.082222222222223,
+        "excluded_grades": []
+      },
+      "temperature": {
+        "station": "A4261023",
+        "name": "River Murray upstream Pike River Outlet (AMTD 547Km)",
+        "source": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Temp.Best+Available--DO+Sensor-1m%40A4261023&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=169",
+        "unit": "degC",
+        "observation": {
+          "time": "2026-08-24T00:00:00+09:30",
+          "value": 14.290381944444444,
+          "grade": "GOOD"
+        },
+        "offset_hours": -6.082222222222223,
+        "excluded_grades": []
+      }
+    },
+    "arms": [
+      {
+        "arm": "A",
+        "result_sha256": "16dabde3df9d7dc3584ef2280ceda764e400b11b1f125f273b78e67a57d8e479",
+        "max_absolute_numeric_output_difference_from_A": 0.0,
+        "potential_oxygen_demand_kg": [
+          24152.564380095715,
+          122709.81081722418,
+          296457.62856119213
+        ],
+        "minimum_river_oxygen_mg_l": [
+          10.54599999328159,
+          10.68454296606468,
+          10.722689617193874
+        ]
+      },
+      {
+        "arm": "B",
+        "result_sha256": "16dabde3df9d7dc3584ef2280ceda764e400b11b1f125f273b78e67a57d8e479",
+        "max_absolute_numeric_output_difference_from_A": 0.0,
+        "potential_oxygen_demand_kg": [
+          24152.564380095715,
+          122709.81081722418,
+          296457.62856119213
+        ],
+        "minimum_river_oxygen_mg_l": [
+          10.54599999328159,
+          10.68454296606468,
+          10.722689617193874
+        ]
+      },
+      {
+        "arm": "C",
+        "result_sha256": "16dabde3df9d7dc3584ef2280ceda764e400b11b1f125f273b78e67a57d8e479",
+        "max_absolute_numeric_output_difference_from_A": 0.0,
+        "potential_oxygen_demand_kg": [
+          24152.564380095715,
+          122709.81081722418,
+          296457.62856119213
+        ],
+        "minimum_river_oxygen_mg_l": [
+          10.54599999328159,
+          10.68454296606468,
+          10.722689617193874
+        ]
+      }
+    ],
+    "scope": "Secondary software-dependency control specified after the primary run. GOOD upstream data are constant assumed boundaries, not proof of connection to the selected block/target. No new calibration, label search or target fit."
+  }
+}

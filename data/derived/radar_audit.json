@@ -1,0 +1,1974 @@
+{
+  "qa": [
+    {
+      "concept_id": "G4289277210-ASF",
+      "attributes": {
+        "ASCENDING_DESCENDING": [
+          "ASCENDING"
+        ],
+        "FRAME_NUMBER": [
+          "160"
+        ],
+        "FREQUENCIES": [
+          "A",
+          "B"
+        ],
+        "FREQUENCY_A_POLARIZATION": [
+          "HH",
+          "HV"
+        ],
+        "FREQUENCY_A_POLARIZATION_CONCAT": [
+          "HH+HV"
+        ],
+        "FREQUENCY_A_RANGE_BANDWIDTH": [
+          "20"
+        ],
+        "FREQUENCY_B_POLARIZATION": [
+          "HH",
+          "HV"
+        ],
+        "FREQUENCY_B_POLARIZATION_CONCAT": [
+          "HH+HV"
+        ],
+        "FREQUENCY_B_RANGE_BANDWIDTH": [
+          "5"
+        ],
+        "FULL_FRAME": [
+          "TRUE"
+        ],
+        "JOINT_OBSERVATION": [
+          "TRUE"
+        ],
+        "ORBIT_TYPE": [
+          "MOE"
+        ],
+        "PROCESSING_CENTER": [
+          "JPL"
+        ],
+        "PROCESSING_LEVEL": [
+          "L2"
+        ],
+        "PRODUCTION_PIPELINE": [
+          "PR"
+        ],
+        "PRODUCT_TYPE": [
+          "GCOV"
+        ],
+        "PRODUCT_TYPE_DESC": [
+          "Geocoded Polarimetric Covariance"
+        ],
+        "PRODUCT_VERSION": [
+          "1.0.11"
+        ],
+        "RANGE_BANDWIDTH_CONCAT": [
+          "20+5"
+        ],
+        "STACK_ID": [
+          "153_A_160"
+        ],
+        "TRACK_NUMBER": [
+          "153"
+        ]
+      },
+      "looks": {
+        "n": 5098518,
+        "percentiles": [
+          1.2980167865753174,
+          9.450837135314941,
+          9.712132453918457,
+          9.873202323913574,
+          10.036026000976562,
+          10.30196108818054,
+          18.03452491760254
+        ]
+      },
+      "mask_codes": [
+        1.0
+      ]
+    },
+    {
+      "concept_id": "G4329677554-ASF",
+      "attributes": {
+        "ASCENDING_DESCENDING": [
+          "ASCENDING"
+        ],
+        "FRAME_NUMBER": [
+          "160"
+        ],
+        "FREQUENCIES": [
+          "A",
+          "B"
+        ],
+        "FREQUENCY_A_POLARIZATION": [
+          "HH",
+          "HV"
+        ],
+        "FREQUENCY_A_POLARIZATION_CONCAT": [
+          "HH+HV"
+        ],
+        "FREQUENCY_A_RANGE_BANDWIDTH": [
+          "20"
+        ],
+        "FREQUENCY_B_POLARIZATION": [
+          "HH",
+          "HV"
+        ],
+        "FREQUENCY_B_POLARIZATION_CONCAT": [
+          "HH+HV"
+        ],
+        "FREQUENCY_B_RANGE_BANDWIDTH": [
+          "5"
+        ],
+        "FULL_FRAME": [
+          "TRUE"
+        ],
+        "JOINT_OBSERVATION": [
+          "TRUE"
+        ],
+        "ORBIT_TYPE": [
+          "MOE"
+        ],
+        "PROCESSING_CENTER": [
+          "JPL"
+        ],
+        "PROCESSING_LEVEL": [
+          "L2"
+        ],
+        "PRODUCTION_PIPELINE": [
+          "PR"
+        ],
+        "PRODUCT_TYPE": [
+          "GCOV"
+        ],
+        "PRODUCT_TYPE_DESC": [
+          "Geocoded Polarimetric Covariance"
+        ],
+        "PRODUCT_VERSION": [
+          "1.0.11"
+        ],
+        "RANGE_BANDWIDTH_CONCAT": [
+          "20+5"
+        ],
+        "STACK_ID": [
+          "153_A_160"
+        ],
+        "TRACK_NUMBER": [
+          "153"
+        ]
+      },
+      "looks": {
+        "n": 5098518,
+        "percentiles": [
+          1.2971974611282349,
+          9.450334405899047,
+          9.711638450622559,
+          9.872720718383789,
+          10.035568237304688,
+          10.30150237083435,
+          18.03452491760254
+        ]
+      },
+      "mask_codes": [
+        1.0
+      ]
+    },
+    {
+      "concept_id": "G4360923482-ASF",
+      "attributes": {
+        "ASCENDING_DESCENDING": [
+          "ASCENDING"
+        ],
+        "FRAME_NUMBER": [
+          "160"
+        ],
+        "FREQUENCIES": [
+          "A",
+          "B"
+        ],
+        "FREQUENCY_A_POLARIZATION": [
+          "HH",
+          "HV"
+        ],
+        "FREQUENCY_A_POLARIZATION_CONCAT": [
+          "HH+HV"
+        ],
+        "FREQUENCY_A_RANGE_BANDWIDTH": [
+          "20"
+        ],
+        "FREQUENCY_B_POLARIZATION": [
+          "HH",
+          "HV"
+        ],
+        "FREQUENCY_B_POLARIZATION_CONCAT": [
+          "HH+HV"
+        ],
+        "FREQUENCY_B_RANGE_BANDWIDTH": [
+          "5"
+        ],
+        "FULL_FRAME": [
+          "TRUE"
+        ],
+        "JOINT_OBSERVATION": [
+          "TRUE"
+        ],
+        "ORBIT_TYPE": [
+          "MOE"
+        ],
+        "PROCESSING_CENTER": [
+          "JPL"
+        ],
+        "PROCESSING_LEVEL": [
+          "L2"
+        ],
+        "PRODUCTION_PIPELINE": [
+          "PR"
+        ],
+        "PRODUCT_TYPE": [
+          "GCOV"
+        ],
+        "PRODUCT_TYPE_DESC": [
+          "Geocoded Polarimetric Covariance"
+        ],
+        "PRODUCT_VERSION": [
+          "1.0.11"
+        ],
+        "RANGE_BANDWIDTH_CONCAT": [
+          "20+5"
+        ],
+        "STACK_ID": [
+          "153_A_160"
+        ],
+        "TRACK_NUMBER": [
+          "153"
+        ]
+      },
+      "looks": {
+        "n": 5098518,
+        "percentiles": [
+          1.2978395223617554,
+          9.450725555419922,
+          9.712016344070435,
+          9.873091697692871,
+          10.035926818847656,
+          10.301866674423216,
+          18.034690856933594
+        ]
+      },
+      "mask_codes": [
+        1.0
+      ]
+    }
+  ],
+  "reference_selection": "WorldCover 2021 >=80% class; >=90% SCL land on both dates. Chosen without radar-change filtering. Built/bare proxies may change; no corner reflectors or invariant targets.",
+  "changes_100m": {
+    "0_1": {
+      "HHHH": {
+        "all": {
+          "n": 203623,
+          "percentiles": [
+            -19.461377069281014,
+            -3.8039478079272664,
+            -2.279529212344264,
+            -1.481926225879997,
+            -0.8330708643711464,
+            0.12473161244013695,
+            10.329462441888552
+          ]
+        },
+        "built_up_proxy": {
+          "n": 601,
+          "percentiles": [
+            -3.961906060383211,
+            -2.0326954028698783,
+            -1.21080840669975,
+            -0.8009021950411102,
+            -0.3118400988858736,
+            0.25837571704000517,
+            1.7705372226311604
+          ]
+        },
+        "bare_sparse_proxy": {
+          "n": 482,
+          "percentiles": [
+            -7.451387460891407,
+            -2.665019514083573,
+            -1.669636291255296,
+            -1.083292806534649,
+            -0.45675708258976533,
+            0.2477880602209983,
+            2.2660857297771333
+          ]
+        },
+        "cropland_not_stable": {
+          "n": 61189,
+          "percentiles": [
+            -9.872532988965515,
+            -4.222856233188642,
+            -2.393013118988101,
+            -1.565067759231992,
+            -0.8895338499271652,
+            0.1692562497842336,
+            5.6725701144214895
+          ]
+        },
+        "tree_not_stable": {
+          "n": 17876,
+          "percentiles": [
+            -9.897657312753585,
+            -2.365630397485031,
+            -1.460444868943941,
+            -1.0155040561871118,
+            -0.5856933022798143,
+            0.0408342367191874,
+            3.6701238429869587
+          ]
+        },
+        "shrub_not_stable": {
+          "n": 3467,
+          "percentiles": [
+            -4.6878588029028485,
+            -3.4680937655229354,
+            -2.7959249207911743,
+            -2.265125406395706,
+            -1.5598914003488291,
+            -0.5704302165193509,
+            0.8698519901561568
+          ]
+        }
+      },
+      "HVHV": {
+        "all": {
+          "n": 203623,
+          "percentiles": [
+            -9.262050931754827,
+            -2.5969374940364927,
+            -1.3638645145388235,
+            -0.7932737890636119,
+            -0.3031917385679037,
+            0.3861104981678743,
+            8.962810540012386
+          ]
+        },
+        "built_up_proxy": {
+          "n": 601,
+          "percentiles": [
+            -4.4326076031876145,
+            -1.2945477900371642,
+            -0.6757173437216473,
+            -0.3055102195114223,
+            0.015615425090063084,
+            0.499981024511035,
+            1.4587428492715144
+          ]
+        },
+        "bare_sparse_proxy": {
+          "n": 482,
+          "percentiles": [
+            -4.652619499136787,
+            -1.3909763959384045,
+            -0.7079856494257992,
+            -0.3317392642614738,
+            0.0979007942173471,
+            0.7283988737840482,
+            4.3051975967281635
+          ]
+        },
+        "cropland_not_stable": {
+          "n": 61189,
+          "percentiles": [
+            -8.346708002826503,
+            -3.0187146871035453,
+            -1.5726528608643484,
+            -0.8940957951003625,
+            -0.3091540775235906,
+            0.47633949725974517,
+            5.334925543777963
+          ]
+        },
+        "tree_not_stable": {
+          "n": 17876,
+          "percentiles": [
+            -9.006344320247152,
+            -1.5576160346546106,
+            -0.9377811983945241,
+            -0.5621526032041544,
+            -0.21335364568299742,
+            0.29557826824209377,
+            2.6819381289778015
+          ]
+        },
+        "shrub_not_stable": {
+          "n": 3467,
+          "percentiles": [
+            -4.3648119730015615,
+            -1.943832202129617,
+            -1.3522476640189645,
+            -0.9588736746577133,
+            -0.5785032096328813,
+            -0.047923107327140065,
+            0.92625010249761
+          ]
+        }
+      }
+    },
+    "1_2": {
+      "HHHH": {
+        "all": {
+          "n": 203623,
+          "percentiles": [
+            -11.981890737782196,
+            -1.0506213695977022,
+            -0.36240405166829426,
+            0.006735028267492282,
+            0.36421649916639875,
+            0.9410244220924593,
+            17.33037340092491
+          ]
+        },
+        "built_up_proxy": {
+          "n": 601,
+          "percentiles": [
+            -2.9588950192029633,
+            -0.536648674538132,
+            -0.07439976083348743,
+            0.17218669299830314,
+            0.48228314290520746,
+            0.9013078987699208,
+            2.446047552967637
+          ]
+        },
+        "bare_sparse_proxy": {
+          "n": 482,
+          "percentiles": [
+            -3.97686956177482,
+            -0.48038107101907707,
+            0.0013096473470284309,
+            0.3087107932992703,
+            0.6577314144190316,
+            1.131103658106706,
+            3.5232043649997986
+          ]
+        },
+        "cropland_not_stable": {
+          "n": 61189,
+          "percentiles": [
+            -5.59921353054623,
+            -1.2682348921245286,
+            -0.567160452739806,
+            -0.15368842015140416,
+            0.23001631581120208,
+            0.7987507200890007,
+            5.053748343700322
+          ]
+        },
+        "tree_not_stable": {
+          "n": 17876,
+          "percentiles": [
+            -5.263856246604799,
+            -0.9907084676401322,
+            -0.3410286515682681,
+            -0.043088401483704075,
+            0.25228617349789184,
+            0.83752228185568,
+            5.366285023670936
+          ]
+        },
+        "shrub_not_stable": {
+          "n": 3467,
+          "percentiles": [
+            -2.36711148382466,
+            -0.47915319637173504,
+            -0.06179276278805368,
+            0.26164257382075284,
+            0.5779480903604872,
+            1.050833381959381,
+            4.609227404907511
+          ]
+        }
+      },
+      "HVHV": {
+        "all": {
+          "n": 203623,
+          "percentiles": [
+            -9.761267667255742,
+            -1.0711339501169719,
+            -0.48243880618979595,
+            -0.1224259207615006,
+            0.21450888358129916,
+            0.7182797065484049,
+            12.532388230610776
+          ]
+        },
+        "built_up_proxy": {
+          "n": 601,
+          "percentiles": [
+            -1.4278354828583044,
+            -0.7107602522646435,
+            -0.2455216129157929,
+            0.019376183518163614,
+            0.3210135736694024,
+            0.8268379201337286,
+            5.0996710477269875
+          ]
+        },
+        "bare_sparse_proxy": {
+          "n": 482,
+          "percentiles": [
+            -3.334663679368461,
+            -0.7960920675589831,
+            -0.3812767042897791,
+            -0.0465277291273587,
+            0.27260865745484786,
+            0.8913997071073957,
+            6.665802578231862
+          ]
+        },
+        "cropland_not_stable": {
+          "n": 61189,
+          "percentiles": [
+            -5.269509919226799,
+            -1.2378187319707727,
+            -0.6477144590680126,
+            -0.2749820193070285,
+            0.08553485895885515,
+            0.6146618166486,
+            3.940978732971768
+          ]
+        },
+        "tree_not_stable": {
+          "n": 17876,
+          "percentiles": [
+            -6.357263758308887,
+            -1.0643804779501669,
+            -0.4224988710333317,
+            -0.10110143125865179,
+            0.1896230089184323,
+            0.6165377657924025,
+            4.015046207235105
+          ]
+        },
+        "shrub_not_stable": {
+          "n": 3467,
+          "percentiles": [
+            -1.8488761735848307,
+            -0.6533635871754476,
+            -0.23804604259900586,
+            0.045681904117166994,
+            0.3388784777579783,
+            0.7555310566422804,
+            2.4511204816814427
+          ]
+        }
+      }
+    },
+    "0_2": {
+      "HHHH": {
+        "all": {
+          "n": 203623,
+          "percentiles": [
+            -10.772414386655512,
+            -4.024164873784431,
+            -2.2490995401479896,
+            -1.472754648502157,
+            -0.8230488335633117,
+            0.14847760249308517,
+            17.61610759072406
+          ]
+        },
+        "built_up_proxy": {
+          "n": 601,
+          "percentiles": [
+            -3.1095646371162133,
+            -1.7452992729740915,
+            -1.0255427900582492,
+            -0.5626630179571661,
+            -0.23828164451328426,
+            0.3155346526768217,
+            2.4325241906741204
+          ]
+        },
+        "bare_sparse_proxy": {
+          "n": 482,
+          "percentiles": [
+            -5.884750714870066,
+            -2.280004929615562,
+            -1.3322284645945284,
+            -0.7232805804688454,
+            -0.2362453265925839,
+            0.32299467250315983,
+            2.3311061815212515
+          ]
+        },
+        "cropland_not_stable": {
+          "n": 61189,
+          "percentiles": [
+            -9.571961550832498,
+            -4.746028591181584,
+            -2.6561317043570156,
+            -1.6758454069288362,
+            -0.9500605469527201,
+            0.07636311044577776,
+            5.148301408466825
+          ]
+        },
+        "tree_not_stable": {
+          "n": 17876,
+          "percentiles": [
+            -9.260988409395331,
+            -2.3599732047713062,
+            -1.583169335217924,
+            -1.1007614302458522,
+            -0.6312492449037865,
+            0.12073235880328048,
+            4.038550050487699
+          ]
+        },
+        "shrub_not_stable": {
+          "n": 3467,
+          "percentiles": [
+            -5.198372438670609,
+            -3.0416818027162806,
+            -2.399254945922567,
+            -1.9194689300709342,
+            -1.3870088783916223,
+            -0.6071870708062987,
+            3.2244619686634435
+          ]
+        }
+      },
+      "HVHV": {
+        "all": {
+          "n": 203623,
+          "percentiles": [
+            -9.797389374016246,
+            -2.920888937479386,
+            -1.5540097997552706,
+            -0.9117564385241579,
+            -0.38752880748940655,
+            0.33619685031320984,
+            11.833556432998657
+          ]
+        },
+        "built_up_proxy": {
+          "n": 601,
+          "percentiles": [
+            -2.4909193779773604,
+            -1.2221709780207988,
+            -0.6960339311195547,
+            -0.2892956284237691,
+            0.056846240001457105,
+            0.6316257165643382,
+            2.02735862235539
+          ]
+        },
+        "bare_sparse_proxy": {
+          "n": 482,
+          "percentiles": [
+            -4.4848956895766126,
+            -1.453631170342375,
+            -0.7001113983064959,
+            -0.3122339039833726,
+            0.06756666721610882,
+            0.6364097826638646,
+            4.2411665838293615
+          ]
+        },
+        "cropland_not_stable": {
+          "n": 61189,
+          "percentiles": [
+            -8.594365266955133,
+            -3.466983394816366,
+            -1.9300041548565368,
+            -1.177183614641752,
+            -0.5401895509820775,
+            0.3153103612258172,
+            5.188005639801016
+          ]
+        },
+        "tree_not_stable": {
+          "n": 17876,
+          "percentiles": [
+            -9.347625430647206,
+            -2.012456740551883,
+            -1.1109692222119683,
+            -0.6690550652224934,
+            -0.2687777755224863,
+            0.3088756913167785,
+            2.4519475095358967
+          ]
+        },
+        "shrub_not_stable": {
+          "n": 3467,
+          "percentiles": [
+            -5.027261894220214,
+            -1.9348994599140528,
+            -1.289353889998134,
+            -0.9148834835256423,
+            -0.5476097053046054,
+            0.023539508435340775,
+            1.5568376232324894
+          ]
+        }
+      }
+    }
+  },
+  "offset_sensitivity": {
+    "HHHH": {
+      "built_up_proxy": {
+        "offset_db": -0.8009021950411102,
+        "regional_median_after_subtraction": -0.6810240308388869,
+        "interpretation": "Sensitivity only: assumes reference proxy stable. Not an applied calibration correction."
+      },
+      "bare_sparse_proxy": {
+        "offset_db": -1.083292806534649,
+        "regional_median_after_subtraction": -0.398633419345348,
+        "interpretation": "Sensitivity only: assumes reference proxy stable. Not an applied calibration correction."
+      }
+    },
+    "HVHV": {
+      "built_up_proxy": {
+        "offset_db": -0.3055102195114223,
+        "regional_median_after_subtraction": -0.4877635695521896,
+        "interpretation": "Sensitivity only: assumes reference proxy stable. Not an applied calibration correction."
+      },
+      "bare_sparse_proxy": {
+        "offset_db": -0.3317392642614738,
+        "regional_median_after_subtraction": -0.4615345248021381,
+        "interpretation": "Sensitivity only: assumes reference proxy stable. Not an applied calibration correction."
+      }
+    }
+  },
+  "registration": {
+    "0_1_HHHH": {
+      "method": "High-pass log-power normalized correlation, 256px windows, integer search +/-3 native pixels. Not absolute geolocation or subpixel calibration.",
+      "windows": [
+        {
+          "row": 128,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7909672008603517,
+          "zero_correlation": 0.7909672008603517
+        },
+        {
+          "row": 128,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8270116443449085,
+          "zero_correlation": 0.8270116443449085
+        },
+        {
+          "row": 128,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9020236152297924,
+          "zero_correlation": 0.9020236152297924
+        },
+        {
+          "row": 128,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9560221098883972,
+          "zero_correlation": 0.9560221098883972
+        },
+        {
+          "row": 128,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.6348290253763449,
+          "zero_correlation": 0.6348290253763449
+        },
+        {
+          "row": 528,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9273939280643876,
+          "zero_correlation": 0.9273939280643876
+        },
+        {
+          "row": 528,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9358627194706728,
+          "zero_correlation": 0.9358627194706728
+        },
+        {
+          "row": 528,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9360787388442783,
+          "zero_correlation": 0.9360787388442783
+        },
+        {
+          "row": 528,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8803207035528072,
+          "zero_correlation": 0.8803207035528072
+        },
+        {
+          "row": 528,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8738244975352754,
+          "zero_correlation": 0.8738244975352754
+        },
+        {
+          "row": 928,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8426373596650659,
+          "zero_correlation": 0.8426373596650659
+        },
+        {
+          "row": 928,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.950396159449121,
+          "zero_correlation": 0.950396159449121
+        },
+        {
+          "row": 928,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8541554075098785,
+          "zero_correlation": 0.8541554075098785
+        },
+        {
+          "row": 928,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7663367000983193,
+          "zero_correlation": 0.7663367000983193
+        },
+        {
+          "row": 928,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7395755906358801,
+          "zero_correlation": 0.7395755906358801
+        },
+        {
+          "row": 1328,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9194152592442544,
+          "zero_correlation": 0.9194152592442544
+        },
+        {
+          "row": 1328,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9233325338902147,
+          "zero_correlation": 0.9233325338902147
+        },
+        {
+          "row": 1328,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8481988934048528,
+          "zero_correlation": 0.8481988934048528
+        },
+        {
+          "row": 1328,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8168610733878611,
+          "zero_correlation": 0.8168610733878611
+        },
+        {
+          "row": 1328,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.6375350698701908,
+          "zero_correlation": 0.6375350698701908
+        },
+        {
+          "row": 1728,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8367424460588997,
+          "zero_correlation": 0.8367424460588997
+        },
+        {
+          "row": 1728,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9075258061649164,
+          "zero_correlation": 0.9075258061649164
+        },
+        {
+          "row": 1728,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7803199595709989,
+          "zero_correlation": 0.7803199595709989
+        },
+        {
+          "row": 1728,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8076240188209769,
+          "zero_correlation": 0.8076240188209769
+        },
+        {
+          "row": 1728,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7854630409601266,
+          "zero_correlation": 0.7854630409601266
+        }
+      ]
+    },
+    "0_1_HVHV": {
+      "method": "High-pass log-power normalized correlation, 256px windows, integer search +/-3 native pixels. Not absolute geolocation or subpixel calibration.",
+      "windows": [
+        {
+          "row": 128,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7783825670477232,
+          "zero_correlation": 0.7783825670477232
+        },
+        {
+          "row": 128,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8407425540147624,
+          "zero_correlation": 0.8407425540147624
+        },
+        {
+          "row": 128,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8982266838919888,
+          "zero_correlation": 0.8982266838919888
+        },
+        {
+          "row": 128,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9568010233305213,
+          "zero_correlation": 0.9568010233305213
+        },
+        {
+          "row": 128,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.5753523483917868,
+          "zero_correlation": 0.5753523483917868
+        },
+        {
+          "row": 528,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9204009480386405,
+          "zero_correlation": 0.9204009480386405
+        },
+        {
+          "row": 528,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9221248529605925,
+          "zero_correlation": 0.9221248529605925
+        },
+        {
+          "row": 528,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9226879249398711,
+          "zero_correlation": 0.9226879249398711
+        },
+        {
+          "row": 528,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.884838424723747,
+          "zero_correlation": 0.884838424723747
+        },
+        {
+          "row": 528,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8724475709205854,
+          "zero_correlation": 0.8724475709205854
+        },
+        {
+          "row": 928,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.858849191186795,
+          "zero_correlation": 0.858849191186795
+        },
+        {
+          "row": 928,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9510821289426103,
+          "zero_correlation": 0.9510821289426103
+        },
+        {
+          "row": 928,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.856915147513906,
+          "zero_correlation": 0.856915147513906
+        },
+        {
+          "row": 928,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.6709788123677635,
+          "zero_correlation": 0.6709788123677635
+        },
+        {
+          "row": 928,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.6426850548220103,
+          "zero_correlation": 0.6426850548220103
+        },
+        {
+          "row": 1328,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9153793129973123,
+          "zero_correlation": 0.9153793129973123
+        },
+        {
+          "row": 1328,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9211070140171074,
+          "zero_correlation": 0.9211070140171074
+        },
+        {
+          "row": 1328,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7952963701008775,
+          "zero_correlation": 0.7952963701008775
+        },
+        {
+          "row": 1328,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.6277740444025591,
+          "zero_correlation": 0.6277740444025591
+        },
+        {
+          "row": 1328,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.47610251110791263,
+          "zero_correlation": 0.47610251110791263
+        },
+        {
+          "row": 1728,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8251079398029083,
+          "zero_correlation": 0.8251079398029083
+        },
+        {
+          "row": 1728,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8688654722231275,
+          "zero_correlation": 0.8688654722231275
+        },
+        {
+          "row": 1728,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7211978274119146,
+          "zero_correlation": 0.7211978274119146
+        },
+        {
+          "row": 1728,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.6590038713501399,
+          "zero_correlation": 0.6590038713501399
+        },
+        {
+          "row": 1728,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.6410921256804964,
+          "zero_correlation": 0.6410921256804964
+        }
+      ]
+    },
+    "1_2_HHHH": {
+      "method": "High-pass log-power normalized correlation, 256px windows, integer search +/-3 native pixels. Not absolute geolocation or subpixel calibration.",
+      "windows": [
+        {
+          "row": 128,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9150659445439304,
+          "zero_correlation": 0.9150659445439304
+        },
+        {
+          "row": 128,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9077999653117196,
+          "zero_correlation": 0.9077999653117196
+        },
+        {
+          "row": 128,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9605935383314931,
+          "zero_correlation": 0.9605935383314931
+        },
+        {
+          "row": 128,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9791083727894676,
+          "zero_correlation": 0.9791083727894676
+        },
+        {
+          "row": 128,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8591754657673845,
+          "zero_correlation": 0.8591754657673845
+        },
+        {
+          "row": 528,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9629071387417864,
+          "zero_correlation": 0.9629071387417864
+        },
+        {
+          "row": 528,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9701112103759781,
+          "zero_correlation": 0.9701112103759781
+        },
+        {
+          "row": 528,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9627305790543089,
+          "zero_correlation": 0.9627305790543089
+        },
+        {
+          "row": 528,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9385858782951054,
+          "zero_correlation": 0.9385858782951054
+        },
+        {
+          "row": 528,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9384170747188558,
+          "zero_correlation": 0.9384170747188558
+        },
+        {
+          "row": 928,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9373603282065852,
+          "zero_correlation": 0.9373603282065852
+        },
+        {
+          "row": 928,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9717573578862032,
+          "zero_correlation": 0.9717573578862032
+        },
+        {
+          "row": 928,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9169484116419732,
+          "zero_correlation": 0.9169484116419732
+        },
+        {
+          "row": 928,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8245880738414955,
+          "zero_correlation": 0.8245880738414955
+        },
+        {
+          "row": 928,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.864638486419718,
+          "zero_correlation": 0.864638486419718
+        },
+        {
+          "row": 1328,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9667129438479034,
+          "zero_correlation": 0.9667129438479034
+        },
+        {
+          "row": 1328,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9687746122819366,
+          "zero_correlation": 0.9687746122819366
+        },
+        {
+          "row": 1328,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9178613941665309,
+          "zero_correlation": 0.9178613941665309
+        },
+        {
+          "row": 1328,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8746698108581203,
+          "zero_correlation": 0.8746698108581203
+        },
+        {
+          "row": 1328,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9207424766705784,
+          "zero_correlation": 0.9207424766705784
+        },
+        {
+          "row": 1728,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9165157379048628,
+          "zero_correlation": 0.9165157379048628
+        },
+        {
+          "row": 1728,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.94898649630224,
+          "zero_correlation": 0.94898649630224
+        },
+        {
+          "row": 1728,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8808320466368857,
+          "zero_correlation": 0.8808320466368857
+        },
+        {
+          "row": 1728,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8935657608518656,
+          "zero_correlation": 0.8935657608518656
+        },
+        {
+          "row": 1728,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.887445716123315,
+          "zero_correlation": 0.887445716123315
+        }
+      ]
+    },
+    "1_2_HVHV": {
+      "method": "High-pass log-power normalized correlation, 256px windows, integer search +/-3 native pixels. Not absolute geolocation or subpixel calibration.",
+      "windows": [
+        {
+          "row": 128,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8485279662154952,
+          "zero_correlation": 0.8485279662154952
+        },
+        {
+          "row": 128,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.881017847554404,
+          "zero_correlation": 0.881017847554404
+        },
+        {
+          "row": 128,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9410774371222197,
+          "zero_correlation": 0.9410774371222197
+        },
+        {
+          "row": 128,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9686690719997784,
+          "zero_correlation": 0.9686690719997784
+        },
+        {
+          "row": 128,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7432675778149294,
+          "zero_correlation": 0.7432675778149294
+        },
+        {
+          "row": 528,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9445789027783825,
+          "zero_correlation": 0.9445789027783825
+        },
+        {
+          "row": 528,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9558621363923447,
+          "zero_correlation": 0.9558621363923447
+        },
+        {
+          "row": 528,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9442334706872899,
+          "zero_correlation": 0.9442334706872899
+        },
+        {
+          "row": 528,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9238615322530909,
+          "zero_correlation": 0.9238615322530909
+        },
+        {
+          "row": 528,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9141919296204746,
+          "zero_correlation": 0.9141919296204746
+        },
+        {
+          "row": 928,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9145867794312015,
+          "zero_correlation": 0.9145867794312015
+        },
+        {
+          "row": 928,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9661122034488745,
+          "zero_correlation": 0.9661122034488745
+        },
+        {
+          "row": 928,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8898302864106452,
+          "zero_correlation": 0.8898302864106452
+        },
+        {
+          "row": 928,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7069895840945795,
+          "zero_correlation": 0.7069895840945795
+        },
+        {
+          "row": 928,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7427866858383898,
+          "zero_correlation": 0.7427866858383898
+        },
+        {
+          "row": 1328,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9414767425698942,
+          "zero_correlation": 0.9414767425698942
+        },
+        {
+          "row": 1328,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9545615287584639,
+          "zero_correlation": 0.9545615287584639
+        },
+        {
+          "row": 1328,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8535660403723563,
+          "zero_correlation": 0.8535660403723563
+        },
+        {
+          "row": 1328,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.6745695974799397,
+          "zero_correlation": 0.6745695974799397
+        },
+        {
+          "row": 1328,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7161626602848298,
+          "zero_correlation": 0.7161626602848298
+        },
+        {
+          "row": 1728,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8779733119625583,
+          "zero_correlation": 0.8779733119625583
+        },
+        {
+          "row": 1728,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9192426321767297,
+          "zero_correlation": 0.9192426321767297
+        },
+        {
+          "row": 1728,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7877107032698067,
+          "zero_correlation": 0.7877107032698067
+        },
+        {
+          "row": 1728,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7241939497125595,
+          "zero_correlation": 0.7241939497125595
+        },
+        {
+          "row": 1728,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7455518905410554,
+          "zero_correlation": 0.7455518905410554
+        }
+      ]
+    },
+    "0_2_HHHH": {
+      "method": "High-pass log-power normalized correlation, 256px windows, integer search +/-3 native pixels. Not absolute geolocation or subpixel calibration.",
+      "windows": [
+        {
+          "row": 128,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8000597017093669,
+          "zero_correlation": 0.8000597017093669
+        },
+        {
+          "row": 128,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8289758536688762,
+          "zero_correlation": 0.8289758536688762
+        },
+        {
+          "row": 128,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8952062439985252,
+          "zero_correlation": 0.8952062439985252
+        },
+        {
+          "row": 128,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.959277269108385,
+          "zero_correlation": 0.959277269108385
+        },
+        {
+          "row": 128,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.6490600204037803,
+          "zero_correlation": 0.6490600204037803
+        },
+        {
+          "row": 528,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9205979874878888,
+          "zero_correlation": 0.9205979874878888
+        },
+        {
+          "row": 528,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9370211307877336,
+          "zero_correlation": 0.9370211307877336
+        },
+        {
+          "row": 528,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9271574365617036,
+          "zero_correlation": 0.9271574365617036
+        },
+        {
+          "row": 528,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8732265860593434,
+          "zero_correlation": 0.8732265860593434
+        },
+        {
+          "row": 528,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.872722678018562,
+          "zero_correlation": 0.872722678018562
+        },
+        {
+          "row": 928,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8350901404209573,
+          "zero_correlation": 0.8350901404209573
+        },
+        {
+          "row": 928,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9453646868913163,
+          "zero_correlation": 0.9453646868913163
+        },
+        {
+          "row": 928,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8367559038930438,
+          "zero_correlation": 0.8367559038930438
+        },
+        {
+          "row": 928,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7639717897781967,
+          "zero_correlation": 0.7639717897781967
+        },
+        {
+          "row": 928,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7002486347841956,
+          "zero_correlation": 0.7002486347841956
+        },
+        {
+          "row": 1328,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9234537155522827,
+          "zero_correlation": 0.9234537155522827
+        },
+        {
+          "row": 1328,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9172253949038843,
+          "zero_correlation": 0.9172253949038843
+        },
+        {
+          "row": 1328,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.829765840008885,
+          "zero_correlation": 0.829765840008885
+        },
+        {
+          "row": 1328,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7862790309874119,
+          "zero_correlation": 0.7862790309874119
+        },
+        {
+          "row": 1328,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.6368661611507983,
+          "zero_correlation": 0.6368661611507983
+        },
+        {
+          "row": 1728,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8249507057069416,
+          "zero_correlation": 0.8249507057069416
+        },
+        {
+          "row": 1728,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8947053258709151,
+          "zero_correlation": 0.8947053258709151
+        },
+        {
+          "row": 1728,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7512521621432185,
+          "zero_correlation": 0.7512521621432185
+        },
+        {
+          "row": 1728,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7947610498302872,
+          "zero_correlation": 0.7947610498302872
+        },
+        {
+          "row": 1728,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7523457980694059,
+          "zero_correlation": 0.7523457980694059
+        }
+      ]
+    },
+    "0_2_HVHV": {
+      "method": "High-pass log-power normalized correlation, 256px windows, integer search +/-3 native pixels. Not absolute geolocation or subpixel calibration.",
+      "windows": [
+        {
+          "row": 128,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7737458829102927,
+          "zero_correlation": 0.7737458829102927
+        },
+        {
+          "row": 128,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.836728897770939,
+          "zero_correlation": 0.836728897770939
+        },
+        {
+          "row": 128,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.888033963787434,
+          "zero_correlation": 0.888033963787434
+        },
+        {
+          "row": 128,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9550734815008362,
+          "zero_correlation": 0.9550734815008362
+        },
+        {
+          "row": 128,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.5805846978749222,
+          "zero_correlation": 0.5805846978749222
+        },
+        {
+          "row": 528,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9024130072751156,
+          "zero_correlation": 0.9024130072751156
+        },
+        {
+          "row": 528,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9152569751511631,
+          "zero_correlation": 0.9152569751511631
+        },
+        {
+          "row": 528,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9112361575122371,
+          "zero_correlation": 0.9112361575122371
+        },
+        {
+          "row": 528,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8816946536863841,
+          "zero_correlation": 0.8816946536863841
+        },
+        {
+          "row": 528,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.863477014581081,
+          "zero_correlation": 0.863477014581081
+        },
+        {
+          "row": 928,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8528424915161971,
+          "zero_correlation": 0.8528424915161971
+        },
+        {
+          "row": 928,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9448438814351626,
+          "zero_correlation": 0.9448438814351626
+        },
+        {
+          "row": 928,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8440186401810289,
+          "zero_correlation": 0.8440186401810289
+        },
+        {
+          "row": 928,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.6716151256512526,
+          "zero_correlation": 0.6716151256512526
+        },
+        {
+          "row": 928,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.6222968485107321,
+          "zero_correlation": 0.6222968485107321
+        },
+        {
+          "row": 1328,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9148049890789469,
+          "zero_correlation": 0.9148049890789469
+        },
+        {
+          "row": 1328,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.9081517241499354,
+          "zero_correlation": 0.9081517241499354
+        },
+        {
+          "row": 1328,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7818794849586191,
+          "zero_correlation": 0.7818794849586191
+        },
+        {
+          "row": 1328,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.6126479238622888,
+          "zero_correlation": 0.6126479238622888
+        },
+        {
+          "row": 1328,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.4585159248695187,
+          "zero_correlation": 0.4585159248695187
+        },
+        {
+          "row": 1728,
+          "col": 128,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8133246885040565,
+          "zero_correlation": 0.8133246885040565
+        },
+        {
+          "row": 1728,
+          "col": 528,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.8558157497939295,
+          "zero_correlation": 0.8558157497939295
+        },
+        {
+          "row": 1728,
+          "col": 928,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.7049702279849965,
+          "zero_correlation": 0.7049702279849965
+        },
+        {
+          "row": 1728,
+          "col": 1328,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.6509112183394477,
+          "zero_correlation": 0.6509112183394477
+        },
+        {
+          "row": 1728,
+          "col": 1728,
+          "match_dy": 0,
+          "match_dx": 0,
+          "correlation": 0.615133787134144,
+          "zero_correlation": 0.615133787134144
+        }
+      ]
+    }
+  },
+  "inference": "Instrumental/processing effects cannot be excluded from a regional shift without invariant targets and per-acquisition calibration/quality metadata. Common grid does not establish subpixel registration."
+}

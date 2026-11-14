@@ -1,0 +1,720 @@
+{
+  "Datasets": [
+    {
+      "Identifier": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+      "Parameter": "Water Level",
+      "Label": "Best Available--WL Sensor-Bank",
+      "Unit": "m",
+      "LocationIdentifier": "A4261053"
+    }
+  ],
+  "TimeRange": {
+    "StartTime": "2026-08-20T00:00:00+09:30",
+    "EndTime": "2026-10-12T00:00:00+09:30"
+  },
+  "NumRows": 54,
+  "Rows": [
+    {
+      "Timestamp": "2026-08-20T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": "NaN",
+          "GradeCode": 0,
+          "GradeName": "UNDEF",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-21T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.654164664969445,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-22T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.644549266855865,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-23T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.634801924297843,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-24T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.630643123406486,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-25T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.627175294737347,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-26T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.626176216068213,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-27T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.631010470732408,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-28T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.639848197618829,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-29T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.641682452283028,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-30T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.644620873613892,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-31T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.651321447722534,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-01T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.663471674608957,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-02T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.670930929273153,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-03T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.66632247560402,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-04T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.667660202490438,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-05T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.671221887710194,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-06T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.67128878126328,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-07T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.667371299816368,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-08T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.660345185758457,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-09T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.662593322008007,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-10T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.653280304027952,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-11T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.669805827714566,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-12T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.6759598236234,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-13T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.686035694532242,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-14T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.69629038488552,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-15T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.702798547461018,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-16T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.707334487814299,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-17T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.733162094834242,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-18T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.763586924076415,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-19T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.79117850009657,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-20T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.823107638888889,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-21T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.851074652777777,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-22T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.863784722222222,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-23T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.887164930555555,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-24T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.908246527777777,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-25T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.92586111111111,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-26T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.937649305555556,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-27T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.937170138888888,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-28T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.940331597222222,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-29T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.944885416666667,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-30T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.950211805555556,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-01T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.95362326388889,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-02T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.959977430555556,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-03T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.984487847222223,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-04T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.987034722222223,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-05T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.988097222222223,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-06T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.980914930555555,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-07T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.96772048611111,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-08T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.9645625,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-09T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.968628472222223,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-10T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.964852430555556,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-11T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.966262152777778,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-12T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "Value": 14.969418402777778,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    }
+  ]
+}

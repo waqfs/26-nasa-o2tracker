@@ -1,0 +1,720 @@
+{
+  "Datasets": [
+    {
+      "Identifier": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+      "Parameter": "Water Temp",
+      "Label": "Best Available--DO Sensor-Pylon",
+      "Unit": "degC",
+      "LocationIdentifier": "A4260644"
+    }
+  ],
+  "TimeRange": {
+    "StartTime": "2026-08-20T00:00:00+09:30",
+    "EndTime": "2026-10-12T00:00:00+09:30"
+  },
+  "NumRows": 54,
+  "Rows": [
+    {
+      "Timestamp": "2026-08-20T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": "NaN",
+          "GradeCode": 0,
+          "GradeName": "UNDEF",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-21T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 14.660902777777778,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-22T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 14.497708333333334,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-23T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 14.672430555555556,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-24T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 14.852829861111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-25T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 14.770381944444445,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-26T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 14.746927083333333,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-27T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 14.581111111111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-28T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 14.786180555555555,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-29T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 15.131475694444445,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-30T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 15.508576388888889,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-31T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 15.542048611111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-01T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 15.698142361111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-02T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 15.848767361111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-03T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 16.146284722222223,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-04T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 15.928072916666666,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-05T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 15.73048611111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-06T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 15.875190972222223,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-07T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 15.866163194444445,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-08T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 15.97079861111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-09T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 15.947083333333333,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-10T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 15.878871527777777,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-11T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 15.615572916666666,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-12T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 15.903159722222222,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-13T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 16.34298611111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-14T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 16.647569444444446,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-15T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 16.584288194444444,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-16T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 16.653315972222224,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-17T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 16.137586805555557,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-18T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 16.17234375,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-19T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 16.450972222222223,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-20T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 16.943993055555556,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-21T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 17.36545138888889,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-22T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 17.43390625,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-23T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 17.085524475524476,
+          "GradeCode": 0,
+          "GradeName": "UNDEF",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-24T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 17.250138888888888,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-25T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 17.73173611111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-26T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 18.43331597222222,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-27T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 18.75638888888889,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-28T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 18.518975694444446,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-29T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 18.64887152777778,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-30T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 19.285243055555554,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-01T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 19.418958333333332,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-02T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 19.619131944444444,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-03T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 19.74786458333333,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-04T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 18.945312499999996,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-05T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 19.19515625,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-06T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 19.208784722222223,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-07T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 19.461666666666666,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-08T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 19.524375,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-09T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 19.89394097222222,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-10T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 19.597239583333334,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-11T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 19.582916666666666,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-12T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+          "Value": 20.133975694444448,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    }
+  ]
+}

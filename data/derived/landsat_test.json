@@ -1,0 +1,492 @@
+[
+  {
+    "sensitivity": {
+      "all_fold_counts": [
+        {
+          "fold": 0,
+          "training": 39956,
+          "training_positive": 225,
+          "test": 14118,
+          "test_positive": 59
+        },
+        {
+          "fold": 1,
+          "training": 39341,
+          "training_positive": 187,
+          "test": 14131,
+          "test_positive": 139
+        },
+        {
+          "fold": 2,
+          "training": 40696,
+          "training_positive": 340,
+          "test": 12957,
+          "test_positive": 18
+        },
+        {
+          "fold": 3,
+          "training": 44608,
+          "training_positive": 234,
+          "test": 10877,
+          "test_positive": 67
+        },
+        {
+          "fold": 4,
+          "training": 40654,
+          "training_positive": 187,
+          "test": 13598,
+          "test_positive": 118
+        }
+      ],
+      "buffer_1km_auc": [
+        0.6281399748178573,
+        0.6303323339934478
+      ],
+      "buffer_1km_average_precision": [
+        0.16470744654381325,
+        0.1564048777086182
+      ],
+      "buffer_1km_delta_interval": [
+        -0.04056183791733466,
+        0.05598638518216856
+      ],
+      "buffer_1km_delta_interval_nine_comparisons": [
+        -0.057686870619601885,
+        0.08147669370244352
+      ],
+      "delta_interval_nine_comparisons": [
+        -0.0349193508986445,
+        0.06510679815738522
+      ]
+    },
+    "date": "2026-09-24",
+    "water_fraction": 0.4,
+    "positive": 401,
+    "negative": 65280,
+    "positive_tiles": 11,
+    "n_scored": 65681,
+    "auc": [
+      0.6612898284313725,
+      0.5789513654589018,
+      0.6709194003349469
+    ],
+    "average_precision": [
+      0.19018599890330184,
+      0.014635236941275855,
+      0.18772980735926856
+    ],
+    "delta_interval": [
+      -0.021030514704421573,
+      0.0498412673028827
+    ]
+  },
+  {
+    "sensitivity": {
+      "all_fold_counts": [
+        {
+          "fold": 0,
+          "training": 39849,
+          "training_positive": 118,
+          "test": 14085,
+          "test_positive": 26
+        },
+        {
+          "fold": 1,
+          "training": 39231,
+          "training_positive": 77,
+          "test": 14090,
+          "test_positive": 98
+        },
+        {
+          "fold": 2,
+          "training": 40536,
+          "training_positive": 180,
+          "test": 12950,
+          "test_positive": 11
+        },
+        {
+          "fold": 3,
+          "training": 44507,
+          "training_positive": 133,
+          "test": 10834,
+          "test_positive": 24
+        },
+        {
+          "fold": 4,
+          "training": 40574,
+          "training_positive": 107,
+          "test": 13528,
+          "test_positive": 48
+        }
+      ],
+      "buffer_1km_auc": [
+        0.66137929809605,
+        0.6835735471724922
+      ],
+      "buffer_1km_average_precision": [
+        0.2720009895801445,
+        0.2769979998497855
+      ],
+      "buffer_1km_delta_interval": [
+        -0.032160853418092356,
+        0.08324904973874035
+      ],
+      "buffer_1km_delta_interval_nine_comparisons": [
+        -0.05290509542459262,
+        0.10297266928842472
+      ],
+      "delta_interval_nine_comparisons": [
+        -0.028765209482216395,
+        0.0906851515467295
+      ]
+    },
+    "date": "2026-09-24",
+    "water_fraction": 0.6,
+    "positive": 207,
+    "negative": 65280,
+    "positive_tiles": 10,
+    "n_scored": 65487,
+    "auc": [
+      0.6881470085014683,
+      0.5975298528227716,
+      0.7195139332907076
+    ],
+    "average_precision": [
+      0.32326096385934294,
+      0.018855154366800818,
+      0.3206761281844497
+    ],
+    "delta_interval": [
+      -0.010435377834482677,
+      0.07291119025194424
+    ]
+  },
+  {
+    "sensitivity": {
+      "drop_one_positive_tile_gain_range": [
+        0.0430819300725912,
+        0.058974304543815914
+      ],
+      "buffer_1km_auc": [
+        0.746259757299659,
+        0.7837762414748508
+      ],
+      "buffer_1km_delta_interval": [
+        0.0055894279253341644,
+        0.06820445892581078
+      ],
+      "all_fold_counts": [
+        {
+          "fold": 0,
+          "training": 39779,
+          "training_positive": 48,
+          "test": 14074,
+          "test_positive": 15
+        },
+        {
+          "fold": 1,
+          "training": 39178,
+          "training_positive": 24,
+          "test": 14048,
+          "test_positive": 56
+        },
+        {
+          "fold": 2,
+          "training": 40439,
+          "training_positive": 83,
+          "test": 12940,
+          "test_positive": 1
+        },
+        {
+          "fold": 3,
+          "training": 44447,
+          "training_positive": 73,
+          "test": 10814,
+          "test_positive": 4
+        },
+        {
+          "fold": 4,
+          "training": 40525,
+          "training_positive": 58,
+          "test": 13496,
+          "test_positive": 16
+        }
+      ],
+      "buffer_1km_average_precision": [
+        0.5150981471143975,
+        0.513356530032058
+      ],
+      "buffer_1km_delta_interval_nine_comparisons": [
+        -0.0028931817735488863,
+        0.08666377381899928
+      ],
+      "delta_interval_nine_comparisons": [
+        0.004352967100500277,
+        0.10407216619782726
+      ]
+    },
+    "date": "2026-09-24",
+    "water_fraction": 0.8,
+    "positive": 92,
+    "negative": 65280,
+    "positive_tiles": 9,
+    "n_scored": 65372,
+    "auc": [
+      0.7704716805200341,
+      0.5868103287510656,
+      0.824228573902387
+    ],
+    "average_precision": [
+      0.5490148798154377,
+      0.06590215901383444,
+      0.5454281107323627
+    ],
+    "delta_interval": [
+      0.016168866624961982,
+      0.0856680018970657
+    ]
+  },
+  {
+    "sensitivity": {
+      "all_fold_counts": [
+        {
+          "fold": 0,
+          "training": 34982,
+          "training_positive": 1222,
+          "test": 10850,
+          "test_positive": 234
+        },
+        {
+          "fold": 1,
+          "training": 33782,
+          "training_positive": 960,
+          "test": 11714,
+          "test_positive": 459
+        },
+        {
+          "fold": 2,
+          "training": 34946,
+          "training_positive": 1005,
+          "test": 10805,
+          "test_positive": 389
+        },
+        {
+          "fold": 3,
+          "training": 34048,
+          "training_positive": 1121,
+          "test": 11428,
+          "test_positive": 286
+        },
+        {
+          "fold": 4,
+          "training": 34544,
+          "training_positive": 1050,
+          "test": 10396,
+          "test_positive": 363
+        }
+      ],
+      "buffer_1km_auc": [
+        0.5580405231650739,
+        0.604809257717749
+      ],
+      "buffer_1km_average_precision": [
+        0.05285114534427617,
+        0.05827009660377297
+      ],
+      "buffer_1km_delta_interval": [
+        0.0023777672857559634,
+        0.09573922124467533
+      ],
+      "buffer_1km_delta_interval_nine_comparisons": [
+        -0.017877839192319795,
+        0.11645058410733003
+      ],
+      "delta_interval_nine_comparisons": [
+        -0.02212073822551507,
+        0.1208353581059802
+      ]
+    },
+    "date": "2026-10-02",
+    "water_fraction": 0.4,
+    "positive": 1731,
+    "negative": 53462,
+    "positive_tiles": 71,
+    "n_scored": 55193,
+    "auc": [
+      0.5682722515985644,
+      0.551230749404583,
+      0.6115113190640751
+    ],
+    "average_precision": [
+      0.05292522196488683,
+      0.03742045619536222,
+      0.05942083643350855
+    ],
+    "delta_interval": [
+      -0.002410807341153421,
+      0.09349395343216592
+    ]
+  },
+  {
+    "sensitivity": {
+      "all_fold_counts": [
+        {
+          "fold": 0,
+          "training": 34636,
+          "training_positive": 876,
+          "test": 10770,
+          "test_positive": 154
+        },
+        {
+          "fold": 1,
+          "training": 33505,
+          "training_positive": 683,
+          "test": 11574,
+          "test_positive": 319
+        },
+        {
+          "fold": 2,
+          "training": 34628,
+          "training_positive": 687,
+          "test": 10696,
+          "test_positive": 280
+        },
+        {
+          "fold": 3,
+          "training": 33711,
+          "training_positive": 784,
+          "test": 11335,
+          "test_positive": 193
+        },
+        {
+          "fold": 4,
+          "training": 34220,
+          "training_positive": 726,
+          "test": 10308,
+          "test_positive": 275
+        }
+      ],
+      "buffer_1km_auc": [
+        0.5703241850411803,
+        0.6156593164935539
+      ],
+      "buffer_1km_average_precision": [
+        0.03047550095525789,
+        0.03776882993196554
+      ],
+      "buffer_1km_delta_interval": [
+        0.0004431460560342626,
+        0.09330210783124401
+      ],
+      "buffer_1km_delta_interval_nine_comparisons": [
+        -0.023129116575201777,
+        0.11811280766049916
+      ],
+      "delta_interval_nine_comparisons": [
+        -0.021108897910354963,
+        0.11771481668723956
+      ]
+    },
+    "date": "2026-10-02",
+    "water_fraction": 0.6,
+    "positive": 1221,
+    "negative": 53462,
+    "positive_tiles": 60,
+    "n_scored": 54683,
+    "auc": [
+      0.5810469343446037,
+      0.5582109328321592,
+      0.6236719883796312
+    ],
+    "average_precision": [
+      0.032981561405284056,
+      0.027297553922382714,
+      0.03942735134692381
+    ],
+    "delta_interval": [
+      -0.0025623780263200795,
+      0.09004904020895112
+    ]
+  },
+  {
+    "sensitivity": {
+      "all_fold_counts": [
+        {
+          "fold": 0,
+          "training": 34356,
+          "training_positive": 596,
+          "test": 10708,
+          "test_positive": 92
+        },
+        {
+          "fold": 1,
+          "training": 33279,
+          "training_positive": 457,
+          "test": 11459,
+          "test_positive": 204
+        },
+        {
+          "fold": 2,
+          "training": 34384,
+          "training_positive": 443,
+          "test": 10602,
+          "test_positive": 186
+        },
+        {
+          "fold": 3,
+          "training": 33460,
+          "training_positive": 533,
+          "test": 11259,
+          "test_positive": 117
+        },
+        {
+          "fold": 4,
+          "training": 33947,
+          "training_positive": 453,
+          "test": 10245,
+          "test_positive": 212
+        }
+      ],
+      "buffer_1km_auc": [
+        0.5855216614209219,
+        0.6114621395119785
+      ],
+      "buffer_1km_average_precision": [
+        0.02054983863982203,
+        0.02451754948502273
+      ],
+      "buffer_1km_delta_interval": [
+        -0.022908514536224334,
+        0.07862146416498245
+      ],
+      "buffer_1km_delta_interval_nine_comparisons": [
+        -0.044677785163032724,
+        0.10500981508734505
+      ],
+      "delta_interval_nine_comparisons": [
+        -0.0443131280685389,
+        0.10511938847560508
+      ]
+    },
+    "date": "2026-10-02",
+    "water_fraction": 0.8,
+    "positive": 811,
+    "negative": 53462,
+    "positive_tiles": 52,
+    "n_scored": 54273,
+    "auc": [
+      0.5971393027883732,
+      0.5324277483284277,
+      0.6209091620719023
+    ],
+    "average_precision": [
+      0.022934871512819137,
+      0.016948805718131427,
+      0.025668269834926333
+    ],
+    "delta_interval": [
+      -0.02436222047480981,
+      0.07708382087515954
+    ]
+  }
+]

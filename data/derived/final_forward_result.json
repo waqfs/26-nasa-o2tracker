@@ -1,0 +1,64 @@
+{
+  "protocol_sha256": "126df6e88c9722795c8b47cc4b43eb4b8acfc6f57747a1b2bd45ef683b80e5f6",
+  "protocol": {
+    "registered_utc": "2026-11-15T02:27:50.411452+00:00",
+    "status": "Frozen before downloading or reading new reference raster values",
+    "train_label": "DEA Landsat Water Observations 2026-08-24",
+    "test_label": "DEA Landsat Water Observations 2026-10-11",
+    "train_features": {
+      "NISAR": "2026-08-23 HH/HV absolute log power",
+      "Sentinel-1": "2026-08-21 VV/VH absolute log power",
+      "Sentinel-2": "2026-08-23 SCL water fraction"
+    },
+    "test_features": {
+      "NISAR": "2026-10-10 HH/HV absolute log power",
+      "Sentinel-1": "2026-10-08 VV/VH absolute log power",
+      "Sentinel-2": "2026-10-07 SCL water fraction"
+    },
+    "support": "100m blocks, arithmetic linear-power mean before dB, >=80% valid radar/optical support, >=90% clear Landsat support",
+    "target": "Exposed surface water fraction >=60% positive, clear dry fraction >=90% negative; ambiguous omitted",
+    "spatial_split": "Train west half of fixed AOI, test east half, with 1km total easting gap (500m each side of midpoint). No reverse split.",
+    "model": "Fixed L2 logistic regression, coefficient penalty 0.01, balanced training weights, training-only standardization; no tuning",
+    "conventional": "VV, VH, Sentinel-2 water fraction",
+    "extended": "same plus NISAR HH, HV",
+    "metrics": [
+      "ROC AUC",
+      "tie-aware average precision",
+      "eligible prevalence",
+      "positive and negative counts",
+      "paired test-tile bootstrap intervals"
+    ],
+    "uncertainty": "2000 paired 5km tile bootstrap samples with frozen models, 95% intervals; temporal/domain uncertainty excluded",
+    "decision": "Incremental benefit requires positive gain in BOTH ROC AUC and average precision with both intervals excluding zero; otherwise INCONCLUSIVE. Abort numerical fit if either training or test lacks a class.",
+    "scope": "New pre-specified evaluation within an already studied event; no new event confirmation or verified below-canopy labels. Historical data delivery remains unverified."
+  },
+  "epochs": [
+    {
+      "NISAR": "2026-08-23T20:34:56.000000Z",
+      "Sentinel1": "20260821",
+      "Sentinel2": "20260823",
+      "label": "2026-08-24T00:21:02.467990Z"
+    },
+    {
+      "NISAR": "2026-10-10T20:34:56.000000Z",
+      "Sentinel1": "20261008",
+      "Sentinel2": "20261007",
+      "label": "2026-10-11T00:21:20.274436Z"
+    }
+  ],
+  "reference_clear_grid_cells": {
+    "2026-08-24": 0,
+    "2026-10-11": 0
+  },
+  "training": {
+    "n": 0,
+    "positive": 0
+  },
+  "testing": {
+    "n": 0,
+    "positive": 0
+  },
+  "verdict": "INCONCLUSIVE",
+  "interpretation": "Predefined chronological and geographic holdout within one previously investigated watering season. Historical input availability remains unverified. Surface-water labels only.",
+  "reason": "No eligible classes under the frozen protocol. The selected reference tiles have no clear wet/dry pixels on the study grid. No replacement date or split was selected."
+}

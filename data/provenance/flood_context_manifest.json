@@ -1,0 +1,90 @@
+{
+  "entries": [
+    {
+      "station": "A4261023",
+      "name": "River Murray upstream Pike River Outlet (AMTD 547Km)",
+      "variable": "oxygen",
+      "source": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=O2+%28Dis%29.Best+Available--DO+Sensor-1m%40A4261023&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=35",
+      "file": "observations/A4261023_oxygen.json",
+      "sha256": "64c677d84a70515346972535b7df3ab311ab2c5c384ddfadfcfc52e4e7c8d56b"
+    },
+    {
+      "station": "A4261023",
+      "name": "River Murray upstream Pike River Outlet (AMTD 547Km)",
+      "variable": "temperature",
+      "source": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Temp.Best+Available--DO+Sensor-1m%40A4261023&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=169",
+      "file": "observations/A4261023_temperature.json",
+      "sha256": "b8d438b72b5d11e02bc58b221c19651da20e1d1995f10137eee6e21c120d398b"
+    },
+    {
+      "station": "A4261024",
+      "name": "River Murray us Katarapko Ck Outlet (AMTD 482.4km)",
+      "variable": "oxygen",
+      "source": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=O2+%28Dis%29.Best+Available--DO+Sensor-1m%40A4261024&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=35",
+      "file": "observations/A4261024_oxygen.json",
+      "sha256": "c382b6fcae3b27000259b179d71404a526d9a2542bc06865c510f054c06892a4"
+    },
+    {
+      "station": "A4261024",
+      "name": "River Murray us Katarapko Ck Outlet (AMTD 482.4km)",
+      "variable": "temperature",
+      "source": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Temp.Best+Available--DO+Sensor-1m%40A4261024&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=169",
+      "file": "observations/A4261024_temperature.json",
+      "sha256": "7f31da1ef86906d5749ea4b9e25abb3c122972aeb42c6ac9b1344a057ae5d05a"
+    }
+  ],
+  "discharge_availability": [
+    {
+      "station": "A4261108",
+      "source": "https://water.data.sa.gov.au/Data/Datasets/?locationid=817",
+      "discharge_series": []
+    },
+    {
+      "station": "A4261053",
+      "source": "https://water.data.sa.gov.au/Data/Datasets/?locationid=781",
+      "discharge_series": []
+    },
+    {
+      "station": "A4261248",
+      "source": "https://water.data.sa.gov.au/Data/Datasets/?locationid=846",
+      "discharge_series": [
+        {
+          "identifier": "Discharge.Field Visits@A4261248",
+          "last_record": "2025-11-05T08:01:30.5"
+        }
+      ]
+    },
+    {
+      "station": "A4261023",
+      "source": "https://water.data.sa.gov.au/Data/Datasets/?locationid=768",
+      "discharge_series": [
+        {
+          "identifier": "Discharge.Field Visits@A4261023",
+          "last_record": "2005-10-04T13:43:00"
+        }
+      ]
+    },
+    {
+      "station": "A4261024",
+      "source": "https://water.data.sa.gov.au/Data/Datasets/?locationid=770",
+      "discharge_series": []
+    },
+    {
+      "station": "A4261263",
+      "source": "https://water.data.sa.gov.au/Data/Datasets/?locationid=855",
+      "discharge_series": []
+    },
+    {
+      "station": "A4260645",
+      "source": "https://water.data.sa.gov.au/Data/Datasets/?locationid=744",
+      "discharge_series": [
+        {
+          "identifier": "Discharge.Field Visits@A4260645",
+          "last_record": "2026-06-11T14:24:16"
+        }
+      ]
+    }
+  ],
+  "checked_utc": "2026-11-15T05:36:24.345625+00:00",
+  "scope": "Queries at seven selected local stations, not a complete regional archive search. No overlap-period discharge series found among these datasets."
+}

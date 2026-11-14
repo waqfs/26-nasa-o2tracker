@@ -1,0 +1,425 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.58883206799783,
+          -34.44820015216819
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 1.9209172159439287,
+        "HVHV": -3.0181377552711055,
+        "vv": 0.12866935585162054,
+        "vh": -0.1431890875596551,
+        "HH_minus_HV": 4.939054971215034,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.5189567920993,
+          -34.29373299153898
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 3.6701238429869587,
+        "HVHV": 0.06612260545820092,
+        "vv": -1.1437490473109264,
+        "vh": 0.6963218362836976,
+        "HH_minus_HV": 3.604001237528758,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 0.84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.6333031945731,
+          -34.235508573726264
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 2.692591934812186,
+        "HVHV": -0.6088673261332112,
+        "vv": -0.3174454515088563,
+        "vh": 0.06337702716682614,
+        "HH_minus_HV": 3.301459260945397,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 0.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.80701985110417,
+          -34.24492357149774
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 1.4617541828348957,
+        "HVHV": -1.6424014827701985,
+        "vv": 0.1449442581957907,
+        "vh": -0.2735748427599436,
+        "HH_minus_HV": 3.104155665605094,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 0.96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.64849006328927,
+          -34.23916045331569
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 1.9809154782866587,
+        "HVHV": -1.0997095796080423,
+        "vv": -1.2537250995384852,
+        "vh": -0.43762568057319484,
+        "HH_minus_HV": 3.080625057894701,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 0.68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.709359287401,
+          -34.22218462310482
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 0.534319714577074,
+        "HVHV": -2.5148450099553177,
+        "vv": 1.1413538749323635,
+        "vh": -0.043795668240560914,
+        "HH_minus_HV": 3.0491647245323916,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 0.64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.8167956561299,
+          -34.244036714521314
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 2.228683453549724,
+        "HVHV": -0.7324625645718825,
+        "vv": 2.1685384296749532,
+        "vh": -0.9557874394975734,
+        "HH_minus_HV": 2.9611460181216067,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 0.72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.5931732925251,
+          -34.45092012668842
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 2.5479132157195554,
+        "HVHV": -0.27368122111066384,
+        "vv": 0.535936299606421,
+        "vh": -0.4610479725855292,
+        "HH_minus_HV": 2.8215944368302193,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 0.76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.76694786243928,
+          -34.205172278172505
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 1.3782287485826572,
+        "HVHV": -1.42781088064274,
+        "vv": 0.36206066442671236,
+        "vh": 0.052016284392708556,
+        "HH_minus_HV": 2.8060396292253973,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 0.92
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.78108695723145,
+          -34.194376002445104
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 3.8850198723624145,
+        "HVHV": 1.111850707605912,
+        "vv": 1.5142162348751338,
+        "vh": 1.8224233063777806,
+        "HH_minus_HV": 2.7731691647565024,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 0.84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.80051246511925,
+          -34.241305739197315
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 2.090914788783661,
+        "HVHV": -0.6444511201811025,
+        "vv": 0.607534144319251,
+        "vh": -0.8035221166134381,
+        "HH_minus_HV": 2.7353659089647637,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.81788357080634,
+          -34.24313648079629
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 1.595023090803732,
+        "HVHV": -1.1064431663235794,
+        "vv": 1.6145285466019672,
+        "vh": -0.3650125432230631,
+        "HH_minus_HV": 2.7014662571273114,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 0.72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.5502127763061,
+          -34.34164897992744
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 1.4737443965122425,
+        "HVHV": -1.186964629586079,
+        "vv": 0.06136666212750086,
+        "vh": -0.3884622288616484,
+        "HH_minus_HV": 2.6607090260983215,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.71155217035866,
+          -34.21587681119399
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 2.5019477127142427,
+        "HVHV": -0.11450441628622698,
+        "vv": 1.2882998604828355,
+        "vh": 2.379003925817578,
+        "HH_minus_HV": 2.6164521290004696,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 0.96
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.78440949313216,
+          -34.16822785890798
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 0.8166796027471968,
+        "HVHV": -1.7783878781424427,
+        "vv": -3.3038108679574183,
+        "vh": -5.279168474638176,
+        "HH_minus_HV": 2.5950674808896395,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 0.72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.52633496852528,
+          -34.334344289283514
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 1.3640577576584043,
+        "HVHV": -1.1759132307802282,
+        "vv": -0.5952928112580427,
+        "vh": -0.5846665327000018,
+        "HH_minus_HV": 2.5399709884386326,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.64642470825902,
+          -34.472729348663016
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 0.2289924925418081,
+        "HVHV": -2.3055745579521147,
+        "vv": 0.021056153374779285,
+        "vh": -1.7196678795606761,
+        "HH_minus_HV": 2.534567050493923,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 1.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.56331061673205,
+          -34.33177623255624
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 1.7117100192778656,
+        "HVHV": -0.8086269679276405,
+        "vv": 0.25973431392812785,
+        "vh": 0.8121947664686573,
+        "HH_minus_HV": 2.520336987205506,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 0.84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.80268223327138,
+          -34.24221110469071
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 1.3464026148250392,
+        "HVHV": -1.167471262821179,
+        "vv": 0.0828243895400167,
+        "vh": 0.2791691528722069,
+        "HH_minus_HV": 2.513873877646218,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 0.64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.75608277500243,
+          -34.208758589664775
+        ]
+      },
+      "properties": {
+        "status": "HYPOTHESIS",
+        "interpretation": "Exploratory co-pol-relative increase, not a flood detection",
+        "HHHH": 0.3943845345257184,
+        "HVHV": -2.0901282705377344,
+        "vv": 1.3698872650951675,
+        "vh": 0.24395710442353646,
+        "HH_minus_HV": 2.484512805063453,
+        "joint_valid_fraction": 1.0,
+        "tree_cover_fraction_2021": 0.8
+      }
+    }
+  ]
+}

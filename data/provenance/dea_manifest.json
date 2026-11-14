@@ -1,0 +1,50 @@
+[
+  {
+    "item": "a3e19f70-bb12-5868-b4a8-7d2c78c64083",
+    "time": "2026-08-23T00:26:45.249038Z",
+    "asset": "https://dea-public-data.s3.ap-southeast-2.amazonaws.com/derivative/ga_ls_wo_3/1-6-0/096/083/2026/08/23/ga_ls_wo_3_096083_2026-08-23_final_water.tif",
+    "valid_grid_cells": 0
+  },
+  {
+    "item": "784dbcce-8e20-5fdb-be82-729647d85cdb",
+    "time": "2026-08-23T00:27:09.203619Z",
+    "asset": "https://dea-public-data.s3.ap-southeast-2.amazonaws.com/derivative/ga_ls_wo_3/1-6-0/096/084/2026/08/23/ga_ls_wo_3_096084_2026-08-23_final_water.tif",
+    "valid_grid_cells": 5124648
+  },
+  {
+    "file": "data/validation/dea_2026-08-23.tif",
+    "sha256": "f96a3cf40cfbb48a3d6f4a7832cdcadd47269a3c9191c44188d89c2f71cc9e64"
+  },
+  {
+    "item": "235f8629-a01d-5b51-a7ba-1f5807a02a9a",
+    "time": "2026-09-24T00:26:57.117964Z",
+    "asset": "https://dea-public-data.s3.ap-southeast-2.amazonaws.com/derivative/ga_ls_wo_3/1-6-0/096/083/2026/09/24/ga_ls_wo_3_096083_2026-09-24_final_water.tif",
+    "valid_grid_cells": 0
+  },
+  {
+    "item": "7ce45a61-fb6e-540c-9672-7e52ccd10a3d",
+    "time": "2026-09-24T00:27:21.076780Z",
+    "asset": "https://dea-public-data.s3.ap-southeast-2.amazonaws.com/derivative/ga_ls_wo_3/1-6-0/096/084/2026/09/24/ga_ls_wo_3_096084_2026-09-24_final_water.tif",
+    "valid_grid_cells": 2396102
+  },
+  {
+    "file": "data/validation/dea_2026-09-24.tif",
+    "sha256": "1b8ae3fb2555388ae39bd4e910b0568ccac9b0b2d1915f3b9d5f726037af554c"
+  },
+  {
+    "item": "4202fee3-0ad2-53f6-9083-3b2ab5488a0e",
+    "time": "2026-10-02T00:27:04.902598Z",
+    "asset": "https://dea-public-data.s3.ap-southeast-2.amazonaws.com/derivative/ga_ls_wo_3/1-6-0/096/083/2026/10/02/ga_ls_wo_3_096083_2026-10-02_final_water.tif",
+    "valid_grid_cells": 0
+  },
+  {
+    "item": "7c6e2b85-c1b0-5e5a-a562-39af149b13f5",
+    "time": "2026-10-02T00:27:28.857154Z",
+    "asset": "https://dea-public-data.s3.ap-southeast-2.amazonaws.com/derivative/ga_ls_wo_3/1-6-0/096/084/2026/10/02/ga_ls_wo_3_096084_2026-10-02_final_water.tif",
+    "valid_grid_cells": 1960890
+  },
+  {
+    "file": "data/validation/dea_2026-10-02.tif",
+    "sha256": "3e605e03bb2a316111bd8c331684ac626717c63a35054093025312edab820abc"
+  }
+]

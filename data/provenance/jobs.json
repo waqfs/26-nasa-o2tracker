@@ -1,0 +1,623 @@
+{
+  "G4289277210-ASF_HHHH": {
+    "job_id": "9e687205-c76f-4f55-ae8a-2212f395fe0c",
+    "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+    "layer": "HHHH",
+    "status": "successful",
+    "file": {
+      "path": "data/raw/NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001/HHHH/465581884_NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001_science_LSAR_GCOV_grids_frequencyA_HHHH_subsetted.tif",
+      "sha256": "6379057e4d49795117cb14ad5e55192ab55b126019677ea508994b28362d5e45",
+      "bytes": 25759580,
+      "crs": "EPSG:32754",
+      "transform": [
+        20.0,
+        0.0,
+        449300.0,
+        0.0,
+        -20.0,
+        6221200.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "shape": [
+        2223,
+        2305
+      ],
+      "dtype": "float32",
+      "nodata": "nan",
+      "valid_count": 5098518,
+      "min": 0.001175716519355774,
+      "max": 952.078125,
+      "tags": {
+        "contact": "nisar-sds-ops@jpl.nasa.gov",
+        "Conventions": "CF-1.7",
+        "institution": "NASA JPL",
+        "mission_name": "NISAR",
+        "reference_document": "D-102274 NISAR NASA SDS Product Specification Level-2 Geocoded Polarimetric Covariance L2 GCOV",
+        "title": "NISAR L2 GCOV Product",
+        "AREA_OR_POINT": "Area"
+      },
+      "band_tags": {
+        "description": "Covariance between HH and HH",
+        "grid_mapping": "projection",
+        "long_name": "Geocoded polarimetric covariance term HHHH",
+        "max_value": "952.07922",
+        "mean_value": "0.066818088",
+        "min_value": "6.1817834e-17",
+        "sample_stddev": "0.34127706",
+        "units": "1",
+        "valid_min": "0",
+        "_FillValue": "nan"
+      }
+    }
+  },
+  "G4289277210-ASF_HVHV": {
+    "job_id": "9428ed8e-c78e-4630-9689-fcc56fc54041",
+    "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+    "layer": "HVHV",
+    "status": "successful",
+    "file": {
+      "path": "data/raw/NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001/HVHV/465592383_NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001_science_LSAR_GCOV_grids_frequencyA_HVHV_subsetted.tif",
+      "sha256": "ba65f712990232ed810a070ff35f86af6c1d0007612180df630c61a41ce4c655",
+      "bytes": 25399172,
+      "crs": "EPSG:32754",
+      "transform": [
+        20.0,
+        0.0,
+        449300.0,
+        0.0,
+        -20.0,
+        6221200.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "shape": [
+        2223,
+        2305
+      ],
+      "dtype": "float32",
+      "nodata": "nan",
+      "valid_count": 5098518,
+      "min": 0.0005049258470535278,
+      "max": 202.244140625,
+      "tags": {
+        "contact": "nisar-sds-ops@jpl.nasa.gov",
+        "Conventions": "CF-1.7",
+        "institution": "NASA JPL",
+        "mission_name": "NISAR",
+        "reference_document": "D-102274 NISAR NASA SDS Product Specification Level-2 Geocoded Polarimetric Covariance L2 GCOV",
+        "title": "NISAR L2 GCOV Product",
+        "AREA_OR_POINT": "Area"
+      },
+      "band_tags": {
+        "description": "Covariance between HV and HV",
+        "grid_mapping": "projection",
+        "long_name": "Geocoded polarimetric covariance term HVHV",
+        "max_value": "202.24504",
+        "mean_value": "0.011626027",
+        "min_value": "1.6573783e-17",
+        "sample_stddev": "0.025043285",
+        "units": "1",
+        "valid_min": "0",
+        "_FillValue": "nan"
+      }
+    }
+  },
+  "G4289277210-ASF_mask": {
+    "job_id": "076bb53a-d8fa-4448-b7d9-c5bbdb217d76",
+    "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+    "layer": "mask",
+    "status": "successful",
+    "file": {
+      "path": "data/raw/NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001/mask/465604753_NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001_science_LSAR_GCOV_grids_frequencyA_mask_subsetted.tif",
+      "sha256": "93399cf3629ef28de8a8873fe5c387ebf39173a1e9329a54570c3767c79f4712",
+      "bytes": 57510,
+      "crs": "EPSG:32754",
+      "transform": [
+        20.0,
+        0.0,
+        449300.0,
+        0.0,
+        -20.0,
+        6221200.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "shape": [
+        2223,
+        2305
+      ],
+      "dtype": "uint8",
+      "nodata": "255.0",
+      "valid_count": 5098518,
+      "min": 1.0,
+      "max": 1.0,
+      "tags": {
+        "contact": "nisar-sds-ops@jpl.nasa.gov",
+        "Conventions": "CF-1.7",
+        "institution": "NASA JPL",
+        "mission_name": "NISAR",
+        "reference_document": "D-102274 NISAR NASA SDS Product Specification Level-2 Geocoded Polarimetric Covariance L2 GCOV",
+        "title": "NISAR L2 GCOV Product",
+        "AREA_OR_POINT": "Area"
+      },
+      "band_tags": {
+        "description": "Mask indicating the subswath number associated with valid GCOV samples. A GCOV sample is only considered valid if it is generated from fully-focused radar samples. If at least one radar sample in the averaging set is partially focused or invalid, the corresponding mask pixel will contain the value 0. GCOV pixels outside of the radar acquisition extent are filled with the value 255",
+        "grid_mapping": "projection",
+        "long_name": "Valid samples subswath mask",
+        "valid_min": "0",
+        "_FillValue": "255"
+      }
+    }
+  },
+  "G4289277210-ASF_numberOfLooks": {
+    "job_id": "35313da5-df31-42af-bf3f-5ed565008b6a",
+    "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+    "layer": "numberOfLooks",
+    "status": "successful",
+    "file": {
+      "path": "data/raw/NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001/numberOfLooks/465619222_NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001_science_LSAR_GCOV_grids_frequencyA_numberOfLooks_subsetted.tif",
+      "sha256": "4755abedffe1f5f061719a54645ed43027124ce30fe331e1c1481417c44642e5",
+      "bytes": 26628883,
+      "crs": "EPSG:32754",
+      "transform": [
+        20.0,
+        0.0,
+        449300.0,
+        0.0,
+        -20.0,
+        6221200.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "shape": [
+        2223,
+        2305
+      ],
+      "dtype": "float32",
+      "nodata": "nan",
+      "valid_count": 5098518,
+      "min": 1.2980167865753174,
+      "max": 18.03452491760254,
+      "tags": {
+        "contact": "nisar-sds-ops@jpl.nasa.gov",
+        "Conventions": "CF-1.7",
+        "institution": "NASA JPL",
+        "mission_name": "NISAR",
+        "reference_document": "D-102274 NISAR NASA SDS Product Specification Level-2 Geocoded Polarimetric Covariance L2 GCOV",
+        "title": "NISAR L2 GCOV Product",
+        "AREA_OR_POINT": "Area"
+      },
+      "band_tags": {
+        "description": "Number of averaged radar-grid pixels for covariance estimation",
+        "grid_mapping": "projection",
+        "long_name": "Number of radar looks",
+        "max_value": "20.210442",
+        "mean_value": "9.4637508",
+        "min_value": "3.4876914e-11",
+        "sample_stddev": "0.84177136",
+        "units": "1",
+        "valid_min": "0",
+        "_FillValue": "nan"
+      }
+    }
+  },
+  "G4329677554-ASF_HHHH": {
+    "job_id": "b90c674d-5df1-4cbb-bf2c-61b3911e03e9",
+    "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+    "layer": "HHHH",
+    "status": "successful",
+    "file": {
+      "path": "data/raw/NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001/HHHH/465635829_NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001_science_LSAR_GCOV_grids_frequencyA_HHHH_subsetted.tif",
+      "sha256": "11b6901a9048215df98a900ef3dfa5de116c1f1987407b6da7f663ca6eb1e198",
+      "bytes": 25778474,
+      "crs": "EPSG:32754",
+      "transform": [
+        20.0,
+        0.0,
+        449300.0,
+        0.0,
+        -20.0,
+        6221200.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "shape": [
+        2223,
+        2305
+      ],
+      "dtype": "float32",
+      "nodata": "nan",
+      "valid_count": 5098518,
+      "min": 0.0008861422538757324,
+      "max": 481.51171875,
+      "tags": {
+        "contact": "nisar-sds-ops@jpl.nasa.gov",
+        "Conventions": "CF-1.7",
+        "institution": "NASA JPL",
+        "mission_name": "NISAR",
+        "reference_document": "D-102274 NISAR NASA SDS Product Specification Level-2 Geocoded Polarimetric Covariance L2 GCOV",
+        "title": "NISAR L2 GCOV Product",
+        "AREA_OR_POINT": "Area"
+      },
+      "band_tags": {
+        "description": "Covariance between HH and HH",
+        "grid_mapping": "projection",
+        "long_name": "Geocoded polarimetric covariance term HHHH",
+        "max_value": "870.73224",
+        "mean_value": "0.047358844",
+        "min_value": "6.9107261e-17",
+        "sample_stddev": "0.25883001",
+        "units": "1",
+        "valid_min": "0",
+        "_FillValue": "nan"
+      }
+    }
+  },
+  "G4329677554-ASF_HVHV": {
+    "job_id": "e8bcc76e-cefc-483c-afb4-33c7ce311b02",
+    "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+    "layer": "HVHV",
+    "status": "successful",
+    "file": {
+      "path": "data/raw/NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001/HVHV/465652397_NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001_science_LSAR_GCOV_grids_frequencyA_HVHV_subsetted.tif",
+      "sha256": "3132a9fcd77ad9c95cfee7dca7b00b647170a7e6d69a4c7a64d5f6e0ab8ff4db",
+      "bytes": 25269627,
+      "crs": "EPSG:32754",
+      "transform": [
+        20.0,
+        0.0,
+        449300.0,
+        0.0,
+        -20.0,
+        6221200.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "shape": [
+        2223,
+        2305
+      ],
+      "dtype": "float32",
+      "nodata": "nan",
+      "valid_count": 5098518,
+      "min": 0.0005189180374145508,
+      "max": 188.853515625,
+      "tags": {
+        "contact": "nisar-sds-ops@jpl.nasa.gov",
+        "Conventions": "CF-1.7",
+        "institution": "NASA JPL",
+        "mission_name": "NISAR",
+        "reference_document": "D-102274 NISAR NASA SDS Product Specification Level-2 Geocoded Polarimetric Covariance L2 GCOV",
+        "title": "NISAR L2 GCOV Product",
+        "AREA_OR_POINT": "Area"
+      },
+      "band_tags": {
+        "description": "Covariance between HV and HV",
+        "grid_mapping": "projection",
+        "long_name": "Geocoded polarimetric covariance term HVHV",
+        "max_value": "188.85353",
+        "mean_value": "0.0097093536",
+        "min_value": "2.5671232e-19",
+        "sample_stddev": "0.023600159",
+        "units": "1",
+        "valid_min": "0",
+        "_FillValue": "nan"
+      }
+    }
+  },
+  "G4329677554-ASF_mask": {
+    "job_id": "62e1c351-2bf7-4b5b-a701-06e5551ae70b",
+    "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+    "layer": "mask",
+    "status": "successful",
+    "file": {
+      "path": "data/raw/NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001/mask/465662743_NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001_science_LSAR_GCOV_grids_frequencyA_mask_subsetted.tif",
+      "sha256": "93399cf3629ef28de8a8873fe5c387ebf39173a1e9329a54570c3767c79f4712",
+      "bytes": 57510,
+      "crs": "EPSG:32754",
+      "transform": [
+        20.0,
+        0.0,
+        449300.0,
+        0.0,
+        -20.0,
+        6221200.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "shape": [
+        2223,
+        2305
+      ],
+      "dtype": "uint8",
+      "nodata": "255.0",
+      "valid_count": 5098518,
+      "min": 1.0,
+      "max": 1.0,
+      "tags": {
+        "contact": "nisar-sds-ops@jpl.nasa.gov",
+        "Conventions": "CF-1.7",
+        "institution": "NASA JPL",
+        "mission_name": "NISAR",
+        "reference_document": "D-102274 NISAR NASA SDS Product Specification Level-2 Geocoded Polarimetric Covariance L2 GCOV",
+        "title": "NISAR L2 GCOV Product",
+        "AREA_OR_POINT": "Area"
+      },
+      "band_tags": {
+        "description": "Mask indicating the subswath number associated with valid GCOV samples. A GCOV sample is only considered valid if it is generated from fully-focused radar samples. If at least one radar sample in the averaging set is partially focused or invalid, the corresponding mask pixel will contain the value 0. GCOV pixels outside of the radar acquisition extent are filled with the value 255",
+        "grid_mapping": "projection",
+        "long_name": "Valid samples subswath mask",
+        "valid_min": "0",
+        "_FillValue": "255"
+      }
+    }
+  },
+  "G4329677554-ASF_numberOfLooks": {
+    "job_id": "9d48167a-a5f0-4a84-aa16-2781c9323d33",
+    "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+    "layer": "numberOfLooks",
+    "status": "successful",
+    "file": {
+      "path": "data/raw/NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001/numberOfLooks/465677262_NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001_science_LSAR_GCOV_grids_frequencyA_numberOfLooks_subsetted.tif",
+      "sha256": "aa9b50291a43cf08b039c416d641cee981d11620aa10382a35caa446df0d010c",
+      "bytes": 26630093,
+      "crs": "EPSG:32754",
+      "transform": [
+        20.0,
+        0.0,
+        449300.0,
+        0.0,
+        -20.0,
+        6221200.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "shape": [
+        2223,
+        2305
+      ],
+      "dtype": "float32",
+      "nodata": "nan",
+      "valid_count": 5098518,
+      "min": 1.2971974611282349,
+      "max": 18.03452491760254,
+      "tags": {
+        "contact": "nisar-sds-ops@jpl.nasa.gov",
+        "Conventions": "CF-1.7",
+        "institution": "NASA JPL",
+        "mission_name": "NISAR",
+        "reference_document": "D-102274 NISAR NASA SDS Product Specification Level-2 Geocoded Polarimetric Covariance L2 GCOV",
+        "title": "NISAR L2 GCOV Product",
+        "AREA_OR_POINT": "Area"
+      },
+      "band_tags": {
+        "description": "Number of averaged radar-grid pixels for covariance estimation",
+        "grid_mapping": "projection",
+        "long_name": "Number of radar looks",
+        "max_value": "20.210499",
+        "mean_value": "9.4659672",
+        "min_value": "4.4573989e-10",
+        "sample_stddev": "0.84150553",
+        "units": "1",
+        "valid_min": "0",
+        "_FillValue": "nan"
+      }
+    }
+  },
+  "G4360923482-ASF_HHHH": {
+    "job_id": "627db9c6-72d1-4c52-8d70-467ebf0c8202",
+    "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+    "layer": "HHHH",
+    "status": "successful",
+    "file": {
+      "path": "data/raw/NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001/HHHH/465690068_NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001_science_LSAR_GCOV_grids_frequencyA_HHHH_subsetted.tif",
+      "sha256": "4d60bb2b2d0595341fa59f91d41947b508a2600a3842bf5797c002a05ed20798",
+      "bytes": 25767507,
+      "crs": "EPSG:32754",
+      "transform": [
+        20.0,
+        0.0,
+        449300.0,
+        0.0,
+        -20.0,
+        6221200.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "shape": [
+        2223,
+        2305
+      ],
+      "dtype": "float32",
+      "nodata": "nan",
+      "valid_count": 5098518,
+      "min": 0.0009521022439002991,
+      "max": 581.6796875,
+      "tags": {
+        "contact": "nisar-sds-ops@jpl.nasa.gov",
+        "Conventions": "CF-1.7",
+        "institution": "NASA JPL",
+        "mission_name": "NISAR",
+        "reference_document": "D-102274 NISAR NASA SDS Product Specification Level-2 Geocoded Polarimetric Covariance L2 GCOV",
+        "title": "NISAR L2 GCOV Product",
+        "AREA_OR_POINT": "Area"
+      },
+      "band_tags": {
+        "description": "Covariance between HH and HH",
+        "grid_mapping": "projection",
+        "long_name": "Geocoded polarimetric covariance term HHHH",
+        "max_value": "825.63538",
+        "mean_value": "0.048521269",
+        "min_value": "2.8311987e-17",
+        "sample_stddev": "0.26640013",
+        "units": "1",
+        "valid_min": "0",
+        "_FillValue": "nan"
+      }
+    }
+  },
+  "G4360923482-ASF_HVHV": {
+    "job_id": "0527fe69-3c9b-4d86-a2e6-2352188ced62",
+    "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+    "layer": "HVHV",
+    "status": "successful",
+    "file": {
+      "path": "data/raw/NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001/HVHV/465705182_NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001_science_LSAR_GCOV_grids_frequencyA_HVHV_subsetted.tif",
+      "sha256": "92833481758af377896edcbe92feb910f6e22cd9a1a885034f896ee77bf90a7d",
+      "bytes": 25261127,
+      "crs": "EPSG:32754",
+      "transform": [
+        20.0,
+        0.0,
+        449300.0,
+        0.0,
+        -20.0,
+        6221200.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "shape": [
+        2223,
+        2305
+      ],
+      "dtype": "float32",
+      "nodata": "nan",
+      "valid_count": 5098518,
+      "min": 0.0004820413887500763,
+      "max": 175.033203125,
+      "tags": {
+        "contact": "nisar-sds-ops@jpl.nasa.gov",
+        "Conventions": "CF-1.7",
+        "institution": "NASA JPL",
+        "mission_name": "NISAR",
+        "reference_document": "D-102274 NISAR NASA SDS Product Specification Level-2 Geocoded Polarimetric Covariance L2 GCOV",
+        "title": "NISAR L2 GCOV Product",
+        "AREA_OR_POINT": "Area"
+      },
+      "band_tags": {
+        "description": "Covariance between HV and HV",
+        "grid_mapping": "projection",
+        "long_name": "Geocoded polarimetric covariance term HVHV",
+        "max_value": "175.0334",
+        "mean_value": "0.0097862426",
+        "min_value": "4.5238663e-17",
+        "sample_stddev": "0.023251165",
+        "units": "1",
+        "valid_min": "0",
+        "_FillValue": "nan"
+      }
+    }
+  },
+  "G4360923482-ASF_mask": {
+    "job_id": "05a2ed49-df2a-495b-bbc6-f1c9f2680ace",
+    "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+    "layer": "mask",
+    "status": "successful",
+    "file": {
+      "path": "data/raw/NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001/mask/465726554_NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001_science_LSAR_GCOV_grids_frequencyA_mask_subsetted.tif",
+      "sha256": "93399cf3629ef28de8a8873fe5c387ebf39173a1e9329a54570c3767c79f4712",
+      "bytes": 57510,
+      "crs": "EPSG:32754",
+      "transform": [
+        20.0,
+        0.0,
+        449300.0,
+        0.0,
+        -20.0,
+        6221200.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "shape": [
+        2223,
+        2305
+      ],
+      "dtype": "uint8",
+      "nodata": "255.0",
+      "valid_count": 5098518,
+      "min": 1.0,
+      "max": 1.0,
+      "tags": {
+        "contact": "nisar-sds-ops@jpl.nasa.gov",
+        "Conventions": "CF-1.7",
+        "institution": "NASA JPL",
+        "mission_name": "NISAR",
+        "reference_document": "D-102274 NISAR NASA SDS Product Specification Level-2 Geocoded Polarimetric Covariance L2 GCOV",
+        "title": "NISAR L2 GCOV Product",
+        "AREA_OR_POINT": "Area"
+      },
+      "band_tags": {
+        "description": "Mask indicating the subswath number associated with valid GCOV samples. A GCOV sample is only considered valid if it is generated from fully-focused radar samples. If at least one radar sample in the averaging set is partially focused or invalid, the corresponding mask pixel will contain the value 0. GCOV pixels outside of the radar acquisition extent are filled with the value 255",
+        "grid_mapping": "projection",
+        "long_name": "Valid samples subswath mask",
+        "valid_min": "0",
+        "_FillValue": "255"
+      }
+    }
+  },
+  "G4360923482-ASF_numberOfLooks": {
+    "job_id": "f63dda95-69d1-4331-b05b-bb938480365a",
+    "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+    "layer": "numberOfLooks",
+    "status": "successful",
+    "file": {
+      "path": "data/raw/NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001/numberOfLooks/465744852_NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001_science_LSAR_GCOV_grids_frequencyA_numberOfLooks_subsetted.tif",
+      "sha256": "e92ab8fe672a3d65d0f81dfefc89c2732c4b045ad34920b2535889d05ad59aff",
+      "bytes": 26627880,
+      "crs": "EPSG:32754",
+      "transform": [
+        20.0,
+        0.0,
+        449300.0,
+        0.0,
+        -20.0,
+        6221200.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "shape": [
+        2223,
+        2305
+      ],
+      "dtype": "float32",
+      "nodata": "nan",
+      "valid_count": 5098518,
+      "min": 1.2978395223617554,
+      "max": 18.034690856933594,
+      "tags": {
+        "contact": "nisar-sds-ops@jpl.nasa.gov",
+        "Conventions": "CF-1.7",
+        "institution": "NASA JPL",
+        "mission_name": "NISAR",
+        "reference_document": "D-102274 NISAR NASA SDS Product Specification Level-2 Geocoded Polarimetric Covariance L2 GCOV",
+        "title": "NISAR L2 GCOV Product",
+        "AREA_OR_POINT": "Area"
+      },
+      "band_tags": {
+        "description": "Number of averaged radar-grid pixels for covariance estimation",
+        "grid_mapping": "projection",
+        "long_name": "Number of radar looks",
+        "max_value": "20.210613",
+        "mean_value": "9.46562",
+        "min_value": "2.7069998e-08",
+        "sample_stddev": "0.84145439",
+        "units": "1",
+        "valid_min": "0",
+        "_FillValue": "nan"
+      }
+    }
+  }
+}

@@ -1,0 +1,720 @@
+{
+  "Datasets": [
+    {
+      "Identifier": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+      "Parameter": "O2 (Dis)",
+      "Label": "Best Available--DO Sensor-1m",
+      "Unit": "mg/l",
+      "LocationIdentifier": "A4261023"
+    }
+  ],
+  "TimeRange": {
+    "StartTime": "2026-08-20T00:00:00+09:30",
+    "EndTime": "2026-10-12T00:00:00+09:30"
+  },
+  "NumRows": 54,
+  "Rows": [
+    {
+      "Timestamp": "2026-08-20T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": "NaN",
+          "GradeCode": 0,
+          "GradeName": "UNDEF",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-21T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.74767361111111,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-22T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.718142361111111,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-23T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.716371527777778,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-24T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.743177083333334,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-25T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.692673611111111,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-26T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.609965277777778,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-27T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.667447916666667,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-28T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.72076388888889,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-29T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.796840277777777,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-30T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.82204861111111,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-31T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.917465277777778,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-01T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 11.00546875,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-02T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.984704861111112,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-03T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.893402777777778,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-04T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.867291666666667,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-05T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.765538194444444,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-06T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.708072916666667,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-07T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.748854166666666,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-08T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.867986111111112,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-09T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 11.015538194444444,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-10T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.991458333333334,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-11T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.88046875,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-12T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.78046875,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-13T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.717152777777779,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-14T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.542899305555556,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-15T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.362760416666667,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-16T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.308940972222222,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-17T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.342690972222222,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-18T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.422291666666666,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-19T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.484861111111112,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-20T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.49217013888889,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-21T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.367465277777777,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-22T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.170225694444444,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-23T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.081875,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-24T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 10.02860465116279,
+          "GradeCode": 0,
+          "GradeName": "UNDEF",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-25T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": "NaN",
+          "GradeCode": -2,
+          "GradeName": "UNUSABLE",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-26T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": "NaN",
+          "GradeCode": -2,
+          "GradeName": "UNUSABLE",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-27T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": "NaN",
+          "GradeCode": -2,
+          "GradeName": "UNUSABLE",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-28T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": "NaN",
+          "GradeCode": -2,
+          "GradeName": "UNUSABLE",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-29T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": "NaN",
+          "GradeCode": -2,
+          "GradeName": "UNUSABLE",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-30T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": "NaN",
+          "GradeCode": -2,
+          "GradeName": "UNUSABLE",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-01T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 9.521163194444444,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-02T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 9.322708333333333,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-03T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 9.25767361111111,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-04T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 9.294305555555555,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-05T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 9.391597222222222,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-06T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 9.385555555555555,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-07T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 9.493055555555555,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-08T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 9.614930555555556,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-09T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 9.599444444444444,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-10T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 9.415381944444444,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-11T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 9.370642361111111,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-12T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261023",
+          "Value": 9.303680555555555,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,720 @@
+{
+  "Datasets": [
+    {
+      "Identifier": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+      "Parameter": "Water Temp",
+      "Label": "Best Available--DO Sensor-1m",
+      "Unit": "degC",
+      "LocationIdentifier": "A4261108"
+    }
+  ],
+  "TimeRange": {
+    "StartTime": "2026-08-20T00:00:00+09:30",
+    "EndTime": "2026-10-12T00:00:00+09:30"
+  },
+  "NumRows": 54,
+  "Rows": [
+    {
+      "Timestamp": "2026-08-20T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": "NaN",
+          "GradeCode": 0,
+          "GradeName": "UNDEF",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-21T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 14.306197916666667,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-22T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 14.342274305555556,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-23T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 14.361510416666667,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-24T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 14.636059027777778,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-25T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 14.730208333333332,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-26T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 14.685625,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-27T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 14.487638888888888,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-28T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 14.596684027777778,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-29T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 14.876909722222223,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-30T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 15.180954861111111,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-31T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 15.383975694444445,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-01T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 15.527118055555556,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-02T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 15.705156250000002,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-03T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 15.85532986111111,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-04T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 15.888246527777778,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-05T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 15.801319444444445,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-06T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 15.779496527777777,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-07T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 15.688454861111111,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-08T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 15.837430555555555,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-09T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 15.91918402777778,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-10T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 15.89984375,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-11T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 15.752604166666666,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-12T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 15.79717013888889,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-13T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 16.101614583333333,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-14T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 16.435694444444444,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-15T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 16.435555555555556,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-16T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 16.442725694444444,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-17T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 16.250659722222224,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-18T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 16.164600694444445,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-19T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 16.340069444444445,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-20T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 16.718315972222225,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-21T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 17.135659722222222,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-22T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 17.29439236111111,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-23T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 17.14140625,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-24T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 17.131458333333335,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-25T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 17.491197916666668,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-26T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 17.962847222222223,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-27T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 18.41409722222222,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-28T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 18.50982638888889,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-29T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 18.525868055555556,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-30T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 18.995190972222222,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-01T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 19.313350694444445,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-02T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 19.43762152777778,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-03T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 19.58597222222222,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-04T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 19.307083333333335,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-05T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 19.248385416666668,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-06T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 19.30203125,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-07T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 19.473559027777778,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-08T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 19.408315972222223,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-09T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 19.68546875,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-10T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 19.68513888888889,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-11T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 19.69543402777778,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-12T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "Value": 19.883940972222224,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "checked_utc": "2026-11-15T05:55:58.288281+00:00",
+  "granules": [
+    {
+      "concept_id": "G4289277210-ASF",
+      "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+      "acquired": "2026-08-23T20:34:56.000000Z",
+      "source": "https://cmr.earthdata.nasa.gov/search/granules.umm_json?concept_id=G4289277210-ASF",
+      "attributes": {
+        "ASCENDING_DESCENDING": [
+          "ASCENDING"
+        ],
+        "TRACK_NUMBER": [
+          "153"
+        ],
+        "FRAME_NUMBER": [
+          "160"
+        ],
+        "FREQUENCY_A_RANGE_BANDWIDTH": [
+          "20"
+        ],
+        "FREQUENCY_A_POLARIZATION": [
+          "HH",
+          "HV"
+        ],
+        "PRODUCTION_PIPELINE": [
+          "PR"
+        ],
+        "PRODUCT_VERSION": [
+          "1.0.11"
+        ],
+        "ORBIT_TYPE": [
+          "MOE"
+        ],
+        "FULL_FRAME": [
+          "TRUE"
+        ],
+        "JOINT_OBSERVATION": [
+          "TRUE"
+        ]
+      },
+      "current_revision_id": 1,
+      "status": "MATCHES retained acquisition metadata"
+    },
+    {
+      "concept_id": "G4329677554-ASF",
+      "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+      "acquired": "2026-09-28T20:34:56.000000Z",
+      "source": "https://cmr.earthdata.nasa.gov/search/granules.umm_json?concept_id=G4329677554-ASF",
+      "attributes": {
+        "ASCENDING_DESCENDING": [
+          "ASCENDING"
+        ],
+        "TRACK_NUMBER": [
+          "153"
+        ],
+        "FRAME_NUMBER": [
+          "160"
+        ],
+        "FREQUENCY_A_RANGE_BANDWIDTH": [
+          "20"
+        ],
+        "FREQUENCY_A_POLARIZATION": [
+          "HH",
+          "HV"
+        ],
+        "PRODUCTION_PIPELINE": [
+          "PR"
+        ],
+        "PRODUCT_VERSION": [
+          "1.0.11"
+        ],
+        "ORBIT_TYPE": [
+          "MOE"
+        ],
+        "FULL_FRAME": [
+          "TRUE"
+        ],
+        "JOINT_OBSERVATION": [
+          "TRUE"
+        ]
+      },
+      "current_revision_id": 1,
+      "status": "MATCHES retained acquisition metadata"
+    },
+    {
+      "concept_id": "G4360923482-ASF",
+      "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+      "acquired": "2026-10-10T20:34:56.000000Z",
+      "source": "https://cmr.earthdata.nasa.gov/search/granules.umm_json?concept_id=G4360923482-ASF",
+      "attributes": {
+        "ASCENDING_DESCENDING": [
+          "ASCENDING"
+        ],
+        "TRACK_NUMBER": [
+          "153"
+        ],
+        "FRAME_NUMBER": [
+          "160"
+        ],
+        "FREQUENCY_A_RANGE_BANDWIDTH": [
+          "20"
+        ],
+        "FREQUENCY_A_POLARIZATION": [
+          "HH",
+          "HV"
+        ],
+        "PRODUCTION_PIPELINE": [
+          "PR"
+        ],
+        "PRODUCT_VERSION": [
+          "1.0.11"
+        ],
+        "ORBIT_TYPE": [
+          "MOE"
+        ],
+        "FULL_FRAME": [
+          "TRUE"
+        ],
+        "JOINT_OBSERVATION": [
+          "TRUE"
+        ]
+      },
+      "current_revision_id": 1,
+      "status": "MATCHES retained acquisition metadata"
+    }
+  ],
+  "scope": "Catalog identity and geometry recheck, not independent radiometric calibration or raw telemetry"
+}

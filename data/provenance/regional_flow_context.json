@@ -1,0 +1,11 @@
+{
+  "source": "https://www.waterconnect.sa.gov.au/Content/Flow%20Reports/RM-Flow-Report_2026_10_09%20FINAL.pdf",
+  "sha256": "43c73a22f70c26dcb77e508f0be7c640d2f3ade17e9f8493b36d7bdc627c9afb",
+  "issued_local": "2026-10-09 10:00",
+  "reported_current_flow": {
+    "SA_border_GL_day": 16.5,
+    "Lock1_GL_day": 18.5
+  },
+  "SA_border_m3_s": 190.97222222222223,
+  "interpretation": "Approximate reported regional current flows, not local outlet or receiving-reach discharge. Forecasts and planned regulator heights excluded from observed inputs. Not used to force the local model."
+}

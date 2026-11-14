@@ -1,0 +1,22 @@
+{
+  "protocol": "A/B/C structural ablation of the existing oxygen solver",
+  "written_before_execution": true,
+  "initial_audit_document_sha256": "dba2162b31a588f6e6061c2f063349abda81167d9dce633f86d7df3189473a30",
+  "configuration_source": "FloodExperiment() default 0.2.0; 512 members, PCG64 seed 20261115",
+  "fixed_location": "candidate-2",
+  "fixed_anchor": "2026-09-28T20:34:56.000000Z",
+  "arms": {
+    "A": "Field + water quality",
+    "B": "A + Landsat/Sentinel context",
+    "C": "B + NISAR"
+  },
+  "controls": [
+    "Same geography and original schedule",
+    "Same optional boundary matches",
+    "Same model parameters, equations, seed and draws",
+    "No fit, threshold search, new classification or placement validation"
+  ],
+  "record_timing": "Initial audit document was written before run_ablation.py execution. This machine-readable protocol record was prepared after the run and links that initial document; it is not an external preregistration.",
+  "initial_audit_prefix_normalized_lf_sha256": "22159e58ce9e2fa031e245b0e63aebdf7dd24fdf08c509cb09a58e14c5ed5d38",
+  "public_prefix_boundary": "All text preceding the blank-line heading ## Executed ablation result (0.3.0), with LF normalization."
+}

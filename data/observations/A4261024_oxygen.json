@@ -1,0 +1,720 @@
+{
+  "Datasets": [
+    {
+      "Identifier": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+      "Parameter": "O2 (Dis)",
+      "Label": "Best Available--DO Sensor-1m",
+      "Unit": "mg/l",
+      "LocationIdentifier": "A4261024"
+    }
+  ],
+  "TimeRange": {
+    "StartTime": "2026-08-20T00:00:00+09:30",
+    "EndTime": "2026-10-12T00:00:00+09:30"
+  },
+  "NumRows": 54,
+  "Rows": [
+    {
+      "Timestamp": "2026-08-20T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": "NaN",
+          "GradeCode": 0,
+          "GradeName": "UNDEF",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-21T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.24220486111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-22T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.245642361111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-23T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.281475694444444,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-24T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.299166666666666,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-25T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.20625,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-26T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.078333333333333,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-27T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.157378472222222,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-28T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.292847222222223,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-29T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.381666666666666,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-30T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.45545138888889,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-31T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.508732638888889,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-01T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.530555555555555,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-02T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.481163194444445,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-03T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.444409722222222,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-04T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.460017361111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-05T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.338663194444445,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-06T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.293055555555556,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-07T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.346736111111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-08T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.425190972222222,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-09T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.537760416666666,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-10T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.62921875,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-11T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.784791666666667,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-12T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.876163194444445,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-13T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.713940972222222,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-14T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.40032986111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-15T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.185381944444444,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-16T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.11876736111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-17T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.095069444444444,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-18T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.12873263888889,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-19T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.166215277777777,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-20T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.199253472222223,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-21T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.145451388888889,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-22T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 10.000243055555556,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-23T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.951805555555556,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-24T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.899652777777778,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-25T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.765694444444444,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-26T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.631041666666667,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-27T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.453194444444444,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-28T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.402135416666667,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-29T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.370486111111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-30T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.39078125,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-01T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.244305555555556,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-02T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.042361111111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-03T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.01078125,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-04T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.025815972222222,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-05T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.09954861111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-06T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.104704861111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-07T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.256927083333334,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-08T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.419722222222223,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-09T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.53107638888889,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-10T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.293402777777779,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-11T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.162986111111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-12T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "O2 (Dis).Best Available--DO Sensor-1m@A4261024",
+          "Value": 9.159409722222222,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    }
+  ]
+}

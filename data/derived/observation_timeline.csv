@@ -1,0 +1,15 @@
+role,name,observation_utc,used_in,product_created,historical_available_utc
+Radar measurement,NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001,2026-08-23T20:34:56.000000Z,HH/HV baseline or change endpoint,Not preserved/verified,Not verified
+Radar measurement,NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001,2026-09-28T20:34:56.000000Z,HH/HV baseline or change endpoint,Not preserved/verified,Not verified
+Radar measurement,NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001,2026-10-10T20:34:56.000000Z,"Context only, excluded from both benchmark targets",Not preserved/verified,Not verified
+Conventional measurement,S1D_IW_GRDH_1SDV_20260821T195620_20260821T195645_004228_007C38_rtc,2026-08-21T19:56:32.949617Z,vv baseline or change endpoint,Not preserved/verified,Not verified
+Conventional measurement,S1D_IW_GRDH_1SDV_20260926T195621_20260926T195646_004753_008E6D_rtc,2026-09-26T19:56:34.142711Z,vv baseline or change endpoint,Not preserved/verified,Not verified
+Conventional measurement,S1D_IW_GRDH_1SDV_20261008T195621_20261008T195646_004928_009498_rtc,2026-10-08T19:56:34.227687Z,"Context only, excluded from both benchmark targets",Not preserved/verified,Not verified
+Conventional measurement,S2B_54HVG_20260823_0_L2A,2026-08-23T00:46:39.101000Z,scl baseline or change endpoint,Not preserved/verified,Not verified
+Conventional measurement,S2B_54HVH_20260823_0_L2A,2026-08-23T00:46:24.483000Z,scl baseline or change endpoint,Not preserved/verified,Not verified
+Conventional measurement,S2A_54HVG_20260929_1_L2A,2026-09-29T00:46:56.161000Z,scl baseline or change endpoint,Not preserved/verified,Not verified
+Conventional measurement,S2A_54HVH_20260929_1_L2A,2026-09-29T00:46:41.539000Z,scl baseline or change endpoint,Not preserved/verified,Not verified
+Conventional measurement,S2C_54HVH_20261007_0_L2A,2026-10-07T00:46:29.625000Z,"Context only, excluded from both benchmark targets",Not preserved/verified,Not verified
+Landsat reference,784dbcce-8e20-5fdb-be82-729647d85cdb,2026-08-23T00:27:09.203619Z,Baseline eligibility,2026-09-03T22:08:18.134980Z,Not verified
+Landsat reference,7ce45a61-fb6e-540c-9672-7e52ccd10a3d,2026-09-24T00:27:21.076780Z,Target labels,2026-10-07T10:32:09.121710Z,Not verified
+Landsat reference,7c6e2b85-c1b0-5e5a-a562-39af149b13f5,2026-10-02T00:27:28.857154Z,Target labels,2026-10-14T05:53:35.186577Z,Not verified

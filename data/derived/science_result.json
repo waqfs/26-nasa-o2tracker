@@ -1,0 +1,254 @@
+{
+  "measurement_status": "VERIFIED: actual calibrated raster files processed; interpretation unvalidated",
+  "hypothesis_outcome": "INCONCLUSIVE \u2014 complementary radar response can be measured, but improved flood detection or oxygen prediction has not been independently tested",
+  "qa": [
+    {
+      "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+      "polarization": "HHHH",
+      "mask_codes": [
+        1
+      ],
+      "valid_pixels": 5098518,
+      "valid_fraction": 0.9950240192505291,
+      "median_db": -14.380252480213127
+    },
+    {
+      "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+      "polarization": "HVHV",
+      "mask_codes": [
+        1
+      ],
+      "valid_pixels": 5098518,
+      "valid_fraction": 0.9950240192505291,
+      "median_db": -21.740656502273747
+    },
+    {
+      "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+      "polarization": "HHHH",
+      "mask_codes": [
+        1
+      ],
+      "valid_pixels": 5098518,
+      "valid_fraction": 0.9950240192505291,
+      "median_db": -16.404610600142064
+    },
+    {
+      "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+      "polarization": "HVHV",
+      "mask_codes": [
+        1
+      ],
+      "valid_pixels": 5098518,
+      "valid_fraction": 0.9950240192505291,
+      "median_db": -22.927385430718363
+    },
+    {
+      "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+      "polarization": "HHHH",
+      "mask_codes": [
+        1
+      ],
+      "valid_pixels": 5098518,
+      "valid_fraction": 0.9950240192505291,
+      "median_db": -16.402574982549147
+    },
+    {
+      "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+      "polarization": "HVHV",
+      "mask_codes": [
+        1
+      ],
+      "valid_pixels": 5098518,
+      "valid_fraction": 0.9950240192505291,
+      "median_db": -23.111497405240527
+    }
+  ],
+  "groups_100m": {
+    "all": {
+      "blocks": 203623,
+      "HHHH": {
+        "median_db": -1.481926225879997,
+        "q25_q75_db": [
+          -2.279529212344264,
+          -0.8330708643711464
+        ]
+      },
+      "HVHV": {
+        "median_db": -0.7932737890636119,
+        "q25_q75_db": [
+          -1.3638645145388235,
+          -0.3031917385679037
+        ]
+      },
+      "vv": {
+        "median_db": -0.8562713248571932,
+        "q25_q75_db": [
+          -1.711383278838568,
+          0.004536886150312114
+        ]
+      },
+      "vh": {
+        "median_db": -0.5655574989469336,
+        "q25_q75_db": [
+          -1.3595384577329348,
+          0.19328754126534342
+        ]
+      },
+      "HH_minus_HV": {
+        "median_db": -0.6895675047506131,
+        "q25_q75_db": [
+          -1.3286312162705585,
+          -0.07758614694562116
+        ]
+      }
+    },
+    "tree_cover_2021": {
+      "blocks": 31080,
+      "HHHH": {
+        "median_db": -1.0355918173469876,
+        "q25_q75_db": [
+          -1.4958682518773265,
+          -0.5999096801355361
+        ]
+      },
+      "HVHV": {
+        "median_db": -0.572710612282961,
+        "q25_q75_db": [
+          -0.9426807735649279,
+          -0.22656049176020243
+        ]
+      },
+      "vv": {
+        "median_db": -0.5902361510145004,
+        "q25_q75_db": [
+          -1.1872234528285484,
+          -0.0068304575869841955
+        ]
+      },
+      "vh": {
+        "median_db": -0.566892717228253,
+        "q25_q75_db": [
+          -1.198563753516578,
+          0.013451897699829019
+        ]
+      },
+      "HH_minus_HV": {
+        "median_db": -0.4649125416180917,
+        "q25_q75_db": [
+          -0.9550644994740691,
+          0.009752916731665229
+        ]
+      }
+    },
+    "cropland_2021": {
+      "blocks": 75284,
+      "HHHH": {
+        "median_db": -1.5454017197682095,
+        "q25_q75_db": [
+          -2.3689053714290695,
+          -0.8612908037016203
+        ]
+      },
+      "HVHV": {
+        "median_db": -0.8890616222809342,
+        "q25_q75_db": [
+          -1.5703655456364576,
+          -0.3035704686429579
+        ]
+      },
+      "vv": {
+        "median_db": -0.6611977214141378,
+        "q25_q75_db": [
+          -1.7484325547691375,
+          0.47247258207561105
+        ]
+      },
+      "vh": {
+        "median_db": -0.2503527453372323,
+        "q25_q75_db": [
+          -1.1343796569773055,
+          0.614120800740257
+        ]
+      },
+      "HH_minus_HV": {
+        "median_db": -0.6666678749537587,
+        "q25_q75_db": [
+          -1.3275369154488734,
+          -0.006974190591994223
+        ]
+      }
+    },
+    "tree_optical_nonwater": {
+      "blocks": 24635,
+      "HHHH": {
+        "median_db": -1.0475327352320427,
+        "q25_q75_db": [
+          -1.508445469145557,
+          -0.6056811540002762
+        ]
+      },
+      "HVHV": {
+        "median_db": -0.5703767345161932,
+        "q25_q75_db": [
+          -0.9468661324300331,
+          -0.22110900699722258
+        ]
+      },
+      "vv": {
+        "median_db": -0.6076673174200256,
+        "q25_q75_db": [
+          -1.2151247221861663,
+          -0.01631942041108214
+        ]
+      },
+      "vh": {
+        "median_db": -0.6137827468835013,
+        "q25_q75_db": [
+          -1.2505356416794093,
+          -0.026781445597088727
+        ]
+      },
+      "HH_minus_HV": {
+        "median_db": -0.47681826438680375,
+        "q25_q75_db": [
+          -0.9683290013221795,
+          0.0006022921811075221
+        ]
+      }
+    }
+  },
+  "nisar_dates": [
+    "2026-08-23T20:34:56.000000Z",
+    "2026-09-28T20:34:56.000000Z",
+    "2026-10-10T20:34:56.000000Z"
+  ],
+  "comparison_dates": {
+    "sentinel1": [
+      "2026-08-21",
+      "2026-09-26"
+    ],
+    "sentinel2": [
+      "2026-08-23",
+      "2026-09-29"
+    ]
+  },
+  "candidate_count": 20,
+  "eligible_blocks": 1145,
+  "independent_reference": "DEW watering report and downloaded local channel water-level/oxygen observations; see independent_observations.json. Neither provides pixel inundation labels.",
+  "accuracy_metrics": null,
+  "oxygen_prediction": null,
+  "limitations": [
+    "No independent geolocated subcanopy labels",
+    "Different orbit geometry, polarization and frequency across sensors",
+    "Dates differ by up to two days in primary comparison",
+    "2021 land cover may not represent 2026 vegetation; tree class is not a dense-canopy map",
+    "100m blocks are averages of 20m power, not native sensor resolution",
+    "No local cross-sensor radiometric calibration",
+    "Candidate ranking is exploratory selection, not calibrated probability",
+    "Study rectangle includes land beyond the named floodplains",
+    "August is a comparison baseline, not a verified dry or pre-watering state",
+    "Provisional P05023 products: residual RFI/ripples and local calibration errors remain possible",
+    "Subswath mask and looks verified; inputDataExceptionMask not exposed by this Harmony collection",
+    "Grid alignment verified; independent subpixel co-registration accuracy not measured"
+  ]
+}

@@ -1,0 +1,720 @@
+{
+  "Datasets": [
+    {
+      "Identifier": "Water Level.Best Available--Continuous@A4261248",
+      "Parameter": "Water Level",
+      "Label": "Best Available--Continuous",
+      "Unit": "m",
+      "LocationIdentifier": "A4261248"
+    }
+  ],
+  "TimeRange": {
+    "StartTime": "2026-08-20T00:00:00+09:30",
+    "EndTime": "2026-10-12T00:00:00+09:30"
+  },
+  "NumRows": 54,
+  "Rows": [
+    {
+      "Timestamp": "2026-08-20T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": "NaN",
+          "GradeCode": 0,
+          "GradeName": "UNDEF",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-21T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.780306205989145,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-22T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.780030498267033,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-23T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.775530832211599,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-24T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.774017277267278,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-25T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.78256448621184,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-26T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.817872111823064,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-27T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.856558209656523,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-28T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.906410974156639,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-29T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.938860960878976,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-30T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.957349142045768,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-31T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.979231420434779,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-01T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.004561615490449,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-02T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.99908972721279,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-03T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.981789713935132,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-04T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.980522686768591,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-05T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.979740034602033,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-06T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.011901826879935,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-07T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.042999383046721,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-08T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.034767078102394,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-09T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.022430606491403,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-10T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.015641009880417,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-11T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.032934746602749,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-12T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.029409038880644,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-13T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.991676733936327,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-14T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.97417012343644,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-15T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.968427401825448,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-16T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.957172527436677,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-17T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.941917653047913,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-18T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.950247848103583,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-19T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.96803637649259,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-20T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.99067386321494,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-21T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.029012738826161,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-22T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.042882864437393,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-23T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.067577642826402,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-24T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.083060615659855,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-25T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.09816338015997,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-26T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.110030033548979,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-27T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.116365436937993,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-28T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.113733826438104,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-29T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.109128257604894,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-30T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.108869910993905,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-01T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.091695713619792,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-02T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.068036458333333,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-03T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.054560763888889,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-04T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 14.016741319444444,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-05T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.970953125,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-06T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.912145833333334,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-07T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.85695138888889,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-08T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.838008680555555,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-09T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.846864583333334,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-10T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.824359375,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-11T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.795605902777778,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-12T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Best Available--Continuous@A4261248",
+          "Value": 13.78490625,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    }
+  ]
+}

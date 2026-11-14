@@ -1,0 +1,366 @@
+[
+  {
+    "station": "A4261225",
+    "dataset": {
+      "StartTime": "2013-06-18T15:00:00",
+      "EndTime": "2026-11-15T10:10:00",
+      "Timezone": 9.5,
+      "LocationIdentifier": "A4261225",
+      "LocationName": "Katarapko Creek 1.7km DS Eckert Ck & The Splash juncture",
+      "ParameterName": "Water Level",
+      "Id": "Best Available--Continuous",
+      "IDNumber": 52322,
+      "DisplayText": "Water Level.Best Available--Continuous@A4261225",
+      "Subtext": "Water Level",
+      "WidgetVariables": {
+        "Identifier": "Water Level.Best Available--Continuous@A4261225",
+        "Label": "Best Available--Continuous",
+        "LocationIdentifier": "A4261225",
+        "LocationName": "Katarapko Creek 1.7km DS Eckert Ck & The Splash juncture",
+        "ParameterIdentifier": "Water Level",
+        "ParameterName": "Water Level"
+      },
+      "ParameterRangeId": 0
+    },
+    "request_url": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Level.Best+Available--Continuous%40A4261225&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=82",
+    "path": "data/supporting/sa/A4261225_52322.json",
+    "sha256": "e9f735706d0e848b93a5ed45d79879fde093a02278adcca466e37c0f1f1c3adc",
+    "rows": 54
+  },
+  {
+    "station": "A4261108",
+    "dataset": {
+      "StartTime": "2016-01-13T13:40:00",
+      "EndTime": "2026-11-15T10:00:00",
+      "Timezone": 9.5,
+      "LocationIdentifier": "A4261108",
+      "LocationName": "Katarapko Creek 2km upstream Katarapko (Midreach)",
+      "ParameterName": "Dissolved Oxygen Concentration",
+      "Id": "Best Available--DO Sensor-1m",
+      "IDNumber": 50131,
+      "DisplayText": "O2 (Dis).Best Available--DO Sensor-1m@A4261108",
+      "Subtext": "O2 (Dis)",
+      "WidgetVariables": {
+        "Identifier": "O2 (Dis).Best Available--DO Sensor-1m@A4261108",
+        "Label": "Best Available--DO Sensor-1m",
+        "LocationIdentifier": "A4261108",
+        "LocationName": "Katarapko Creek 2km upstream Katarapko (Midreach)",
+        "ParameterIdentifier": "O2 (Dis)",
+        "ParameterName": "Dissolved Oxygen Concentration"
+      },
+      "ParameterRangeId": 0
+    },
+    "request_url": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=O2+%28Dis%29.Best+Available--DO+Sensor-1m%40A4261108&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=35",
+    "path": "data/supporting/sa/A4261108_50131.json",
+    "sha256": "387ce5ab69c01b75cc155d83a9401170fdd87fd0dfdb81ca353f6d8066f4e961",
+    "rows": 54
+  },
+  {
+    "station": "A4261108",
+    "dataset": {
+      "StartTime": "2016-01-13T13:40:00",
+      "EndTime": "2026-11-15T10:00:00",
+      "Timezone": 9.5,
+      "LocationIdentifier": "A4261108",
+      "LocationName": "Katarapko Creek 2km upstream Katarapko (Midreach)",
+      "ParameterName": "Water Temperature",
+      "Id": "Best Available--DO Sensor-1m",
+      "IDNumber": 50140,
+      "DisplayText": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+      "Subtext": "Water Temp",
+      "WidgetVariables": {
+        "Identifier": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+        "Label": "Best Available--DO Sensor-1m",
+        "LocationIdentifier": "A4261108",
+        "LocationName": "Katarapko Creek 2km upstream Katarapko (Midreach)",
+        "ParameterIdentifier": "Water Temp",
+        "ParameterName": "Water Temperature"
+      },
+      "ParameterRangeId": 0
+    },
+    "request_url": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Temp.Best+Available--DO+Sensor-1m%40A4261108&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=169",
+    "path": "data/supporting/sa/A4261108_50140.json",
+    "sha256": "8d9d510a48c064b08b3a3991633be1013ea673f0aea8870a359324c9a40be0c3",
+    "rows": 54
+  },
+  {
+    "station": "A4261108",
+    "dataset": {
+      "StartTime": "2013-01-31T09:45:00",
+      "EndTime": "2026-11-15T10:00:00",
+      "Timezone": 9.5,
+      "LocationIdentifier": "A4261108",
+      "LocationName": "Katarapko Creek 2km upstream Katarapko (Midreach)",
+      "ParameterName": "Water Temperature",
+      "Id": "Best Available--EC Sensor-1m",
+      "IDNumber": 50145,
+      "DisplayText": "Water Temp.Best Available--EC Sensor-1m@A4261108",
+      "Subtext": "Water Temp",
+      "WidgetVariables": {
+        "Identifier": "Water Temp.Best Available--EC Sensor-1m@A4261108",
+        "Label": "Best Available--EC Sensor-1m",
+        "LocationIdentifier": "A4261108",
+        "LocationName": "Katarapko Creek 2km upstream Katarapko (Midreach)",
+        "ParameterIdentifier": "Water Temp",
+        "ParameterName": "Water Temperature"
+      },
+      "ParameterRangeId": 0
+    },
+    "request_url": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Temp.Best+Available--EC+Sensor-1m%40A4261108&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=169",
+    "path": "data/supporting/sa/A4261108_50145.json",
+    "sha256": "b90dfc31eab8bc04ef44c273d298c177c8fd9823bb7837680d47d96a69eb2acb",
+    "rows": 54
+  },
+  {
+    "station": "A4261248",
+    "dataset": {
+      "StartTime": "2016-06-08T11:40:00",
+      "EndTime": "2026-11-15T10:10:00",
+      "Timezone": 9.5,
+      "LocationIdentifier": "A4261248",
+      "LocationName": "Pike River DS Pike R Environmental Regulator",
+      "ParameterName": "Water Level",
+      "Id": "Best Available--Continuous",
+      "IDNumber": 53807,
+      "DisplayText": "Water Level.Best Available--Continuous@A4261248",
+      "Subtext": "Water Level",
+      "WidgetVariables": {
+        "Identifier": "Water Level.Best Available--Continuous@A4261248",
+        "Label": "Best Available--Continuous",
+        "LocationIdentifier": "A4261248",
+        "LocationName": "Pike River DS Pike R Environmental Regulator",
+        "ParameterIdentifier": "Water Level",
+        "ParameterName": "Water Level"
+      },
+      "ParameterRangeId": 0
+    },
+    "request_url": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Level.Best+Available--Continuous%40A4261248&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=82",
+    "path": "data/supporting/sa/A4261248_53807.json",
+    "sha256": "7cbaae6cd9d7081034c3f523dc018343f83f6f91f6d4b0a2f0da99ae13c8a016",
+    "rows": 54
+  },
+  {
+    "station": "A4261053",
+    "dataset": {
+      "StartTime": "2020-08-14T12:15:00",
+      "EndTime": "2026-11-15T10:05:00",
+      "Timezone": 9.5,
+      "LocationIdentifier": "A4261053",
+      "LocationName": "Pike River upstream Col Col Bank",
+      "ParameterName": "Dissolved Oxygen Concentration",
+      "Id": "Best Available--DO Sensor-1m",
+      "IDNumber": 54671,
+      "DisplayText": "O2 (Dis).Best Available--DO Sensor-1m@A4261053",
+      "Subtext": "O2 (Dis)",
+      "WidgetVariables": {
+        "Identifier": "O2 (Dis).Best Available--DO Sensor-1m@A4261053",
+        "Label": "Best Available--DO Sensor-1m",
+        "LocationIdentifier": "A4261053",
+        "LocationName": "Pike River upstream Col Col Bank",
+        "ParameterIdentifier": "O2 (Dis)",
+        "ParameterName": "Dissolved Oxygen Concentration"
+      },
+      "ParameterRangeId": 0
+    },
+    "request_url": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=O2+%28Dis%29.Best+Available--DO+Sensor-1m%40A4261053&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=35",
+    "path": "data/supporting/sa/A4261053_54671.json",
+    "sha256": "3b0c9a13fad8dc6203d550e7a6e0cd3abb027e148886312b3f41e39cf1980054",
+    "rows": 54
+  },
+  {
+    "station": "A4261053",
+    "dataset": {
+      "StartTime": "2003-09-05T13:00:00",
+      "EndTime": "2026-11-15T10:05:00",
+      "Timezone": 9.5,
+      "LocationIdentifier": "A4261053",
+      "LocationName": "Pike River upstream Col Col Bank",
+      "ParameterName": "Water Level",
+      "Id": "Best Available--WL Sensor-Bank",
+      "IDNumber": 50113,
+      "DisplayText": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+      "Subtext": "Water Level",
+      "WidgetVariables": {
+        "Identifier": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+        "Label": "Best Available--WL Sensor-Bank",
+        "LocationIdentifier": "A4261053",
+        "LocationName": "Pike River upstream Col Col Bank",
+        "ParameterIdentifier": "Water Level",
+        "ParameterName": "Water Level"
+      },
+      "ParameterRangeId": 0
+    },
+    "request_url": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Level.Best+Available--WL+Sensor-Bank%40A4261053&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=82",
+    "path": "data/supporting/sa/A4261053_50113.json",
+    "sha256": "94cf3889f4a7607a2d4f217c71a142ae6defcd180868c2ac7f20f6dcf77addfd",
+    "rows": 54
+  },
+  {
+    "station": "A4261053",
+    "dataset": {
+      "StartTime": "2020-08-14T12:15:00",
+      "EndTime": "2026-11-15T10:05:00",
+      "Timezone": 9.5,
+      "LocationIdentifier": "A4261053",
+      "LocationName": "Pike River upstream Col Col Bank",
+      "ParameterName": "Water Temperature",
+      "Id": "Best Available--DO Sensor-1m",
+      "IDNumber": 54674,
+      "DisplayText": "Water Temp.Best Available--DO Sensor-1m@A4261053",
+      "Subtext": "Water Temp",
+      "WidgetVariables": {
+        "Identifier": "Water Temp.Best Available--DO Sensor-1m@A4261053",
+        "Label": "Best Available--DO Sensor-1m",
+        "LocationIdentifier": "A4261053",
+        "LocationName": "Pike River upstream Col Col Bank",
+        "ParameterIdentifier": "Water Temp",
+        "ParameterName": "Water Temperature"
+      },
+      "ParameterRangeId": 0
+    },
+    "request_url": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Temp.Best+Available--DO+Sensor-1m%40A4261053&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=169",
+    "path": "data/supporting/sa/A4261053_54674.json",
+    "sha256": "74ea460083aeeae72bd38ddc9e8d97b137bf2a32d527ceccd3864eb0903297f1",
+    "rows": 54
+  },
+  {
+    "station": "A4261053",
+    "dataset": {
+      "StartTime": "2003-09-10T13:30:00",
+      "EndTime": "2026-11-15T10:05:00",
+      "Timezone": 9.5,
+      "LocationIdentifier": "A4261053",
+      "LocationName": "Pike River upstream Col Col Bank",
+      "ParameterName": "Water Temperature",
+      "Id": "Best Available--EC Sensor-1m",
+      "IDNumber": 50119,
+      "DisplayText": "Water Temp.Best Available--EC Sensor-1m@A4261053",
+      "Subtext": "Water Temp",
+      "WidgetVariables": {
+        "Identifier": "Water Temp.Best Available--EC Sensor-1m@A4261053",
+        "Label": "Best Available--EC Sensor-1m",
+        "LocationIdentifier": "A4261053",
+        "LocationName": "Pike River upstream Col Col Bank",
+        "ParameterIdentifier": "Water Temp",
+        "ParameterName": "Water Temperature"
+      },
+      "ParameterRangeId": 0
+    },
+    "request_url": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Temp.Best+Available--EC+Sensor-1m%40A4261053&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=169",
+    "path": "data/supporting/sa/A4261053_50119.json",
+    "sha256": "20a77a0161b446489e811fa0e1c2114b34567c8d5102a1daa09dcae8e5dd804d",
+    "rows": 54
+  },
+  {
+    "station": "A4260644",
+    "dataset": {
+      "StartTime": "2016-02-11T11:35:00",
+      "EndTime": "2026-11-15T10:05:00",
+      "Timezone": 9.5,
+      "LocationIdentifier": "A4260644",
+      "LocationName": "Pike River at Lettons downstream Rumpagunyah Creek",
+      "ParameterName": "Dissolved Oxygen Concentration",
+      "Id": "Best Available--DO Sensor-Pylon",
+      "IDNumber": 44017,
+      "DisplayText": "O2 (Dis).Best Available--DO Sensor-Pylon@A4260644",
+      "Subtext": "O2 (Dis)",
+      "WidgetVariables": {
+        "Identifier": "O2 (Dis).Best Available--DO Sensor-Pylon@A4260644",
+        "Label": "Best Available--DO Sensor-Pylon",
+        "LocationIdentifier": "A4260644",
+        "LocationName": "Pike River at Lettons downstream Rumpagunyah Creek",
+        "ParameterIdentifier": "O2 (Dis)",
+        "ParameterName": "Dissolved Oxygen Concentration"
+      },
+      "ParameterRangeId": 0
+    },
+    "request_url": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=O2+%28Dis%29.Best+Available--DO+Sensor-Pylon%40A4260644&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=35",
+    "path": "data/supporting/sa/A4260644_44017.json",
+    "sha256": "440b6aa62fd0060935b471ee0477749b840b5c2ae28cc4b231296bf94843cb88",
+    "rows": 54
+  },
+  {
+    "station": "A4260644",
+    "dataset": {
+      "StartTime": "1995-11-30T11:43:12",
+      "EndTime": "2026-11-15T10:00:00",
+      "Timezone": 9.5,
+      "LocationIdentifier": "A4260644",
+      "LocationName": "Pike River at Lettons downstream Rumpagunyah Creek",
+      "ParameterName": "Water Level",
+      "Id": "Best Available--Continuous",
+      "IDNumber": 50090,
+      "DisplayText": "Water Level.Best Available--Continuous@A4260644",
+      "Subtext": "Water Level",
+      "WidgetVariables": {
+        "Identifier": "Water Level.Best Available--Continuous@A4260644",
+        "Label": "Best Available--Continuous",
+        "LocationIdentifier": "A4260644",
+        "LocationName": "Pike River at Lettons downstream Rumpagunyah Creek",
+        "ParameterIdentifier": "Water Level",
+        "ParameterName": "Water Level"
+      },
+      "ParameterRangeId": 0
+    },
+    "request_url": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Level.Best+Available--Continuous%40A4260644&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=82",
+    "path": "data/supporting/sa/A4260644_50090.json",
+    "sha256": "88b5cabf66e1f9ec4985b74c828f710a3b305d21a7ca14c9129f004cbef5889f",
+    "rows": 54
+  },
+  {
+    "station": "A4260644",
+    "dataset": {
+      "StartTime": "2016-02-11T11:35:00",
+      "EndTime": "2026-11-15T10:05:00",
+      "Timezone": 9.5,
+      "LocationIdentifier": "A4260644",
+      "LocationName": "Pike River at Lettons downstream Rumpagunyah Creek",
+      "ParameterName": "Water Temperature",
+      "Id": "Best Available--DO Sensor-Pylon",
+      "IDNumber": 48752,
+      "DisplayText": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+      "Subtext": "Water Temp",
+      "WidgetVariables": {
+        "Identifier": "Water Temp.Best Available--DO Sensor-Pylon@A4260644",
+        "Label": "Best Available--DO Sensor-Pylon",
+        "LocationIdentifier": "A4260644",
+        "LocationName": "Pike River at Lettons downstream Rumpagunyah Creek",
+        "ParameterIdentifier": "Water Temp",
+        "ParameterName": "Water Temperature"
+      },
+      "ParameterRangeId": 0
+    },
+    "request_url": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Temp.Best+Available--DO+Sensor-Pylon%40A4260644&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=169",
+    "path": "data/supporting/sa/A4260644_48752.json",
+    "sha256": "234352bc418c8ac1bfe3d272ac1010ed81d5b9066853903ae02dff3bb4e6b1e7",
+    "rows": 54
+  },
+  {
+    "station": "A4260644",
+    "dataset": {
+      "StartTime": "1991-09-26T16:00:00",
+      "EndTime": "2026-11-15T10:05:00",
+      "Timezone": 9.5,
+      "LocationIdentifier": "A4260644",
+      "LocationName": "Pike River at Lettons downstream Rumpagunyah Creek",
+      "ParameterName": "Water Temperature",
+      "Id": "Best Available--EC Sensor-Pylon",
+      "IDNumber": 49297,
+      "DisplayText": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+      "Subtext": "Water Temp",
+      "WidgetVariables": {
+        "Identifier": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+        "Label": "Best Available--EC Sensor-Pylon",
+        "LocationIdentifier": "A4260644",
+        "LocationName": "Pike River at Lettons downstream Rumpagunyah Creek",
+        "ParameterIdentifier": "Water Temp",
+        "ParameterName": "Water Temperature"
+      },
+      "ParameterRangeId": 0
+    },
+    "request_url": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Temp.Best+Available--EC+Sensor-Pylon%40A4260644&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=169",
+    "path": "data/supporting/sa/A4260644_49297.json",
+    "sha256": "365a8f6e0e5fc9e6decf3c9d27f9da5d3e5f9c8a1ffd48c113d33fad1083e4aa",
+    "rows": 54
+  }
+]

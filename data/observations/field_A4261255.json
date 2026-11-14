@@ -1,0 +1,123 @@
+{
+  "Datasets": [
+    {
+      "Identifier": "Water Level.Field Visits@A4261255",
+      "Parameter": "Water Level",
+      "Label": "Field Visits",
+      "Unit": "m",
+      "LocationIdentifier": "A4261255"
+    }
+  ],
+  "TimeRange": {
+    "StartTime": "2026-06-03T13:10:00+09:30",
+    "EndTime": "2026-11-06T06:55:00+09:30"
+  },
+  "NumRows": 7,
+  "Rows": [
+    {
+      "Timestamp": "2026-06-03T13:10:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Field Visits@A4261255",
+          "Value": 11.582,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "ApprovalLevel": 900,
+          "ApprovalName": "Working",
+          "InterpolationType": 7,
+          "InterpolationName": "DiscreteValues"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-07-20T12:30:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Field Visits@A4261255",
+          "Value": 11.62,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "ApprovalLevel": 900,
+          "ApprovalName": "Working",
+          "InterpolationType": 7,
+          "InterpolationName": "DiscreteValues"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-13T11:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Field Visits@A4261255",
+          "Value": 11.86,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "ApprovalLevel": 900,
+          "ApprovalName": "Working",
+          "InterpolationType": 7,
+          "InterpolationName": "DiscreteValues"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-02T11:20:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Field Visits@A4261255",
+          "Value": 12.478,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "ApprovalLevel": 900,
+          "ApprovalName": "Working",
+          "InterpolationType": 7,
+          "InterpolationName": "DiscreteValues"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-14T07:40:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Field Visits@A4261255",
+          "Value": 13.242,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "ApprovalLevel": 900,
+          "ApprovalName": "Working",
+          "InterpolationType": 7,
+          "InterpolationName": "DiscreteValues"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-19T08:04:19+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Field Visits@A4261255",
+          "Value": 13.35,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "ApprovalLevel": 1200,
+          "ApprovalName": "Approved",
+          "InterpolationType": 7,
+          "InterpolationName": "DiscreteValues"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-11-06T06:55:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Field Visits@A4261255",
+          "Value": 12.631,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "ApprovalLevel": 900,
+          "ApprovalName": "Working",
+          "InterpolationType": 7,
+          "InterpolationName": "DiscreteValues"
+        }
+      ]
+    }
+  ]
+}

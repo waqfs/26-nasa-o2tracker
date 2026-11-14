@@ -1,0 +1,720 @@
+{
+  "Datasets": [
+    {
+      "Identifier": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+      "Parameter": "Water Temp",
+      "Label": "Best Available--EC Sensor-Pylon",
+      "Unit": "degC",
+      "LocationIdentifier": "A4260644"
+    }
+  ],
+  "TimeRange": {
+    "StartTime": "2026-08-20T00:00:00+09:30",
+    "EndTime": "2026-10-12T00:00:00+09:30"
+  },
+  "NumRows": 54,
+  "Rows": [
+    {
+      "Timestamp": "2026-08-20T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": "NaN",
+          "GradeCode": 0,
+          "GradeName": "UNDEF",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-21T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 14.524444444444445,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-22T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 14.360364583333336,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-23T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 14.538229166666667,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-24T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 14.71845486111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-25T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 14.632204861111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-26T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 14.609218749999998,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-27T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 14.445885416666666,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-28T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 14.650104166666667,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-29T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 15.000746527777775,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-30T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 15.373472222222222,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-08-31T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 15.407517361111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-01T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 15.571267361111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-02T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 15.716475694444444,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-03T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 16.010677083333334,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-04T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 15.789513888888889,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-05T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 15.584756944444445,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-06T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 15.742690972222224,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-07T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 15.731579861111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-08T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 15.8353125,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-09T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 15.815572916666667,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-10T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 15.735815972222222,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-11T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 15.486510416666667,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-12T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 15.783385416666667,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-13T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 16.230694444444445,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-14T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 16.520225694444445,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-15T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 16.45505208333333,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-16T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 16.523263888888888,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-17T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 15.995121527777778,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-18T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 16.041979166666668,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-19T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 16.32189236111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-20T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 16.816111111111113,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-21T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 17.243940972222223,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-22T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 17.310972222222226,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-23T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 16.976493055555554,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-24T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 17.14939236111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-25T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 17.63126736111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-26T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 18.33376736111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-27T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 18.6525,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-28T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 18.41704861111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-29T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 18.557777777777776,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-09-30T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 19.193472222222223,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-01T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 19.319913194444446,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-02T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 19.524565972222224,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-03T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 19.65411458333333,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-04T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 18.83861111111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-05T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 19.098177083333333,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-06T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 19.106788194444444,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-07T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 19.36642361111111,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-08T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 19.43060763888889,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-09T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 19.800677083333333,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-10T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 19.496631944444445,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-11T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 19.490850694444443,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    },
+    {
+      "Timestamp": "2026-10-12T00:00:00+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Temp.Best Available--EC Sensor-Pylon@A4260644",
+          "Value": 20.04659722222222,
+          "GradeCode": 1,
+          "GradeName": "UNVERIFIED TELEM",
+          "InterpolationType": 2,
+          "InterpolationName": "PrecedingConstant"
+        }
+      ]
+    }
+  ]
+}

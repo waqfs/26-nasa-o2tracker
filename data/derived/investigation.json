@@ -1,0 +1,3735 @@
+{
+  "title": "Floodplain Mission Control",
+  "locations": [
+    {
+      "id": "candidate-8",
+      "name": "Radar investigation 08",
+      "lon": 140.5931732925251,
+      "lat": -34.45092012668842,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 334,
+        "col": 133,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -3.8702952155936865,
+          "valid_fraction": 1.0,
+          "median_looks": 10.053359031677246,
+          "HVHV": -9.719788157534715
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -1.322381999874131,
+          "valid_fraction": 1.0,
+          "median_looks": 10.053163528442383,
+          "HVHV": -9.99346937864538
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -1.4903662104623863,
+          "valid_fraction": 1.0,
+          "median_looks": 10.053497314453125,
+          "HVHV": -10.837713837123726
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -8.050764083862305,
+          "vh": -13.430778503417969
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -7.514827728271484,
+          "vh": -13.891826629638672
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -7.781445503234863,
+          "vh": -12.932098388671875
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 0.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261264",
+        "name": "A4261264 - Carparks Lagoon at Katarapko Island",
+        "distance_m": 9735.572934569407,
+        "visits": [
+          [
+            "2026-07-28T11:20:00+09:30",
+            0.49,
+            "GOOD"
+          ],
+          [
+            "2026-08-13T09:55:00+09:30",
+            0.49,
+            "GOOD"
+          ],
+          [
+            "2026-09-02T08:50:00+09:30",
+            0.465,
+            "GOOD"
+          ],
+          [
+            "2026-09-24T08:40:00+09:30",
+            1.018,
+            "GOOD"
+          ],
+          [
+            "2026-10-13T08:00:00+09:30",
+            2.161,
+            "GOOD"
+          ],
+          [
+            "2026-10-26T08:50:00+09:30",
+            2.22,
+            "GOOD"
+          ],
+          [
+            "2026-11-06T08:10:00+09:30",
+            1.575,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 2.5479132157195554,
+        "VV_change_db": 0.5359363555908203,
+        "difference_db": 2.011976860128735,
+        "description": "Both radar channels increase",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 81.8,
+        "components": {
+          "sensor_disagreement": 0.670658953376245,
+          "monitoring_gap": 1,
+          "optical_coverage_gap": 1.0,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Check access with the site manager, then record a dated GNSS wet/dry observation, visible water boundary and canopy cover in the 100 m block. Compare with the next radar pass.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "candidate-1",
+      "name": "Radar investigation 01",
+      "lon": 140.58883206799783,
+      "lat": -34.44820015216819,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 331,
+        "col": 129,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -13.967962174009793,
+          "valid_fraction": 1.0,
+          "median_looks": 10.032868385314941,
+          "HVHV": -19.532497351454136
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -12.047044958065865,
+          "valid_fraction": 1.0,
+          "median_looks": 10.032476425170898,
+          "HVHV": -22.55063510672524
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -11.782334097731486,
+          "valid_fraction": 1.0,
+          "median_looks": 10.032811164855957,
+          "HVHV": -21.555198610431958
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -12.150949478149414,
+          "vh": -19.664894104003906
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -12.022279739379883,
+          "vh": -19.80808448791504
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -10.784716606140137,
+          "vh": -19.30514144897461
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 0.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261264",
+        "name": "A4261264 - Carparks Lagoon at Katarapko Island",
+        "distance_m": 9276.711861269558,
+        "visits": [
+          [
+            "2026-07-28T11:20:00+09:30",
+            0.49,
+            "GOOD"
+          ],
+          [
+            "2026-08-13T09:55:00+09:30",
+            0.49,
+            "GOOD"
+          ],
+          [
+            "2026-09-02T08:50:00+09:30",
+            0.465,
+            "GOOD"
+          ],
+          [
+            "2026-09-24T08:40:00+09:30",
+            1.018,
+            "GOOD"
+          ],
+          [
+            "2026-10-13T08:00:00+09:30",
+            2.161,
+            "GOOD"
+          ],
+          [
+            "2026-10-26T08:50:00+09:30",
+            2.22,
+            "GOOD"
+          ],
+          [
+            "2026-11-06T08:10:00+09:30",
+            1.575,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 1.9209172159439287,
+        "VV_change_db": 0.12866973876953125,
+        "difference_db": 1.7922474771743975,
+        "description": "Both radar channels increase",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 78.9,
+        "components": {
+          "sensor_disagreement": 0.5974158257247991,
+          "monitoring_gap": 1,
+          "optical_coverage_gap": 1.0,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Check access with the site manager, then record a dated GNSS wet/dry observation, visible water boundary and canopy cover in the 100 m block. Compare with the next radar pass.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "candidate-2",
+      "name": "Radar investigation 02",
+      "lon": 140.5189567920993,
+      "lat": -34.29373299153898,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 160,
+        "col": 64,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -11.603436815749607,
+          "valid_fraction": 1.0,
+          "median_looks": 10.011137008666992,
+          "HVHV": -17.725661075423723
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -7.933312972762648,
+          "valid_fraction": 1.0,
+          "median_looks": 10.010599136352539,
+          "HVHV": -17.659538469965522
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -7.564886765261908,
+          "valid_fraction": 1.0,
+          "median_looks": 10.010990142822266,
+          "HVHV": -17.04713392648826
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -10.631322860717773,
+          "vh": -19.03297996520996
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -11.77507209777832,
+          "vh": -18.336658477783203
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -10.767396926879883,
+          "vh": -18.625585556030273
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261255",
+        "name": "A4261255 - Eckerts Creek upstream Log Crossing",
+        "distance_m": 5340.237301209368,
+        "visits": [
+          [
+            "2026-06-03T13:10:00+09:30",
+            11.582,
+            "GOOD"
+          ],
+          [
+            "2026-07-20T12:30:00+09:30",
+            11.62,
+            "GOOD"
+          ],
+          [
+            "2026-08-13T11:00:00+09:30",
+            11.86,
+            "GOOD"
+          ],
+          [
+            "2026-09-02T11:20:00+09:30",
+            12.478,
+            "GOOD"
+          ],
+          [
+            "2026-10-14T07:40:00+09:30",
+            13.242,
+            "GOOD"
+          ],
+          [
+            "2026-10-19T08:04:19+09:30",
+            13.35,
+            "GOOD"
+          ],
+          [
+            "2026-11-06T06:55:00+09:30",
+            12.631,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 3.6701238429869587,
+        "VV_change_db": -1.1437492370605469,
+        "difference_db": 4.813873080047506,
+        "description": "Radar channels change in opposite directions",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 75.0,
+        "components": {
+          "sensor_disagreement": 1,
+          "monitoring_gap": 1,
+          "optical_coverage_gap": 0.0,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Check access with the site manager, then record a dated GNSS wet/dry observation, visible water boundary and canopy cover in the 100 m block. Compare with the next radar pass.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "candidate-3",
+      "name": "Radar investigation 03",
+      "lon": 140.6333031945731,
+      "lat": -34.235508573726264,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 95,
+        "col": 169,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -6.4900940114579235,
+          "valid_fraction": 1.0,
+          "median_looks": 10.078646659851074,
+          "HVHV": -14.148593093680354
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -3.7975020766457375,
+          "valid_fraction": 1.0,
+          "median_looks": 10.078105926513672,
+          "HVHV": -14.757460419813565
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -8.334739875917338,
+          "valid_fraction": 1.0,
+          "median_looks": 10.078498840332031,
+          "HVHV": -14.446834175092212
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -8.780821800231934,
+          "vh": -16.16459083557129
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -9.0982666015625,
+          "vh": -16.101213455200195
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -9.406537055969238,
+          "vh": -15.69924545288086
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261258",
+        "name": "A4261258 - Bank J Inlet @ Katarapko",
+        "distance_m": 9945.753002487598,
+        "visits": [
+          [
+            "2026-10-20T08:46:21.5+09:30",
+            13.445,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 2.692591934812186,
+        "VV_change_db": -0.3174448013305664,
+        "difference_db": 3.0100367361427525,
+        "description": "Radar channels change in opposite directions",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 75.0,
+        "components": {
+          "sensor_disagreement": 1,
+          "monitoring_gap": 1,
+          "optical_coverage_gap": 0.0,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Check access with the site manager, then record a dated GNSS wet/dry observation, visible water boundary and canopy cover in the 100 m block. Compare with the next radar pass.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "candidate-5",
+      "name": "Radar investigation 05",
+      "lon": 140.64849006328927,
+      "lat": -34.23916045331569,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 99,
+        "col": 183,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -7.935099056778733,
+          "valid_fraction": 1.0,
+          "median_looks": 9.710928916931152,
+          "HVHV": -19.12224004404128
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -5.954183578492074,
+          "valid_fraction": 1.0,
+          "median_looks": 9.710372924804688,
+          "HVHV": -20.221949623649323
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -11.924916761041757,
+          "valid_fraction": 1.0,
+          "median_looks": 9.710776329040527,
+          "HVHV": -20.800593983825678
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -9.23001480102539,
+          "vh": -16.81879234313965
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -10.48374080657959,
+          "vh": -17.256418228149414
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -10.090495109558105,
+          "vh": -17.050594329833984
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261258",
+        "name": "A4261258 - Bank J Inlet @ Katarapko",
+        "distance_m": 10320.60004104293,
+        "visits": [
+          [
+            "2026-10-20T08:46:21.5+09:30",
+            13.445,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 1.9809154782866587,
+        "VV_change_db": -1.2537260055541992,
+        "difference_db": 3.234641483840858,
+        "description": "Radar channels change in opposite directions",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 75.0,
+        "components": {
+          "sensor_disagreement": 1,
+          "monitoring_gap": 1,
+          "optical_coverage_gap": 0.0,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Check access with the site manager, then record a dated GNSS wet/dry observation, visible water boundary and canopy cover in the 100 m block. Compare with the next radar pass.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "candidate-15",
+      "name": "Radar investigation 15",
+      "lon": 140.78440949313216,
+      "lat": -34.16822785890798,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 20,
+        "col": 308,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -9.168357935787473,
+          "valid_fraction": 1.0,
+          "median_looks": 9.61669921875,
+          "HVHV": -17.77696951184255
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -8.351678333040276,
+          "valid_fraction": 1.0,
+          "median_looks": 9.616138458251953,
+          "HVHV": -19.555357389984994
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -7.700119349315072,
+          "valid_fraction": 1.0,
+          "median_looks": 9.616549491882324,
+          "HVHV": -18.986284148825067
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -7.348365783691406,
+          "vh": -15.145395278930664
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -10.652175903320312,
+          "vh": -20.424564361572266
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -10.480766296386719,
+          "vh": -20.56093978881836
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261106",
+        "name": "A4261106 - Pike River at North Pike Lagoon",
+        "distance_m": 3274.5147407578283,
+        "visits": [
+          [
+            "2026-07-06T09:45:00+09:30",
+            14.667,
+            "GOOD"
+          ],
+          [
+            "2026-08-19T09:20:00+09:30",
+            14.684,
+            "GOOD"
+          ],
+          [
+            "2026-09-30T12:45:00+09:30",
+            15.015,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 0.8166796027471968,
+        "VV_change_db": -3.3038101196289062,
+        "difference_db": 4.120489722376103,
+        "description": "Radar channels change in opposite directions",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 75.0,
+        "components": {
+          "sensor_disagreement": 1,
+          "monitoring_gap": 1,
+          "optical_coverage_gap": 0.0,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Check access with the site manager, then record a dated GNSS wet/dry observation, visible water boundary and canopy cover in the 100 m block. Compare with the next radar pass.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "candidate-10",
+      "name": "Radar investigation 10",
+      "lon": 140.78108695723145,
+      "lat": -34.194376002445104,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 49,
+        "col": 305,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -5.492717582264204,
+          "valid_fraction": 1.0,
+          "median_looks": 9.697582244873047,
+          "HVHV": -12.710994712920968
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -1.6076977099017893,
+          "valid_fraction": 1.0,
+          "median_looks": 9.697021484375,
+          "HVHV": -11.599144005315056
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -1.6764565098027595,
+          "valid_fraction": 1.0,
+          "median_looks": 9.697429656982422,
+          "HVHV": -12.21878674826716
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -9.639080047607422,
+          "vh": -15.300411224365234
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -8.12486457824707,
+          "vh": -13.477988243103027
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -6.656271934509277,
+          "vh": -14.039649963378906
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.04,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 0.88,
+          "water_fraction": 0.04,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 0.92,
+          "water_fraction": 0.04,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261106",
+        "name": "A4261106 - Pike River at North Pike Lagoon",
+        "distance_m": 2132.3167371672066,
+        "visits": [
+          [
+            "2026-07-06T09:45:00+09:30",
+            14.667,
+            "GOOD"
+          ],
+          [
+            "2026-08-19T09:20:00+09:30",
+            14.684,
+            "GOOD"
+          ],
+          [
+            "2026-09-30T12:45:00+09:30",
+            15.015,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 3.8850198723624145,
+        "VV_change_db": 1.5142154693603516,
+        "difference_db": 2.370804403002063,
+        "description": "Both radar channels increase",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 60.3,
+        "components": {
+          "sensor_disagreement": 0.790268134334021,
+          "monitoring_gap": 0.7107722457224022,
+          "optical_coverage_gap": 0.12,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Check access with the site manager, then record a dated GNSS wet/dry observation, visible water boundary and canopy cover in the 100 m block. Compare with the next radar pass.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "candidate-17",
+      "name": "Radar investigation 17",
+      "lon": 140.64642470825902,
+      "lat": -34.472729348663016,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 358,
+        "col": 182,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -4.827506074671005,
+          "valid_fraction": 1.0,
+          "median_looks": 9.961371421813965,
+          "HVHV": -8.2378158007431
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -4.598513582129197,
+          "valid_fraction": 1.0,
+          "median_looks": 9.960844993591309,
+          "HVHV": -10.543390358695214
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -6.037798681126332,
+          "valid_fraction": 1.0,
+          "median_looks": 9.961181640625,
+          "HVHV": -11.214071299112955
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -7.372427940368652,
+          "vh": -11.709155082702637
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -7.351372718811035,
+          "vh": -13.428821563720703
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -6.586863994598389,
+          "vh": -13.284911155700684
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 0.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261264",
+        "name": "A4261264 - Carparks Lagoon at Katarapko Island",
+        "distance_m": 14596.305661606577,
+        "visits": [
+          [
+            "2026-07-28T11:20:00+09:30",
+            0.49,
+            "GOOD"
+          ],
+          [
+            "2026-08-13T09:55:00+09:30",
+            0.49,
+            "GOOD"
+          ],
+          [
+            "2026-09-02T08:50:00+09:30",
+            0.465,
+            "GOOD"
+          ],
+          [
+            "2026-09-24T08:40:00+09:30",
+            1.018,
+            "GOOD"
+          ],
+          [
+            "2026-10-13T08:00:00+09:30",
+            2.161,
+            "GOOD"
+          ],
+          [
+            "2026-10-26T08:50:00+09:30",
+            2.22,
+            "GOOD"
+          ],
+          [
+            "2026-11-06T08:10:00+09:30",
+            1.575,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 0.2289924925418081,
+        "VV_change_db": 0.021055221557617188,
+        "difference_db": 0.2079372709841909,
+        "description": "Both radar channels increase",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 57.8,
+        "components": {
+          "sensor_disagreement": 0.06931242366139696,
+          "monitoring_gap": 1,
+          "optical_coverage_gap": 1.0,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Check access with the site manager, then record a dated GNSS wet/dry observation, visible water boundary and canopy cover in the 100 m block. Compare with the next radar pass.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "candidate-11",
+      "name": "Radar investigation 11",
+      "lon": 140.80051246511925,
+      "lat": -34.241305739197315,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 101,
+        "col": 323,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -7.179772652782087,
+          "valid_fraction": 1.0,
+          "median_looks": 9.67000675201416,
+          "HVHV": -14.238273486582326
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -5.088857863998426,
+          "valid_fraction": 1.0,
+          "median_looks": 9.669452667236328,
+          "HVHV": -14.882724606763428
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -5.43044696776824,
+          "valid_fraction": 1.0,
+          "median_looks": 9.6698637008667,
+          "HVHV": -14.098218254449899
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -10.777539253234863,
+          "vh": -14.68172836303711
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -10.170003890991211,
+          "vh": -15.485249519348145
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -10.09308910369873,
+          "vh": -16.046178817749023
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 0.88,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261106",
+        "name": "A4261106 - Pike River at North Pike Lagoon",
+        "distance_m": 5390.74059020289,
+        "visits": [
+          [
+            "2026-07-06T09:45:00+09:30",
+            14.667,
+            "GOOD"
+          ],
+          [
+            "2026-08-19T09:20:00+09:30",
+            14.684,
+            "GOOD"
+          ],
+          [
+            "2026-09-30T12:45:00+09:30",
+            15.015,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 2.090914788783661,
+        "VV_change_db": 0.6075353622436523,
+        "difference_db": 1.4833794265400089,
+        "description": "Both radar channels increase",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 57.2,
+        "components": {
+          "sensor_disagreement": 0.4944598088466696,
+          "monitoring_gap": 1,
+          "optical_coverage_gap": 0.12,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Check access with the site manager, then record a dated GNSS wet/dry observation, visible water boundary and canopy cover in the 100 m block. Compare with the next radar pass.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "candidate-4",
+      "name": "Radar investigation 04",
+      "lon": 140.80701985110417,
+      "lat": -34.24492357149774,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 105,
+        "col": 329,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -6.704585816305735,
+          "valid_fraction": 1.0,
+          "median_looks": 9.83793830871582,
+          "HVHV": -13.161600347287148
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -5.242831633470839,
+          "valid_fraction": 1.0,
+          "median_looks": 9.837383270263672,
+          "HVHV": -14.804001830057347
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -5.238994229086141,
+          "valid_fraction": 1.0,
+          "median_looks": 9.837789535522461,
+          "HVHV": -14.84919468349079
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -10.143352508544922,
+          "vh": -14.252251625061035
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -9.998408317565918,
+          "vh": -14.525825500488281
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -9.741546630859375,
+          "vh": -13.672529220581055
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 0.84,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 0.84,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261106",
+        "name": "A4261106 - Pike River at North Pike Lagoon",
+        "distance_m": 5787.512481734423,
+        "visits": [
+          [
+            "2026-07-06T09:45:00+09:30",
+            14.667,
+            "GOOD"
+          ],
+          [
+            "2026-08-19T09:20:00+09:30",
+            14.684,
+            "GOOD"
+          ],
+          [
+            "2026-09-30T12:45:00+09:30",
+            15.015,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 1.4617541828348957,
+        "VV_change_db": 0.1449441909790039,
+        "difference_db": 1.3168099918558918,
+        "description": "Both radar channels increase",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 55.8,
+        "components": {
+          "sensor_disagreement": 0.4389366639519639,
+          "monitoring_gap": 1,
+          "optical_coverage_gap": 0.16000000000000003,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Check access with the site manager, then record a dated GNSS wet/dry observation, visible water boundary and canopy cover in the 100 m block. Compare with the next radar pass.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "candidate-19",
+      "name": "Radar investigation 19",
+      "lon": 140.80268223327138,
+      "lat": -34.24221110469071,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 102,
+        "col": 325,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -8.3842084816507,
+          "valid_fraction": 1.0,
+          "median_looks": 9.718994140625,
+          "HVHV": -15.302203794097641
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -7.037805866825662,
+          "valid_fraction": 1.0,
+          "median_looks": 9.718436241149902,
+          "HVHV": -16.46967505691882
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -7.153915620623251,
+          "valid_fraction": 1.0,
+          "median_looks": 9.71884536743164,
+          "HVHV": -15.91503323386199
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -9.377275466918945,
+          "vh": -14.384259223937988
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -9.294450759887695,
+          "vh": -14.105090141296387
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -8.779258728027344,
+          "vh": -13.99145221710205
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 0.8,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261106",
+        "name": "A4261106 - Pike River at North Pike Lagoon",
+        "distance_m": 5482.374104285895,
+        "visits": [
+          [
+            "2026-07-06T09:45:00+09:30",
+            14.667,
+            "GOOD"
+          ],
+          [
+            "2026-08-19T09:20:00+09:30",
+            14.684,
+            "GOOD"
+          ],
+          [
+            "2026-09-30T12:45:00+09:30",
+            15.015,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 1.3464026148250392,
+        "VV_change_db": 0.08282470703125,
+        "difference_db": 1.2635779077937892,
+        "description": "Both radar channels increase",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 55.8,
+        "components": {
+          "sensor_disagreement": 0.42119263593126305,
+          "monitoring_gap": 1,
+          "optical_coverage_gap": 0.19999999999999996,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Check access with the site manager, then record a dated GNSS wet/dry observation, visible water boundary and canopy cover in the 100 m block. Compare with the next radar pass.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "candidate-14",
+      "name": "Radar investigation 14",
+      "lon": 140.71155217035866,
+      "lat": -34.21587681119399,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 73,
+        "col": 241,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -15.085952340503965,
+          "valid_fraction": 1.0,
+          "median_looks": 9.883697509765625,
+          "HVHV": -19.932220670869075
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -12.584004627789723,
+          "valid_fraction": 1.0,
+          "median_looks": 9.883148193359375,
+          "HVHV": -20.046725087155302
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -12.957757858204744,
+          "valid_fraction": 1.0,
+          "median_looks": 9.883548736572266,
+          "HVHV": -19.90283202279121
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -13.426970481872559,
+          "vh": -20.41130256652832
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -12.138670921325684,
+          "vh": -18.032299041748047
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -9.799492835998535,
+          "vh": -16.57044219970703
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261106",
+        "name": "A4261106 - Pike River at North Pike Lagoon",
+        "distance_m": 8906.770651170857,
+        "visits": [
+          [
+            "2026-07-06T09:45:00+09:30",
+            14.667,
+            "GOOD"
+          ],
+          [
+            "2026-08-19T09:20:00+09:30",
+            14.684,
+            "GOOD"
+          ],
+          [
+            "2026-09-30T12:45:00+09:30",
+            15.015,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 2.5019477127142427,
+        "VV_change_db": 1.288299560546875,
+        "difference_db": 1.2136481521673677,
+        "description": "Both radar channels increase",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 51.2,
+        "components": {
+          "sensor_disagreement": 0.4045493840557892,
+          "monitoring_gap": 1,
+          "optical_coverage_gap": 0.0,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Check access with the site manager, then record a dated GNSS wet/dry observation, visible water boundary and canopy cover in the 100 m block. Compare with the next radar pass.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "candidate-16",
+      "name": "Radar investigation 16",
+      "lon": 140.52633496852528,
+      "lat": -34.334344289283514,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 205,
+        "col": 71,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -5.874953551327935,
+          "valid_fraction": 1.0,
+          "median_looks": 8.262430191040039,
+          "HVHV": -12.530134925323289
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -4.510895793669531,
+          "valid_fraction": 1.0,
+          "median_looks": 8.261839866638184,
+          "HVHV": -13.706048156103517
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -4.6291498776365785,
+          "valid_fraction": 1.0,
+          "median_looks": 8.262282371520996,
+          "HVHV": -13.747805247033519
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -9.218209266662598,
+          "vh": -15.163954734802246
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -9.813501358032227,
+          "vh": -15.748620986938477
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -8.487884521484375,
+          "vh": -14.058150291442871
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261255",
+        "name": "A4261255 - Eckerts Creek upstream Log Crossing",
+        "distance_m": 1988.0960966102602,
+        "visits": [
+          [
+            "2026-06-03T13:10:00+09:30",
+            11.582,
+            "GOOD"
+          ],
+          [
+            "2026-07-20T12:30:00+09:30",
+            11.62,
+            "GOOD"
+          ],
+          [
+            "2026-08-13T11:00:00+09:30",
+            11.86,
+            "GOOD"
+          ],
+          [
+            "2026-09-02T11:20:00+09:30",
+            12.478,
+            "GOOD"
+          ],
+          [
+            "2026-10-14T07:40:00+09:30",
+            13.242,
+            "GOOD"
+          ],
+          [
+            "2026-10-19T08:04:19+09:30",
+            13.35,
+            "GOOD"
+          ],
+          [
+            "2026-11-06T06:55:00+09:30",
+            12.631,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 1.3640577576584043,
+        "VV_change_db": -0.5952920913696289,
+        "difference_db": 1.9593498490280332,
+        "description": "Radar channels change in opposite directions",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 51.0,
+        "components": {
+          "sensor_disagreement": 0.6531166163426777,
+          "monitoring_gap": 0.6626986988700867,
+          "optical_coverage_gap": 0.0,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Check access with the site manager, then record a dated GNSS wet/dry observation, visible water boundary and canopy cover in the 100 m block. Compare with the next radar pass.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "candidate-9",
+      "name": "Radar investigation 09",
+      "lon": 140.76694786243928,
+      "lat": -34.205172278172505,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 61,
+        "col": 292,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -5.185445746203353,
+          "valid_fraction": 1.0,
+          "median_looks": 9.761883735656738,
+          "HVHV": -11.527174953330894
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -3.8072169976206958,
+          "valid_fraction": 1.0,
+          "median_looks": 9.761324882507324,
+          "HVHV": -12.954985833973634
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -3.7723842846736617,
+          "valid_fraction": 1.0,
+          "median_looks": 9.761731147766113,
+          "HVHV": -12.286892523191252
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -9.969654083251953,
+          "vh": -15.602731704711914
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -9.607592582702637,
+          "vh": -15.550716400146484
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -8.829055786132812,
+          "vh": -15.414201736450195
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261106",
+        "name": "A4261106 - Pike River at North Pike Lagoon",
+        "distance_m": 3692.5731037099595,
+        "visits": [
+          [
+            "2026-07-06T09:45:00+09:30",
+            14.667,
+            "GOOD"
+          ],
+          [
+            "2026-08-19T09:20:00+09:30",
+            14.684,
+            "GOOD"
+          ],
+          [
+            "2026-09-30T12:45:00+09:30",
+            15.015,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 1.3782287485826572,
+        "VV_change_db": 0.3620615005493164,
+        "difference_db": 1.0161672480333408,
+        "description": "Both radar channels increase",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 48.5,
+        "components": {
+          "sensor_disagreement": 0.3387224160111136,
+          "monitoring_gap": 1,
+          "optical_coverage_gap": 0.0,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Check access with the site manager, then record a dated GNSS wet/dry observation, visible water boundary and canopy cover in the 100 m block. Compare with the next radar pass.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "candidate-20",
+      "name": "Radar investigation 20",
+      "lon": 140.75608277500243,
+      "lat": -34.208758589664775,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 65,
+        "col": 282,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -7.28975179800309,
+          "valid_fraction": 1.0,
+          "median_looks": 9.704765319824219,
+          "HVHV": -14.1502510642456
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -6.895367263477372,
+          "valid_fraction": 1.0,
+          "median_looks": 9.704206466674805,
+          "HVHV": -16.240379334783334
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -8.138025235840376,
+          "valid_fraction": 1.0,
+          "median_looks": 9.70461368560791,
+          "HVHV": -14.454596007879417
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -9.884363174438477,
+          "vh": -15.21805191040039
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -8.514474868774414,
+          "vh": -14.97409439086914
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -9.65396785736084,
+          "vh": -14.251441955566406
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261106",
+        "name": "A4261106 - Pike River at North Pike Lagoon",
+        "distance_m": 4769.60281294464,
+        "visits": [
+          [
+            "2026-07-06T09:45:00+09:30",
+            14.667,
+            "GOOD"
+          ],
+          [
+            "2026-08-19T09:20:00+09:30",
+            14.684,
+            "GOOD"
+          ],
+          [
+            "2026-09-30T12:45:00+09:30",
+            15.015,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 0.3943845345257184,
+        "VV_change_db": 1.3698883056640625,
+        "difference_db": -0.9755037711383441,
+        "description": "Both radar channels increase",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 48.0,
+        "components": {
+          "sensor_disagreement": 0.32516792371278136,
+          "monitoring_gap": 1,
+          "optical_coverage_gap": 0.0,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Check access with the site manager, then record a dated GNSS wet/dry observation, visible water boundary and canopy cover in the 100 m block. Compare with the next radar pass.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "candidate-6",
+      "name": "Radar investigation 06",
+      "lon": 140.709359287401,
+      "lat": -34.22218462310482,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 80,
+        "col": 239,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -7.259650725049651,
+          "valid_fraction": 1.0,
+          "median_looks": 9.846169471740723,
+          "HVHV": -12.696332248034683
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -6.725331010472577,
+          "valid_fraction": 1.0,
+          "median_looks": 9.845614433288574,
+          "HVHV": -15.21117725799
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -7.354509880295142,
+          "valid_fraction": 1.0,
+          "median_looks": 9.846015930175781,
+          "HVHV": -14.131605463951471
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -10.568337440490723,
+          "vh": -15.714757919311523
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -9.426982879638672,
+          "vh": -15.758552551269531
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -11.347480773925781,
+          "vh": -16.888954162597656
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261106",
+        "name": "A4261106 - Pike River at North Pike Lagoon",
+        "distance_m": 9321.14551133709,
+        "visits": [
+          [
+            "2026-07-06T09:45:00+09:30",
+            14.667,
+            "GOOD"
+          ],
+          [
+            "2026-08-19T09:20:00+09:30",
+            14.684,
+            "GOOD"
+          ],
+          [
+            "2026-09-30T12:45:00+09:30",
+            15.015,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 0.534319714577074,
+        "VV_change_db": 1.1413545608520508,
+        "difference_db": -0.6070348462749768,
+        "description": "Both radar channels increase",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 43.1,
+        "components": {
+          "sensor_disagreement": 0.20234494875832562,
+          "monitoring_gap": 1,
+          "optical_coverage_gap": 0.0,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Check access with the site manager, then record a dated GNSS wet/dry observation, visible water boundary and canopy cover in the 100 m block. Compare with the next radar pass.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "A4261790",
+      "name": "Splash Creek Regulator at Murray River National Park",
+      "lon": 140.539547,
+      "lat": -34.359644,
+      "selection": "Independent monitoring station",
+      "block": {
+        "row": 233,
+        "col": 83,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -9.384816971648428,
+          "valid_fraction": 1.0,
+          "median_looks": 10.022019386291504,
+          "HVHV": -17.57355981318951
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -11.759130655484997,
+          "valid_fraction": 1.0,
+          "median_looks": 10.021482467651367,
+          "HVHV": -17.208323719224495
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -10.017666922049575,
+          "valid_fraction": 1.0,
+          "median_looks": 10.02187442779541,
+          "HVHV": -17.483656742110732
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -8.644753456115723,
+          "vh": -16.618331909179688
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -8.425093650817871,
+          "vh": -17.044546127319336
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -9.919451713562012,
+          "vh": -17.610641479492188
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.6,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.64,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 0.96,
+          "water_fraction": 0.52,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261790",
+        "name": "A4261790 - Splash Creek Regulator at Murray River National Park",
+        "distance_m": 0.0,
+        "visits": [
+          [
+            "2026-06-03T12:15:00+09:30",
+            9.93,
+            "GOOD"
+          ],
+          [
+            "2026-07-21T11:55:00+09:30",
+            10.493,
+            "GOOD"
+          ],
+          [
+            "2026-08-13T09:15:00+09:30",
+            11.288,
+            "GOOD"
+          ],
+          [
+            "2026-09-02T10:10:00+09:30",
+            12.277,
+            "GOOD"
+          ],
+          [
+            "2026-09-24T09:35:00+09:30",
+            12.612,
+            "GOOD"
+          ],
+          [
+            "2026-10-13T09:00:00+09:30",
+            13.143,
+            "GOOD"
+          ],
+          [
+            "2026-11-06T08:45:00+09:30",
+            12.433,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": -2.3743136838365686,
+        "VV_change_db": 0.21965980529785156,
+        "difference_db": -2.59397348913442,
+        "description": "Radar channels change in opposite directions",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 40.4,
+        "components": {
+          "sensor_disagreement": 0.8646578297114734,
+          "monitoring_gap": 0.0,
+          "optical_coverage_gap": 0.040000000000000036,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Revisit the nearby gauge with the site manager, verify datum and hydraulic connection, and record dated GNSS wet/dry transects through the selected block.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "candidate-13",
+      "name": "Radar investigation 13",
+      "lon": 140.5502127763061,
+      "lat": -34.34164897992744,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 213,
+        "col": 93,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -5.515250550457829,
+          "valid_fraction": 1.0,
+          "median_looks": 10.029034614562988,
+          "HVHV": -13.40342244380399
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -4.041506153945586,
+          "valid_fraction": 1.0,
+          "median_looks": 10.028498649597168,
+          "HVHV": -14.590387073390069
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -3.552791641870602,
+          "valid_fraction": 1.0,
+          "median_looks": 10.028891563415527,
+          "HVHV": -12.958352459063606
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -9.213712692260742,
+          "vh": -14.512547492980957
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -9.152344703674316,
+          "vh": -14.901008605957031
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -7.973743438720703,
+          "vh": -14.074237823486328
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 0.8,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 0.72,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261255",
+        "name": "A4261255 - Eckerts Creek upstream Log Crossing",
+        "distance_m": 716.765116185554,
+        "visits": [
+          [
+            "2026-06-03T13:10:00+09:30",
+            11.582,
+            "GOOD"
+          ],
+          [
+            "2026-07-20T12:30:00+09:30",
+            11.62,
+            "GOOD"
+          ],
+          [
+            "2026-08-13T11:00:00+09:30",
+            11.86,
+            "GOOD"
+          ],
+          [
+            "2026-09-02T11:20:00+09:30",
+            12.478,
+            "GOOD"
+          ],
+          [
+            "2026-10-14T07:40:00+09:30",
+            13.242,
+            "GOOD"
+          ],
+          [
+            "2026-10-19T08:04:19+09:30",
+            13.35,
+            "GOOD"
+          ],
+          [
+            "2026-11-06T06:55:00+09:30",
+            12.631,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 1.4737443965122425,
+        "VV_change_db": 0.06136798858642578,
+        "difference_db": 1.4123764079258168,
+        "description": "Both radar channels increase",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 36.6,
+        "components": {
+          "sensor_disagreement": 0.47079213597527225,
+          "monitoring_gap": 0.23892170539518467,
+          "optical_coverage_gap": 0.28,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Check access with the site manager, then record a dated GNSS wet/dry observation, visible water boundary and canopy cover in the 100 m block. Compare with the next radar pass.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "candidate-7",
+      "name": "Radar investigation 07",
+      "lon": 140.8167956561299,
+      "lat": -34.244036714521314,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 104,
+        "col": 338,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -11.524465227840217,
+          "valid_fraction": 1.0,
+          "median_looks": 9.777099609375,
+          "HVHV": -17.75254703203917
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -9.295781774290493,
+          "valid_fraction": 1.0,
+          "median_looks": 9.776543617248535,
+          "HVHV": -18.485009596611054
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -9.87608294663606,
+          "valid_fraction": 1.0,
+          "median_looks": 9.776951789855957,
+          "HVHV": -17.16634394429119
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -11.626264572143555,
+          "vh": -16.33844566345215
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -9.45772647857666,
+          "vh": -17.294233322143555
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -9.351855278015137,
+          "vh": -15.295469284057617
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.04,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.04,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.08,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261106",
+        "name": "A4261106 - Pike River at North Pike Lagoon",
+        "distance_m": 5801.274447888416,
+        "visits": [
+          [
+            "2026-07-06T09:45:00+09:30",
+            14.667,
+            "GOOD"
+          ],
+          [
+            "2026-08-19T09:20:00+09:30",
+            14.684,
+            "GOOD"
+          ],
+          [
+            "2026-09-30T12:45:00+09:30",
+            15.015,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 2.228683453549724,
+        "VV_change_db": 2.1685380935668945,
+        "difference_db": 0.06014535998282966,
+        "description": "Both radar channels increase",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 35.8,
+        "components": {
+          "sensor_disagreement": 0.020048453327609888,
+          "monitoring_gap": 1,
+          "optical_coverage_gap": 0.0,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Check access with the site manager, then record a dated GNSS wet/dry observation, visible water boundary and canopy cover in the 100 m block. Compare with the next radar pass.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "candidate-12",
+      "name": "Radar investigation 12",
+      "lon": 140.81788357080634,
+      "lat": -34.24313648079629,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 103,
+        "col": 339,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -11.281984897229826,
+          "valid_fraction": 1.0,
+          "median_looks": 9.725844383239746,
+          "HVHV": -17.76754455608191
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -9.686961806426094,
+          "valid_fraction": 1.0,
+          "median_looks": 9.7252836227417,
+          "HVHV": -18.873987722405488
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -9.6765831333159,
+          "valid_fraction": 1.0,
+          "median_looks": 9.725692749023438,
+          "HVHV": -18.746260019348007
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -12.23878002166748,
+          "vh": -17.25762176513672
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -10.624252319335938,
+          "vh": -17.622634887695312
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -10.856679916381836,
+          "vh": -17.37331771850586
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.04,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.08,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.12,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261106",
+        "name": "A4261106 - Pike River at North Pike Lagoon",
+        "distance_m": 5724.829153701937,
+        "visits": [
+          [
+            "2026-07-06T09:45:00+09:30",
+            14.667,
+            "GOOD"
+          ],
+          [
+            "2026-08-19T09:20:00+09:30",
+            14.684,
+            "GOOD"
+          ],
+          [
+            "2026-09-30T12:45:00+09:30",
+            15.015,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 1.595023090803732,
+        "VV_change_db": 1.614527702331543,
+        "difference_db": -0.019504611527811022,
+        "description": "Both radar channels increase",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 35.3,
+        "components": {
+          "sensor_disagreement": 0.006501537175937007,
+          "monitoring_gap": 1,
+          "optical_coverage_gap": 0.0,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Check access with the site manager, then record a dated GNSS wet/dry observation, visible water boundary and canopy cover in the 100 m block. Compare with the next radar pass.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "candidate-18",
+      "name": "Radar investigation 18",
+      "lon": 140.56331061673205,
+      "lat": -34.33177623255624,
+      "selection": "Previously ranked exploratory HH/HV-tail candidate",
+      "block": {
+        "row": 202,
+        "col": 105,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -4.712602401631932,
+          "valid_fraction": 1.0,
+          "median_looks": 9.888310432434082,
+          "HVHV": -10.344336693769696
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -3.000892382354066,
+          "valid_fraction": 1.0,
+          "median_looks": 9.887768745422363,
+          "HVHV": -11.152963661697337
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -3.393937646965139,
+          "valid_fraction": 1.0,
+          "median_looks": 9.888165473937988,
+          "HVHV": -11.262264723963622
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -9.447420120239258,
+          "vh": -14.454456329345703
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -9.187685012817383,
+          "vh": -13.64226245880127
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -9.503634452819824,
+          "vh": -12.968420028686523
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.04,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 0.92,
+          "water_fraction": 0.04,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 0.88,
+          "water_fraction": 0.04,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261265",
+        "name": "A4261265 - Ngak-Indau Wetland at Murray River National Park",
+        "distance_m": 398.57214089563513,
+        "visits": [
+          [
+            "2026-07-28T10:20:00+09:30",
+            1.805,
+            "GOOD"
+          ],
+          [
+            "2026-08-13T08:35:00+09:30",
+            1.873,
+            "GOOD"
+          ],
+          [
+            "2026-09-02T10:40:00+09:30",
+            1.973,
+            "GOOD"
+          ],
+          [
+            "2026-09-24T10:05:00+09:30",
+            2.23,
+            "GOOD"
+          ],
+          [
+            "2026-10-13T09:40:00+09:30",
+            2.337,
+            "GOOD"
+          ],
+          [
+            "2026-10-20T07:24:43+09:30",
+            2.345,
+            "GOOD"
+          ],
+          [
+            "2026-11-06T09:40:00+09:30",
+            2.337,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": 1.7117100192778656,
+        "VV_change_db": 0.259735107421875,
+        "difference_db": 1.4519749118559906,
+        "description": "Both radar channels increase",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 30.7,
+        "components": {
+          "sensor_disagreement": 0.4839916372853302,
+          "monitoring_gap": 0.13285738029854505,
+          "optical_coverage_gap": 0.12,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Revisit the nearby gauge with the site manager, verify datum and hydraulic connection, and record dated GNSS wet/dry transects through the selected block.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "A4261264",
+      "name": "Carparks Lagoon at Katarapko Island",
+      "lon": 140.54008997,
+      "lat": -34.37494116,
+      "selection": "Independent monitoring station",
+      "block": {
+        "row": 250,
+        "col": 84,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -9.664036405006337,
+          "valid_fraction": 1.0,
+          "median_looks": 10.381138801574707,
+          "HVHV": -15.889701648996148
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -9.73049969498012,
+          "valid_fraction": 1.0,
+          "median_looks": 10.38072395324707,
+          "HVHV": -16.43011298656238
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -6.430808572317506,
+          "valid_fraction": 1.0,
+          "median_looks": 10.380993843078613,
+          "HVHV": -14.13592967212326
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -12.500604629516602,
+          "vh": -17.300064086914062
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -13.488080978393555,
+          "vh": -17.057209014892578
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -10.89622974395752,
+          "vh": -16.032772064208984
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 0.84,
+          "water_fraction": 0.12,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 0.6,
+          "water_fraction": 0.2,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261264",
+        "name": "A4261264 - Carparks Lagoon at Katarapko Island",
+        "distance_m": 0.0,
+        "visits": [
+          [
+            "2026-07-28T11:20:00+09:30",
+            0.49,
+            "GOOD"
+          ],
+          [
+            "2026-08-13T09:55:00+09:30",
+            0.49,
+            "GOOD"
+          ],
+          [
+            "2026-09-02T08:50:00+09:30",
+            0.465,
+            "GOOD"
+          ],
+          [
+            "2026-09-24T08:40:00+09:30",
+            1.018,
+            "GOOD"
+          ],
+          [
+            "2026-10-13T08:00:00+09:30",
+            2.161,
+            "GOOD"
+          ],
+          [
+            "2026-10-26T08:50:00+09:30",
+            2.22,
+            "GOOD"
+          ],
+          [
+            "2026-11-06T08:10:00+09:30",
+            1.575,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": -0.06646328997378248,
+        "VV_change_db": -0.9874763488769531,
+        "difference_db": 0.9210130589031706,
+        "description": "Both radar channels decrease",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 25.3,
+        "components": {
+          "sensor_disagreement": 0.30700435296772355,
+          "monitoring_gap": 0.0,
+          "optical_coverage_gap": 0.4,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Revisit the nearby gauge with the site manager, verify datum and hydraulic connection, and record dated GNSS wet/dry transects through the selected block.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "A4261255",
+      "name": "Eckerts Creek upstream Log Crossing",
+      "lon": 140.547905,
+      "lat": -34.335475,
+      "selection": "Independent monitoring station",
+      "block": {
+        "row": 206,
+        "col": 91,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -7.533338065085521,
+          "valid_fraction": 1.0,
+          "median_looks": 10.143646240234375,
+          "HVHV": -14.882511075734158
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -8.440132476453082,
+          "valid_fraction": 1.0,
+          "median_looks": 10.143113136291504,
+          "HVHV": -15.40030675071016
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -8.84345971928462,
+          "valid_fraction": 1.0,
+          "median_looks": 10.143501281738281,
+          "HVHV": -16.15566727760141
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -11.57492446899414,
+          "vh": -16.188966751098633
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -11.327001571655273,
+          "vh": -17.73479461669922
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -11.434234619140625,
+          "vh": -15.163763046264648
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.04,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 0.8,
+          "water_fraction": 0.08,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 0.76,
+          "water_fraction": 0.08,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261255",
+        "name": "A4261255 - Eckerts Creek upstream Log Crossing",
+        "distance_m": 0.0,
+        "visits": [
+          [
+            "2026-06-03T13:10:00+09:30",
+            11.582,
+            "GOOD"
+          ],
+          [
+            "2026-07-20T12:30:00+09:30",
+            11.62,
+            "GOOD"
+          ],
+          [
+            "2026-08-13T11:00:00+09:30",
+            11.86,
+            "GOOD"
+          ],
+          [
+            "2026-09-02T11:20:00+09:30",
+            12.478,
+            "GOOD"
+          ],
+          [
+            "2026-10-14T07:40:00+09:30",
+            13.242,
+            "GOOD"
+          ],
+          [
+            "2026-10-19T08:04:19+09:30",
+            13.35,
+            "GOOD"
+          ],
+          [
+            "2026-11-06T06:55:00+09:30",
+            12.631,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": -0.906794411367561,
+        "VV_change_db": 0.2479228973388672,
+        "difference_db": -1.1547173087064282,
+        "description": "Radar channels change in opposite directions",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 25.2,
+        "components": {
+          "sensor_disagreement": 0.3849057695688094,
+          "monitoring_gap": 0.0,
+          "optical_coverage_gap": 0.24,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Revisit the nearby gauge with the site manager, verify datum and hydraulic connection, and record dated GNSS wet/dry transects through the selected block.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "A4261106",
+      "name": "Pike River at North Pike Lagoon",
+      "lon": 140.80415,
+      "lat": -34.192783,
+      "selection": "Independent monitoring station",
+      "block": {
+        "row": 47,
+        "col": 326,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -11.022067669936956,
+          "valid_fraction": 1.0,
+          "median_looks": 9.895537376403809,
+          "HVHV": -19.24835863675693
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -12.898075876062855,
+          "valid_fraction": 1.0,
+          "median_looks": 9.894978523254395,
+          "HVHV": -20.96833487885187
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -12.332713589176649,
+          "valid_fraction": 1.0,
+          "median_looks": 9.895381927490234,
+          "HVHV": -20.109548076186435
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -10.18889045715332,
+          "vh": -17.989307403564453
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -10.557154655456543,
+          "vh": -17.282400131225586
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -10.709953308105469,
+          "vh": -17.806921005249023
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.2,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.16,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.2,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261106",
+        "name": "A4261106 - Pike River at North Pike Lagoon",
+        "distance_m": 0.0,
+        "visits": [
+          [
+            "2026-07-06T09:45:00+09:30",
+            14.667,
+            "GOOD"
+          ],
+          [
+            "2026-08-19T09:20:00+09:30",
+            14.684,
+            "GOOD"
+          ],
+          [
+            "2026-09-30T12:45:00+09:30",
+            15.015,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": -1.8760082061258991,
+        "VV_change_db": -0.36826419830322266,
+        "difference_db": -1.5077440078226765,
+        "description": "Both radar channels decrease",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 25.1,
+        "components": {
+          "sensor_disagreement": 0.5025813359408922,
+          "monitoring_gap": 0.0,
+          "optical_coverage_gap": 0.0,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Revisit the nearby gauge with the site manager, verify datum and hydraulic connection, and record dated GNSS wet/dry transects through the selected block.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "A4261265",
+      "name": "Ngak-Indau Wetland at Murray River National Park",
+      "lon": 140.56459423,
+      "lat": -34.32834317,
+      "selection": "Independent monitoring station",
+      "block": {
+        "row": 198,
+        "col": 106,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -6.4589437578896725,
+          "valid_fraction": 1.0,
+          "median_looks": 9.93270206451416,
+          "HVHV": -13.378427642227917
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -7.205806538026234,
+          "valid_fraction": 1.0,
+          "median_looks": 9.932159423828125,
+          "HVHV": -12.908577783671223
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -6.2480841014737285,
+          "valid_fraction": 1.0,
+          "median_looks": 9.932555198669434,
+          "HVHV": -13.66308144577846
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -13.033799171447754,
+          "vh": -17.491199493408203
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -12.819831848144531,
+          "vh": -18.4248046875
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -12.865076065063477,
+          "vh": -17.1053466796875
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 1.0,
+          "water_fraction": 0.32,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 0.72,
+          "water_fraction": 0.04,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 0.68,
+          "water_fraction": 0.04,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261265",
+        "name": "A4261265 - Ngak-Indau Wetland at Murray River National Park",
+        "distance_m": 0.0,
+        "visits": [
+          [
+            "2026-07-28T10:20:00+09:30",
+            1.805,
+            "GOOD"
+          ],
+          [
+            "2026-08-13T08:35:00+09:30",
+            1.873,
+            "GOOD"
+          ],
+          [
+            "2026-09-02T10:40:00+09:30",
+            1.973,
+            "GOOD"
+          ],
+          [
+            "2026-09-24T10:05:00+09:30",
+            2.23,
+            "GOOD"
+          ],
+          [
+            "2026-10-13T09:40:00+09:30",
+            2.337,
+            "GOOD"
+          ],
+          [
+            "2026-10-20T07:24:43+09:30",
+            2.345,
+            "GOOD"
+          ],
+          [
+            "2026-11-06T09:40:00+09:30",
+            2.337,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": -0.7468627801365617,
+        "VV_change_db": 0.21396732330322266,
+        "difference_db": -0.9608301034397844,
+        "description": "Radar channels change in opposite directions",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 24.2,
+        "components": {
+          "sensor_disagreement": 0.3202767011465948,
+          "monitoring_gap": 0.0,
+          "optical_coverage_gap": 0.31999999999999995,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Revisit the nearby gauge with the site manager, verify datum and hydraulic connection, and record dated GNSS wet/dry transects through the selected block.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    },
+    {
+      "id": "A4261258",
+      "name": "Bank J Inlet @ Katarapko",
+      "lon": 140.58414,
+      "lat": -34.31538,
+      "selection": "Independent monitoring station",
+      "block": {
+        "row": 184,
+        "col": 124,
+        "support_m": 100,
+        "crs": "EPSG:32754"
+      },
+      "nisar": [
+        {
+          "time": "2026-08-23T20:34:56.000000Z",
+          "concept_id": "G4289277210-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+          "HHHH": -6.81075969729267,
+          "valid_fraction": 1.0,
+          "median_looks": 9.979915618896484,
+          "HVHV": -13.757106202459576
+        },
+        {
+          "time": "2026-09-28T20:34:56.000000Z",
+          "concept_id": "G4329677554-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+          "HHHH": -6.863613922831843,
+          "valid_fraction": 1.0,
+          "median_looks": 9.97937297821045,
+          "HVHV": -14.583550023406886
+        },
+        {
+          "time": "2026-10-10T20:34:56.000000Z",
+          "concept_id": "G4360923482-ASF",
+          "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+          "HHHH": -7.2022963402825795,
+          "valid_fraction": 1.0,
+          "median_looks": 9.979766845703125,
+          "HVHV": -14.496142071299795
+        }
+      ],
+      "sentinel1": [
+        {
+          "date": "20260821",
+          "support": "100m linear-power average",
+          "vv": -9.87030029296875,
+          "vh": -15.728989601135254
+        },
+        {
+          "date": "20260926",
+          "support": "100m linear-power average",
+          "vv": -10.642143249511719,
+          "vh": -15.587334632873535
+        },
+        {
+          "date": "20261008",
+          "support": "100m linear-power average",
+          "vv": -8.784995079040527,
+          "vh": -15.266653060913086
+        }
+      ],
+      "optical": [
+        {
+          "date": "20260823",
+          "clear_fraction": 0.92,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20260929",
+          "clear_fraction": 0.88,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        },
+        {
+          "date": "20261007",
+          "clear_fraction": 0.76,
+          "water_fraction": 0.0,
+          "interpretation": "Scene-classification labels"
+        }
+      ],
+      "nearby_field": {
+        "station": "A4261258",
+        "name": "A4261258 - Bank J Inlet @ Katarapko",
+        "distance_m": 0.0,
+        "visits": [
+          [
+            "2026-10-20T08:46:21.5+09:30",
+            13.445,
+            "GOOD"
+          ]
+        ],
+        "coordinate_datum": "GDA94 source coordinates transformed to UTM 54S",
+        "spatial_scope": "Gauge location only. Hydraulic connectivity and candidate pixel water state unverified."
+      },
+      "comparison": {
+        "HH_change_db": -0.05285422553917307,
+        "VV_change_db": -0.7718429565429688,
+        "difference_db": 0.7189887310037957,
+        "description": "Both radar channels decrease",
+        "caution": "Different polarization, look direction, wavelength and acquisition dates prevent a direct calibration comparison."
+      },
+      "priority": {
+        "score": 19.4,
+        "components": {
+          "sensor_disagreement": 0.23966291033459855,
+          "monitoring_gap": 0.0,
+          "optical_coverage_gap": 0.24,
+          "quality_review_needed": 0.5
+        },
+        "weights": {
+          "sensor_disagreement": 0.4,
+          "monitoring_gap": 0.3,
+          "optical_coverage_gap": 0.2,
+          "quality_review_needed": 0.1
+        },
+        "interpretation": "Analyst-defined review score for these 26 locations. No optimality or probability validation. Shared provisional-product QA gap contributes 0.5 to quality review."
+      },
+      "action": "Revisit the nearby gauge with the site manager, verify datum and hydraulic connection, and record dated GNSS wet/dry transects through the selected block.",
+      "alternatives": [
+        "Soil moisture or seasonal vegetation change",
+        "Mixed water/vegetation within the block",
+        "Temporal mismatch during regulator operations",
+        "Residual RFI or provisional radiometric effects"
+      ]
+    }
+  ],
+  "scope": "Existing exploratory candidate set plus six monitoring locations. Ranking is a transparent triage aid with analyst-chosen weights.",
+  "ranking_scale": "0\u2013100 review priority within this displayed set",
+  "outcome": "NISAR monitoring advantage remains inconclusive.",
+  "source_note": "Native NISAR local means use a 5x5 neighborhood centered on the common block. Up to one native pixel edge difference from matched-grid summaries is possible."
+}

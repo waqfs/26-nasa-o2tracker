@@ -1,0 +1,33 @@
+{
+  "Datasets": [
+    {
+      "Identifier": "Water Level.Field Visits@A4261258",
+      "Parameter": "Water Level",
+      "Label": "Field Visits",
+      "Unit": "m",
+      "LocationIdentifier": "A4261258"
+    }
+  ],
+  "TimeRange": {
+    "StartTime": "2026-10-20T08:46:21.5+09:30",
+    "EndTime": "2026-10-20T08:46:21.5+09:30"
+  },
+  "NumRows": 1,
+  "Rows": [
+    {
+      "Timestamp": "2026-10-20T08:46:21.5+09:30",
+      "Points": [
+        {
+          "Dataset": "Water Level.Field Visits@A4261258",
+          "Value": 13.445,
+          "GradeCode": 30,
+          "GradeName": "GOOD",
+          "ApprovalLevel": 1200,
+          "ApprovalName": "Approved",
+          "InterpolationType": 7,
+          "InterpolationName": "DiscreteValues"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1710 @@
+{
+  "stations": [
+    {
+      "id": "A4261108",
+      "longitude": 140.54640091,
+      "latitude": -34.38354104,
+      "datum": "GDA94",
+      "source": "https://water.data.sa.gov.au/Data/Location_Summary/?location=817",
+      "retrieved_utc": "2026-11-15T04:08:41.517548+00:00",
+      "name": "Katarapko Creek 2km upstream Katarapko (Midreach)",
+      "variables": {
+        "oxygen": {
+          "unit": "mg/l",
+          "identifier": "O2 (Dis).Best Available--DO Sensor-1m@A4261108",
+          "source": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=O2+%28Dis%29.Best+Available--DO+Sensor-1m%40A4261108&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=35",
+          "raw_file": "data/observations/A4261108_50131.json",
+          "sha256": "387ce5ab69c01b75cc155d83a9401170fdd87fd0dfdb81ca353f6d8066f4e961",
+          "aggregation": "Daily aggregate, source timestamp UTC+09:30. Aggregate-window convention unverified.",
+          "observations": [
+            {
+              "time": "2026-08-20T00:00:00+09:30",
+              "value": null,
+              "grade": "UNDEF",
+              "grade_code": 0
+            },
+            {
+              "time": "2026-08-21T00:00:00+09:30",
+              "value": 10.24453125,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-22T00:00:00+09:30",
+              "value": 10.278819444444444,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-23T00:00:00+09:30",
+              "value": 10.296215277777778,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-24T00:00:00+09:30",
+              "value": 10.277256944444444,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-25T00:00:00+09:30",
+              "value": 10.221059027777779,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-26T00:00:00+09:30",
+              "value": 10.13984375,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-27T00:00:00+09:30",
+              "value": 10.205711805555556,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-28T00:00:00+09:30",
+              "value": 10.31671875,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-29T00:00:00+09:30",
+              "value": 10.404583333333333,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-30T00:00:00+09:30",
+              "value": 10.434635416666667,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-31T00:00:00+09:30",
+              "value": 10.454010416666666,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-01T00:00:00+09:30",
+              "value": 10.48375,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-02T00:00:00+09:30",
+              "value": 10.492569444444445,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-03T00:00:00+09:30",
+              "value": 10.436302083333333,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-04T00:00:00+09:30",
+              "value": 10.424791666666666,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-05T00:00:00+09:30",
+              "value": 10.340503472222222,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-06T00:00:00+09:30",
+              "value": 10.304722222222223,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-07T00:00:00+09:30",
+              "value": 10.312552083333333,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-08T00:00:00+09:30",
+              "value": 10.395902777777778,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-09T00:00:00+09:30",
+              "value": 10.510729166666666,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-10T00:00:00+09:30",
+              "value": 10.638038194444444,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-11T00:00:00+09:30",
+              "value": 10.737135416666666,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-12T00:00:00+09:30",
+              "value": 10.663472222222222,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-13T00:00:00+09:30",
+              "value": 10.516909722222222,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-14T00:00:00+09:30",
+              "value": 10.31109375,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-15T00:00:00+09:30",
+              "value": 10.108038194444445,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-16T00:00:00+09:30",
+              "value": 10.034114583333333,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-17T00:00:00+09:30",
+              "value": 10.034722222222221,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-18T00:00:00+09:30",
+              "value": 10.0875,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-19T00:00:00+09:30",
+              "value": 10.153958333333334,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-20T00:00:00+09:30",
+              "value": 10.169079861111111,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-21T00:00:00+09:30",
+              "value": 10.089513888888888,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-22T00:00:00+09:30",
+              "value": 9.885173611111112,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-23T00:00:00+09:30",
+              "value": 9.833263888888888,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-24T00:00:00+09:30",
+              "value": 9.786788194444444,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-25T00:00:00+09:30",
+              "value": 9.685833333333333,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-26T00:00:00+09:30",
+              "value": 9.53529513888889,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-27T00:00:00+09:30",
+              "value": 9.360555555555555,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-28T00:00:00+09:30",
+              "value": 9.263038194444444,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-29T00:00:00+09:30",
+              "value": 9.280850694444444,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-30T00:00:00+09:30",
+              "value": 9.327361111111111,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-01T00:00:00+09:30",
+              "value": 9.201631944444445,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-02T00:00:00+09:30",
+              "value": 9.03501736111111,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-03T00:00:00+09:30",
+              "value": 8.954947916666667,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-04T00:00:00+09:30",
+              "value": 8.95234375,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-05T00:00:00+09:30",
+              "value": 9.04857638888889,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-06T00:00:00+09:30",
+              "value": 9.092309027777778,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-07T00:00:00+09:30",
+              "value": 9.170868055555555,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-08T00:00:00+09:30",
+              "value": 9.28984375,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-09T00:00:00+09:30",
+              "value": 9.261111111111111,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-10T00:00:00+09:30",
+              "value": 9.078611111111112,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-11T00:00:00+09:30",
+              "value": 8.993177083333334,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-12T00:00:00+09:30",
+              "value": 8.91782986111111,
+              "grade": "GOOD",
+              "grade_code": 30
+            }
+          ]
+        },
+        "temperature": {
+          "unit": "degC",
+          "identifier": "Water Temp.Best Available--DO Sensor-1m@A4261108",
+          "source": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Temp.Best+Available--DO+Sensor-1m%40A4261108&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=169",
+          "raw_file": "data/observations/A4261108_50140.json",
+          "sha256": "8d9d510a48c064b08b3a3991633be1013ea673f0aea8870a359324c9a40be0c3",
+          "aggregation": "Daily aggregate, source timestamp UTC+09:30. Aggregate-window convention unverified.",
+          "observations": [
+            {
+              "time": "2026-08-20T00:00:00+09:30",
+              "value": null,
+              "grade": "UNDEF",
+              "grade_code": 0
+            },
+            {
+              "time": "2026-08-21T00:00:00+09:30",
+              "value": 14.306197916666667,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-22T00:00:00+09:30",
+              "value": 14.342274305555556,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-23T00:00:00+09:30",
+              "value": 14.361510416666667,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-24T00:00:00+09:30",
+              "value": 14.636059027777778,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-25T00:00:00+09:30",
+              "value": 14.730208333333332,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-26T00:00:00+09:30",
+              "value": 14.685625,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-27T00:00:00+09:30",
+              "value": 14.487638888888888,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-28T00:00:00+09:30",
+              "value": 14.596684027777778,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-29T00:00:00+09:30",
+              "value": 14.876909722222223,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-30T00:00:00+09:30",
+              "value": 15.180954861111111,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-31T00:00:00+09:30",
+              "value": 15.383975694444445,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-01T00:00:00+09:30",
+              "value": 15.527118055555556,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-02T00:00:00+09:30",
+              "value": 15.705156250000002,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-03T00:00:00+09:30",
+              "value": 15.85532986111111,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-04T00:00:00+09:30",
+              "value": 15.888246527777778,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-05T00:00:00+09:30",
+              "value": 15.801319444444445,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-06T00:00:00+09:30",
+              "value": 15.779496527777777,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-07T00:00:00+09:30",
+              "value": 15.688454861111111,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-08T00:00:00+09:30",
+              "value": 15.837430555555555,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-09T00:00:00+09:30",
+              "value": 15.91918402777778,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-10T00:00:00+09:30",
+              "value": 15.89984375,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-11T00:00:00+09:30",
+              "value": 15.752604166666666,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-12T00:00:00+09:30",
+              "value": 15.79717013888889,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-13T00:00:00+09:30",
+              "value": 16.101614583333333,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-14T00:00:00+09:30",
+              "value": 16.435694444444444,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-15T00:00:00+09:30",
+              "value": 16.435555555555556,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-16T00:00:00+09:30",
+              "value": 16.442725694444444,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-17T00:00:00+09:30",
+              "value": 16.250659722222224,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-18T00:00:00+09:30",
+              "value": 16.164600694444445,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-19T00:00:00+09:30",
+              "value": 16.340069444444445,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-20T00:00:00+09:30",
+              "value": 16.718315972222225,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-21T00:00:00+09:30",
+              "value": 17.135659722222222,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-22T00:00:00+09:30",
+              "value": 17.29439236111111,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-23T00:00:00+09:30",
+              "value": 17.14140625,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-24T00:00:00+09:30",
+              "value": 17.131458333333335,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-25T00:00:00+09:30",
+              "value": 17.491197916666668,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-26T00:00:00+09:30",
+              "value": 17.962847222222223,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-27T00:00:00+09:30",
+              "value": 18.41409722222222,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-28T00:00:00+09:30",
+              "value": 18.50982638888889,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-29T00:00:00+09:30",
+              "value": 18.525868055555556,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-30T00:00:00+09:30",
+              "value": 18.995190972222222,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-01T00:00:00+09:30",
+              "value": 19.313350694444445,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-02T00:00:00+09:30",
+              "value": 19.43762152777778,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-03T00:00:00+09:30",
+              "value": 19.58597222222222,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-04T00:00:00+09:30",
+              "value": 19.307083333333335,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-05T00:00:00+09:30",
+              "value": 19.248385416666668,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-06T00:00:00+09:30",
+              "value": 19.30203125,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-07T00:00:00+09:30",
+              "value": 19.473559027777778,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-08T00:00:00+09:30",
+              "value": 19.408315972222223,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-09T00:00:00+09:30",
+              "value": 19.68546875,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-10T00:00:00+09:30",
+              "value": 19.68513888888889,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-11T00:00:00+09:30",
+              "value": 19.69543402777778,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-12T00:00:00+09:30",
+              "value": 19.883940972222224,
+              "grade": "GOOD",
+              "grade_code": 30
+            }
+          ]
+        }
+      },
+      "mesh_position": {
+        "row": 259.4679607234523,
+        "col": 89.70151482389599
+      }
+    },
+    {
+      "id": "A4261053",
+      "longitude": 140.808721,
+      "latitude": -34.267527,
+      "datum": "GDA94",
+      "source": "https://water.data.sa.gov.au/Data/Location_Summary/?location=781",
+      "retrieved_utc": "2026-11-15T04:08:42.411682+00:00",
+      "name": "Pike River upstream Col Col Bank",
+      "variables": {
+        "oxygen": {
+          "unit": "mg/l",
+          "identifier": "O2 (Dis).Best Available--DO Sensor-1m@A4261053",
+          "source": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=O2+%28Dis%29.Best+Available--DO+Sensor-1m%40A4261053&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=35",
+          "raw_file": "data/observations/A4261053_54671.json",
+          "sha256": "3b0c9a13fad8dc6203d550e7a6e0cd3abb027e148886312b3f41e39cf1980054",
+          "aggregation": "Daily aggregate, source timestamp UTC+09:30. Aggregate-window convention unverified.",
+          "observations": [
+            {
+              "time": "2026-08-20T00:00:00+09:30",
+              "value": null,
+              "grade": "UNDEF",
+              "grade_code": 0
+            },
+            {
+              "time": "2026-08-21T00:00:00+09:30",
+              "value": 9.929427083333334,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-22T00:00:00+09:30",
+              "value": 10.056927083333333,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-23T00:00:00+09:30",
+              "value": 10.404305555555556,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-24T00:00:00+09:30",
+              "value": 10.321631944444444,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-25T00:00:00+09:30",
+              "value": 10.029878472222222,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-26T00:00:00+09:30",
+              "value": 9.71171875,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-27T00:00:00+09:30",
+              "value": 9.954149305555555,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-28T00:00:00+09:30",
+              "value": 10.563871527777778,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-29T00:00:00+09:30",
+              "value": 10.543211805555556,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-30T00:00:00+09:30",
+              "value": 10.440243055555555,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-31T00:00:00+09:30",
+              "value": 10.057951388888888,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-01T00:00:00+09:30",
+              "value": 10.812065972222221,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-02T00:00:00+09:30",
+              "value": 10.301145833333333,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-03T00:00:00+09:30",
+              "value": 9.866875,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-04T00:00:00+09:30",
+              "value": 9.809201388888889,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-05T00:00:00+09:30",
+              "value": 9.728194444444444,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-06T00:00:00+09:30",
+              "value": 9.429652777777777,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-07T00:00:00+09:30",
+              "value": 9.288715277777778,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-08T00:00:00+09:30",
+              "value": 9.639982638888888,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-09T00:00:00+09:30",
+              "value": 9.46123263888889,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-10T00:00:00+09:30",
+              "value": 9.673993055555556,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-11T00:00:00+09:30",
+              "value": 9.720416666666667,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-12T00:00:00+09:30",
+              "value": 10.054618055555556,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-13T00:00:00+09:30",
+              "value": 10.256631944444445,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-14T00:00:00+09:30",
+              "value": 9.894774305555556,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-15T00:00:00+09:30",
+              "value": 9.852256944444445,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-16T00:00:00+09:30",
+              "value": 10.155225694444445,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-17T00:00:00+09:30",
+              "value": 10.329427083333334,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-18T00:00:00+09:30",
+              "value": 10.746006944444444,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-19T00:00:00+09:30",
+              "value": 11.070815972222222,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-20T00:00:00+09:30",
+              "value": 11.148663194444444,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-21T00:00:00+09:30",
+              "value": 10.491041666666666,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-22T00:00:00+09:30",
+              "value": 9.725347222222222,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-23T00:00:00+09:30",
+              "value": 10.185121527777778,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-24T00:00:00+09:30",
+              "value": 10.209826388888889,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-25T00:00:00+09:30",
+              "value": 9.970555555555556,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-26T00:00:00+09:30",
+              "value": 9.258385416666666,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-27T00:00:00+09:30",
+              "value": 9.283993055555555,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-28T00:00:00+09:30",
+              "value": 9.283072916666667,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-29T00:00:00+09:30",
+              "value": 9.752256944444444,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-30T00:00:00+09:30",
+              "value": 9.294097222222222,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-01T00:00:00+09:30",
+              "value": 9.062569444444444,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-02T00:00:00+09:30",
+              "value": 8.79953125,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-03T00:00:00+09:30",
+              "value": 8.724496527777777,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-04T00:00:00+09:30",
+              "value": 8.803142361111112,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-05T00:00:00+09:30",
+              "value": 8.880399305555555,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-06T00:00:00+09:30",
+              "value": 9.004479166666666,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-07T00:00:00+09:30",
+              "value": 8.72609375,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-08T00:00:00+09:30",
+              "value": 8.929774305555556,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-09T00:00:00+09:30",
+              "value": 8.673177083333334,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-10T00:00:00+09:30",
+              "value": 8.528854166666667,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-11T00:00:00+09:30",
+              "value": 8.47765625,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-12T00:00:00+09:30",
+              "value": 8.42201388888889,
+              "grade": "GOOD",
+              "grade_code": 30
+            }
+          ]
+        },
+        "level": {
+          "unit": "m",
+          "identifier": "Water Level.Best Available--WL Sensor-Bank@A4261053",
+          "source": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Level.Best+Available--WL+Sensor-Bank%40A4261053&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=82",
+          "raw_file": "data/observations/A4261053_50113.json",
+          "sha256": "94cf3889f4a7607a2d4f217c71a142ae6defcd180868c2ac7f20f6dcf77addfd",
+          "aggregation": "Daily aggregate, source timestamp UTC+09:30. Aggregate-window convention unverified.",
+          "observations": [
+            {
+              "time": "2026-08-20T00:00:00+09:30",
+              "value": null,
+              "grade": "UNDEF",
+              "grade_code": 0
+            },
+            {
+              "time": "2026-08-21T00:00:00+09:30",
+              "value": 14.654164664969445,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-22T00:00:00+09:30",
+              "value": 14.644549266855865,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-23T00:00:00+09:30",
+              "value": 14.634801924297843,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-24T00:00:00+09:30",
+              "value": 14.630643123406486,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-25T00:00:00+09:30",
+              "value": 14.627175294737347,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-26T00:00:00+09:30",
+              "value": 14.626176216068213,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-27T00:00:00+09:30",
+              "value": 14.631010470732408,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-28T00:00:00+09:30",
+              "value": 14.639848197618829,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-29T00:00:00+09:30",
+              "value": 14.641682452283028,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-30T00:00:00+09:30",
+              "value": 14.644620873613892,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-31T00:00:00+09:30",
+              "value": 14.651321447722534,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-01T00:00:00+09:30",
+              "value": 14.663471674608957,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-02T00:00:00+09:30",
+              "value": 14.670930929273153,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-03T00:00:00+09:30",
+              "value": 14.66632247560402,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-04T00:00:00+09:30",
+              "value": 14.667660202490438,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-05T00:00:00+09:30",
+              "value": 14.671221887710194,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-06T00:00:00+09:30",
+              "value": 14.67128878126328,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-07T00:00:00+09:30",
+              "value": 14.667371299816368,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-08T00:00:00+09:30",
+              "value": 14.660345185758457,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-09T00:00:00+09:30",
+              "value": 14.662593322008007,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-10T00:00:00+09:30",
+              "value": 14.653280304027952,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-11T00:00:00+09:30",
+              "value": 14.669805827714566,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-12T00:00:00+09:30",
+              "value": 14.6759598236234,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-13T00:00:00+09:30",
+              "value": 14.686035694532242,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-14T00:00:00+09:30",
+              "value": 14.69629038488552,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-15T00:00:00+09:30",
+              "value": 14.702798547461018,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-16T00:00:00+09:30",
+              "value": 14.707334487814299,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-17T00:00:00+09:30",
+              "value": 14.733162094834242,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-18T00:00:00+09:30",
+              "value": 14.763586924076415,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-19T00:00:00+09:30",
+              "value": 14.79117850009657,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-20T00:00:00+09:30",
+              "value": 14.823107638888889,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-21T00:00:00+09:30",
+              "value": 14.851074652777777,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-22T00:00:00+09:30",
+              "value": 14.863784722222222,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-23T00:00:00+09:30",
+              "value": 14.887164930555555,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-24T00:00:00+09:30",
+              "value": 14.908246527777777,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-25T00:00:00+09:30",
+              "value": 14.92586111111111,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-26T00:00:00+09:30",
+              "value": 14.937649305555556,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-27T00:00:00+09:30",
+              "value": 14.937170138888888,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-28T00:00:00+09:30",
+              "value": 14.940331597222222,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-29T00:00:00+09:30",
+              "value": 14.944885416666667,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-30T00:00:00+09:30",
+              "value": 14.950211805555556,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-01T00:00:00+09:30",
+              "value": 14.95362326388889,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-02T00:00:00+09:30",
+              "value": 14.959977430555556,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-03T00:00:00+09:30",
+              "value": 14.984487847222223,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-04T00:00:00+09:30",
+              "value": 14.987034722222223,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-05T00:00:00+09:30",
+              "value": 14.988097222222223,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-06T00:00:00+09:30",
+              "value": 14.980914930555555,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-07T00:00:00+09:30",
+              "value": 14.96772048611111,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-08T00:00:00+09:30",
+              "value": 14.9645625,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-09T00:00:00+09:30",
+              "value": 14.968628472222223,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-10T00:00:00+09:30",
+              "value": 14.964852430555556,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-11T00:00:00+09:30",
+              "value": 14.966262152777778,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-12T00:00:00+09:30",
+              "value": 14.969418402777778,
+              "grade": "GOOD",
+              "grade_code": 30
+            }
+          ]
+        },
+        "temperature": {
+          "unit": "degC",
+          "identifier": "Water Temp.Best Available--DO Sensor-1m@A4261053",
+          "source": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=Water+Temp.Best+Available--DO+Sensor-1m%40A4261053&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=169",
+          "raw_file": "data/observations/A4261053_54674.json",
+          "sha256": "74ea460083aeeae72bd38ddc9e8d97b137bf2a32d527ceccd3864eb0903297f1",
+          "aggregation": "Daily aggregate, source timestamp UTC+09:30. Aggregate-window convention unverified.",
+          "observations": [
+            {
+              "time": "2026-08-20T00:00:00+09:30",
+              "value": null,
+              "grade": "UNDEF",
+              "grade_code": 0
+            },
+            {
+              "time": "2026-08-21T00:00:00+09:30",
+              "value": 15.855520833333333,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-22T00:00:00+09:30",
+              "value": 15.049305555555556,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-23T00:00:00+09:30",
+              "value": 15.158541666666666,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-24T00:00:00+09:30",
+              "value": 15.416805555555555,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-25T00:00:00+09:30",
+              "value": 15.045989583333334,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-26T00:00:00+09:30",
+              "value": 14.90220486111111,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-27T00:00:00+09:30",
+              "value": 14.483454861111111,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-28T00:00:00+09:30",
+              "value": 15.237552083333334,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-29T00:00:00+09:30",
+              "value": 15.766197916666666,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-30T00:00:00+09:30",
+              "value": 16.085850694444446,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-08-31T00:00:00+09:30",
+              "value": 15.522586805555555,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-01T00:00:00+09:30",
+              "value": 17.133958333333332,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-02T00:00:00+09:30",
+              "value": 16.342864583333334,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-03T00:00:00+09:30",
+              "value": 16.88451388888889,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-04T00:00:00+09:30",
+              "value": 16.491805555555555,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-05T00:00:00+09:30",
+              "value": 15.838125,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-06T00:00:00+09:30",
+              "value": 15.852291666666666,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-07T00:00:00+09:30",
+              "value": 15.905798611111111,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-08T00:00:00+09:30",
+              "value": 16.21291666666667,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-09T00:00:00+09:30",
+              "value": 15.4659375,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-10T00:00:00+09:30",
+              "value": 15.63048611111111,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-11T00:00:00+09:30",
+              "value": 14.9878125,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-12T00:00:00+09:30",
+              "value": 16.10890625,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-13T00:00:00+09:30",
+              "value": 16.727239583333333,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-14T00:00:00+09:30",
+              "value": 17.129166666666666,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-15T00:00:00+09:30",
+              "value": 17.031232638888888,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-16T00:00:00+09:30",
+              "value": 16.715989583333332,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-17T00:00:00+09:30",
+              "value": 15.32392361111111,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-18T00:00:00+09:30",
+              "value": 15.195677083333331,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-19T00:00:00+09:30",
+              "value": 16.755034722222224,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-20T00:00:00+09:30",
+              "value": 17.820086805555555,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-21T00:00:00+09:30",
+              "value": 18.098524305555557,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-22T00:00:00+09:30",
+              "value": 17.575034722222224,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-23T00:00:00+09:30",
+              "value": 16.840833333333332,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-24T00:00:00+09:30",
+              "value": 17.220260416666665,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-25T00:00:00+09:30",
+              "value": 18.316145833333334,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-26T00:00:00+09:30",
+              "value": 18.428715277777776,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-27T00:00:00+09:30",
+              "value": 19.73126736111111,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-28T00:00:00+09:30",
+              "value": 18.783680555555556,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-29T00:00:00+09:30",
+              "value": 19.01798611111111,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-09-30T00:00:00+09:30",
+              "value": 18.853263888888886,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-01T00:00:00+09:30",
+              "value": 19.511649305555554,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-02T00:00:00+09:30",
+              "value": 19.59552083333333,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-03T00:00:00+09:30",
+              "value": 19.81123263888889,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-04T00:00:00+09:30",
+              "value": 18.343489583333334,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-05T00:00:00+09:30",
+              "value": 18.233715277777776,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-06T00:00:00+09:30",
+              "value": 19.41809027777778,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-07T00:00:00+09:30",
+              "value": 19.80465277777778,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-08T00:00:00+09:30",
+              "value": 19.724479166666665,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-09T00:00:00+09:30",
+              "value": 19.202118055555555,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-10T00:00:00+09:30",
+              "value": 19.192708333333332,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-11T00:00:00+09:30",
+              "value": 19.33277777777778,
+              "grade": "GOOD",
+              "grade_code": 30
+            },
+            {
+              "time": "2026-10-12T00:00:00+09:30",
+              "value": 20.23923611111111,
+              "grade": "GOOD",
+              "grade_code": 30
+            }
+          ]
+        }
+      },
+      "mesh_position": {
+        "row": 130.0603765748162,
+        "col": 330.613553323269
+      }
+    }
+  ],
+  "quality_rule": "Numeric finite values with source GradeName GOOD only in analysis. All rows retained.",
+  "missing_drivers": [
+    "No same-station discharge or rainfall series in the retained two-station snapshot",
+    "Hydraulic connectivity from candidate blocks to oxygen stations unverified",
+    "No DOC, BOD or wetland-outlet carbon loading measurements"
+  ]
+}

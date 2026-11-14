@@ -1,0 +1,1186 @@
+{
+ "schema": "oxygen-debt/case-studies/1",
+ "status": "EXPERIMENTAL CANDIDATE - not part of release 0.3.0",
+ "everglades_e15": {
+  "title": "Everglades WCA-3A: gauge-calibrated NISAR water-level-change estimates (E15)",
+  "site": "Water Conservation Area 3A, Florida, USA",
+  "product": "NISAR GUNW provisional P05023 v1.0.11, ascending track 47, frame 15, 12-day pairs",
+  "pairs_scored": [
+   "2026-08-16>2026-08-28",
+   "2026-09-21>2026-10-03",
+   "2026-10-03>2026-10-15"
+  ],
+  "n_folds": 33,
+  "method": "Leave-one-gauge-out. Phase referenced and sign-set only by training gauges in the same coherent component; withheld gauge never used.",
+  "truth": "EDEN observed daily-mean stage change (cm) at USGS/SFWMD marsh gauges (not EDEN model surfaces)",
+  "pooled_rmse_cm": {
+   "nisar": 2.31,
+   "multiquadric_strongest_baseline": 3.43,
+   "idw": 3.84,
+   "thin_plate": 3.85,
+   "nearest": 4.77
+  },
+  "pooled_mae_cm": {
+   "nisar": 1.92,
+   "multiquadric_strongest_baseline": 2.42
+  },
+  "relative_rmse_reduction_percent": 32.6,
+  "per_pair_rmse_cm": {
+   "2026-08-16>2026-08-28": {
+    "nisar": 3.24,
+    "multiquadric": 4.45
+   },
+   "2026-09-21>2026-10-03": {
+    "nisar": 1.99,
+    "multiquadric": 2.99
+   },
+   "2026-10-03>2026-10-15": {
+    "nisar": 1.56,
+    "multiquadric": 2.79
+   }
+  },
+  "pair_cluster_boot95_mean_abs_improvement_cm": [
+   0.3,
+   0.8
+  ],
+  "gauge_boot95_mean_abs_improvement_cm": [
+   -0.37,
+   1.5
+  ],
+  "shuffled_phase_control": {
+   "2026-08-16>2026-08-28": {
+    "placebo_mean_rmse_cm": 7.12,
+    "fraction_placebo_as_good_as_nisar": 0.006
+   },
+   "2026-09-21>2026-10-03": {
+    "placebo_mean_rmse_cm": 5.23,
+    "fraction_placebo_as_good_as_nisar": 0.0
+   },
+   "2026-10-03>2026-10-15": {
+    "placebo_mean_rmse_cm": 7.1,
+    "fraction_placebo_as_good_as_nisar": 0.001
+   }
+  },
+  "eligibility_pairs_passed": 3,
+  "eligibility_pairs_total": 8,
+  "replication_descending_stack_170": "INCONCLUSIVE - usability gate failed (0 of 6 pairs had >= 8 coherent eligible gauges); not scored",
+  "frozen_verdict": "PASS (exploratory, single geometry)",
+  "rows": [
+   {
+    "pair": "2026-08-16>2026-08-28",
+    "gauge": "3ANW_GW",
+    "agency": "SFWMD",
+    "vegetation": "Slough or open water",
+    "lon": -80.7795,
+    "lat": 26.2665,
+    "observed_cm": 7.92,
+    "nisar_cm": 10.76,
+    "multiquadric_cm": -4.38,
+    "idw_cm": -0.55,
+    "thin_plate_cm": -6.9,
+    "nearest_cm": -3.35
+   },
+   {
+    "pair": "2026-08-16>2026-08-28",
+    "gauge": "3ANE_GW",
+    "agency": "SFWMD",
+    "vegetation": "Exotics and cattail",
+    "lon": -80.61448,
+    "lat": 26.26897,
+    "observed_cm": 1.22,
+    "nisar_cm": 5.89,
+    "multiquadric_cm": 3.17,
+    "idw_cm": 3.71,
+    "thin_plate_cm": 4.43,
+    "nearest_cm": 3.35
+   },
+   {
+    "pair": "2026-08-16>2026-08-28",
+    "gauge": "3AS",
+    "agency": "SFWMD",
+    "vegetation": "Slough or open water",
+    "lon": -80.69154,
+    "lat": 26.08209,
+    "observed_cm": 0.61,
+    "nisar_cm": -3.49,
+    "multiquadric_cm": -1.85,
+    "idw_cm": -1.28,
+    "thin_plate_cm": -2.74,
+    "nearest_cm": -1.52
+   },
+   {
+    "pair": "2026-08-16>2026-08-28",
+    "gauge": "EDEN_5",
+    "agency": "USGS",
+    "vegetation": "Wet prairie",
+    "lon": -80.75278,
+    "lat": 26.12361,
+    "observed_cm": -1.52,
+    "nisar_cm": -2.71,
+    "multiquadric_cm": -3.27,
+    "idw_cm": -1.0,
+    "thin_plate_cm": -3.08,
+    "nearest_cm": -3.35
+   },
+   {
+    "pair": "2026-08-16>2026-08-28",
+    "gauge": "EDEN_8",
+    "agency": "USGS",
+    "vegetation": "Slough or open water",
+    "lon": -80.68056,
+    "lat": 25.86667,
+    "observed_cm": -3.35,
+    "nisar_cm": -4.04,
+    "multiquadric_cm": -4.31,
+    "idw_cm": -1.83,
+    "thin_plate_cm": -4.19,
+    "nearest_cm": -0.61
+   },
+   {
+    "pair": "2026-08-16>2026-08-28",
+    "gauge": "EDEN_9",
+    "agency": "USGS",
+    "vegetation": "Ridge or sawgrass and emergent marsh",
+    "lon": -80.59222,
+    "lat": 26.22194,
+    "observed_cm": 3.35,
+    "nisar_cm": 5.64,
+    "multiquadric_cm": 4.51,
+    "idw_cm": 4.16,
+    "thin_plate_cm": 4.54,
+    "nearest_cm": 1.22
+   },
+   {
+    "pair": "2026-08-16>2026-08-28",
+    "gauge": "SITE_64",
+    "agency": "USGS",
+    "vegetation": "Slough or open water",
+    "lon": -80.66961,
+    "lat": 25.97514,
+    "observed_cm": -6.4,
+    "nisar_cm": -4.34,
+    "multiquadric_cm": -2.82,
+    "idw_cm": -1.98,
+    "thin_plate_cm": -2.61,
+    "nearest_cm": -6.4
+   },
+   {
+    "pair": "2026-08-16>2026-08-28",
+    "gauge": "SITE_65",
+    "agency": "USGS",
+    "vegetation": "Slough or open water",
+    "lon": -80.72012,
+    "lat": 25.81427,
+    "observed_cm": -0.61,
+    "nisar_cm": -2.1,
+    "multiquadric_cm": 0.27,
+    "idw_cm": -1.6,
+    "thin_plate_cm": 0.02,
+    "nearest_cm": -3.35
+   },
+   {
+    "pair": "2026-08-16>2026-08-28",
+    "gauge": "W11",
+    "agency": "USGS",
+    "vegetation": "Slough or open water",
+    "lon": -80.74994,
+    "lat": 25.94344,
+    "observed_cm": -6.4,
+    "nisar_cm": -4.4,
+    "multiquadric_cm": -4.28,
+    "idw_cm": -2.23,
+    "thin_plate_cm": -4.51,
+    "nearest_cm": -6.4
+   },
+   {
+    "pair": "2026-08-16>2026-08-28",
+    "gauge": "W2",
+    "agency": "USGS",
+    "vegetation": "Ridge or sawgrass and emergent marsh",
+    "lon": -80.80889,
+    "lat": 25.79972,
+    "observed_cm": 3.05,
+    "nisar_cm": -3.34,
+    "multiquadric_cm": -0.59,
+    "idw_cm": -1.92,
+    "thin_plate_cm": -1.08,
+    "nearest_cm": -0.61
+   },
+   {
+    "pair": "2026-09-21>2026-10-03",
+    "gauge": "3ANW_GW",
+    "agency": "SFWMD",
+    "vegetation": "Slough or open water",
+    "lon": -80.7795,
+    "lat": 26.2665,
+    "observed_cm": 3.96,
+    "nisar_cm": 4.18,
+    "multiquadric_cm": 0.8,
+    "idw_cm": 1.88,
+    "thin_plate_cm": -2.34,
+    "nearest_cm": -0.91
+   },
+   {
+    "pair": "2026-09-21>2026-10-03",
+    "gauge": "3ANE_GW",
+    "agency": "SFWMD",
+    "vegetation": "Exotics and cattail",
+    "lon": -80.61448,
+    "lat": 26.26897,
+    "observed_cm": -0.91,
+    "nisar_cm": -4.49,
+    "multiquadric_cm": 0.02,
+    "idw_cm": 4.32,
+    "thin_plate_cm": -0.47,
+    "nearest_cm": 1.22
+   },
+   {
+    "pair": "2026-09-21>2026-10-03",
+    "gauge": "3AS",
+    "agency": "SFWMD",
+    "vegetation": "Slough or open water",
+    "lon": -80.69154,
+    "lat": 26.08209,
+    "observed_cm": 3.35,
+    "nisar_cm": 3.24,
+    "multiquadric_cm": 11.22,
+    "idw_cm": 7.35,
+    "thin_plate_cm": 10.49,
+    "nearest_cm": 6.71
+   },
+   {
+    "pair": "2026-09-21>2026-10-03",
+    "gauge": "3AS3W1",
+    "agency": "SFWMD",
+    "vegetation": "Ridge or sawgrass and emergent marsh",
+    "lon": -80.77138,
+    "lat": 25.85731,
+    "observed_cm": 4.27,
+    "nisar_cm": 6.16,
+    "multiquadric_cm": 4.33,
+    "idw_cm": 6.27,
+    "thin_plate_cm": 3.74,
+    "nearest_cm": 5.79
+   },
+   {
+    "pair": "2026-09-21>2026-10-03",
+    "gauge": "EDEN_5",
+    "agency": "USGS",
+    "vegetation": "Wet prairie",
+    "lon": -80.75278,
+    "lat": 26.12361,
+    "observed_cm": 5.18,
+    "nisar_cm": 6.19,
+    "multiquadric_cm": 2.53,
+    "idw_cm": 3.78,
+    "thin_plate_cm": 2.13,
+    "nearest_cm": -1.22
+   },
+   {
+    "pair": "2026-09-21>2026-10-03",
+    "gauge": "EDEN_9",
+    "agency": "USGS",
+    "vegetation": "Ridge or sawgrass and emergent marsh",
+    "lon": -80.59222,
+    "lat": 26.22194,
+    "observed_cm": 1.22,
+    "nisar_cm": -1.31,
+    "multiquadric_cm": 1.87,
+    "idw_cm": 5.44,
+    "thin_plate_cm": 2.09,
+    "nearest_cm": -0.91
+   },
+   {
+    "pair": "2026-09-21>2026-10-03",
+    "gauge": "SITE_63",
+    "agency": "USGS",
+    "vegetation": "Exotics and cattail",
+    "lon": -80.531,
+    "lat": 26.18847,
+    "observed_cm": 11.58,
+    "nisar_cm": 9.26,
+    "multiquadric_cm": 11.86,
+    "idw_cm": 7.6,
+    "thin_plate_cm": 12.12,
+    "nearest_cm": 1.22
+   },
+   {
+    "pair": "2026-09-21>2026-10-03",
+    "gauge": "W11",
+    "agency": "USGS",
+    "vegetation": "Slough or open water",
+    "lon": -80.74994,
+    "lat": 25.94344,
+    "observed_cm": 4.88,
+    "nisar_cm": 7.17,
+    "multiquadric_cm": 3.12,
+    "idw_cm": 6.82,
+    "thin_plate_cm": 3.31,
+    "nearest_cm": 3.05
+   },
+   {
+    "pair": "2026-09-21>2026-10-03",
+    "gauge": "W18",
+    "agency": "USGS",
+    "vegetation": "Ridge or sawgrass and emergent marsh",
+    "lon": -80.77889,
+    "lat": 26.00194,
+    "observed_cm": 3.05,
+    "nisar_cm": 4.99,
+    "multiquadric_cm": 5.46,
+    "idw_cm": 6.68,
+    "thin_plate_cm": 5.55,
+    "nearest_cm": 4.88
+   },
+   {
+    "pair": "2026-09-21>2026-10-03",
+    "gauge": "W2",
+    "agency": "USGS",
+    "vegetation": "Ridge or sawgrass and emergent marsh",
+    "lon": -80.80889,
+    "lat": 25.79972,
+    "observed_cm": 3.66,
+    "nisar_cm": 4.85,
+    "multiquadric_cm": 3.34,
+    "idw_cm": 6.02,
+    "thin_plate_cm": 2.03,
+    "nearest_cm": 4.27
+   },
+   {
+    "pair": "2026-10-03>2026-10-15",
+    "gauge": "3ANW_GW",
+    "agency": "SFWMD",
+    "vegetation": "Slough or open water",
+    "lon": -80.7795,
+    "lat": 26.2665,
+    "observed_cm": -1.52,
+    "nisar_cm": -0.47,
+    "multiquadric_cm": 1.99,
+    "idw_cm": 1.42,
+    "thin_plate_cm": -0.57,
+    "nearest_cm": 1.22
+   },
+   {
+    "pair": "2026-10-03>2026-10-15",
+    "gauge": "3A11",
+    "agency": "SFWMD",
+    "vegetation": "Wet prairie",
+    "lon": -80.74395,
+    "lat": 26.21814,
+    "observed_cm": 1.22,
+    "nisar_cm": 0.11,
+    "multiquadric_cm": -1.69,
+    "idw_cm": 0.29,
+    "thin_plate_cm": -1.35,
+    "nearest_cm": -0.3
+   },
+   {
+    "pair": "2026-10-03>2026-10-15",
+    "gauge": "3ANE_GW",
+    "agency": "SFWMD",
+    "vegetation": "Exotics and cattail",
+    "lon": -80.61448,
+    "lat": 26.26897,
+    "observed_cm": -3.66,
+    "nisar_cm": -2.83,
+    "multiquadric_cm": -1.42,
+    "idw_cm": 2.79,
+    "thin_plate_cm": -0.81,
+    "nearest_cm": 0.91
+   },
+   {
+    "pair": "2026-10-03>2026-10-15",
+    "gauge": "3AS",
+    "agency": "SFWMD",
+    "vegetation": "Slough or open water",
+    "lon": -80.69154,
+    "lat": 26.08209,
+    "observed_cm": 0.3,
+    "nisar_cm": 1.44,
+    "multiquadric_cm": 4.64,
+    "idw_cm": 2.77,
+    "thin_plate_cm": 4.48,
+    "nearest_cm": 0.0
+   },
+   {
+    "pair": "2026-10-03>2026-10-15",
+    "gauge": "3AS3W1",
+    "agency": "SFWMD",
+    "vegetation": "Ridge or sawgrass and emergent marsh",
+    "lon": -80.77138,
+    "lat": 25.85731,
+    "observed_cm": 0.61,
+    "nisar_cm": -0.8,
+    "multiquadric_cm": 2.59,
+    "idw_cm": 5.42,
+    "thin_plate_cm": 2.23,
+    "nearest_cm": 7.92
+   },
+   {
+    "pair": "2026-10-03>2026-10-15",
+    "gauge": "EDEN_14",
+    "agency": "USGS",
+    "vegetation": "Slough or open water",
+    "lon": -80.7575,
+    "lat": 26.06944,
+    "observed_cm": 0.0,
+    "nisar_cm": -1.9,
+    "multiquadric_cm": 0.28,
+    "idw_cm": 1.5,
+    "thin_plate_cm": -0.34,
+    "nearest_cm": 0.61
+   },
+   {
+    "pair": "2026-10-03>2026-10-15",
+    "gauge": "EDEN_5",
+    "agency": "USGS",
+    "vegetation": "Wet prairie",
+    "lon": -80.75278,
+    "lat": 26.12361,
+    "observed_cm": 0.61,
+    "nisar_cm": -2.21,
+    "multiquadric_cm": -1.15,
+    "idw_cm": 1.01,
+    "thin_plate_cm": -0.83,
+    "nearest_cm": -0.3
+   },
+   {
+    "pair": "2026-10-03>2026-10-15",
+    "gauge": "EDEN_9",
+    "agency": "USGS",
+    "vegetation": "Ridge or sawgrass and emergent marsh",
+    "lon": -80.59222,
+    "lat": 26.22194,
+    "observed_cm": 0.91,
+    "nisar_cm": 0.28,
+    "multiquadric_cm": 2.97,
+    "idw_cm": 2.88,
+    "thin_plate_cm": 2.94,
+    "nearest_cm": -3.66
+   },
+   {
+    "pair": "2026-10-03>2026-10-15",
+    "gauge": "SITE_63",
+    "agency": "USGS",
+    "vegetation": "Exotics and cattail",
+    "lon": -80.531,
+    "lat": 26.18847,
+    "observed_cm": 12.19,
+    "nisar_cm": 14.0,
+    "multiquadric_cm": 5.77,
+    "idw_cm": 3.28,
+    "thin_plate_cm": 5.37,
+    "nearest_cm": 0.91
+   },
+   {
+    "pair": "2026-10-03>2026-10-15",
+    "gauge": "SITE_64",
+    "agency": "USGS",
+    "vegetation": "Slough or open water",
+    "lon": -80.66961,
+    "lat": 25.97514,
+    "observed_cm": 8.23,
+    "nisar_cm": 10.31,
+    "multiquadric_cm": 8.01,
+    "idw_cm": 4.53,
+    "thin_plate_cm": 7.87,
+    "nearest_cm": -1.22
+   },
+   {
+    "pair": "2026-10-03>2026-10-15",
+    "gauge": "SITE_65",
+    "agency": "USGS",
+    "vegetation": "Slough or open water",
+    "lon": -80.72012,
+    "lat": 25.81427,
+    "observed_cm": 7.92,
+    "nisar_cm": 6.56,
+    "multiquadric_cm": 8.6,
+    "idw_cm": 4.81,
+    "thin_plate_cm": 9.47,
+    "nearest_cm": 0.61
+   },
+   {
+    "pair": "2026-10-03>2026-10-15",
+    "gauge": "W11",
+    "agency": "USGS",
+    "vegetation": "Slough or open water",
+    "lon": -80.74994,
+    "lat": 25.94344,
+    "observed_cm": -1.22,
+    "nisar_cm": 0.73,
+    "multiquadric_cm": 0.43,
+    "idw_cm": 3.75,
+    "thin_plate_cm": 0.65,
+    "nearest_cm": -1.52
+   },
+   {
+    "pair": "2026-10-03>2026-10-15",
+    "gauge": "W18",
+    "agency": "USGS",
+    "vegetation": "Ridge or sawgrass and emergent marsh",
+    "lon": -80.77889,
+    "lat": 26.00194,
+    "observed_cm": -1.52,
+    "nisar_cm": -1.13,
+    "multiquadric_cm": -2.36,
+    "idw_cm": 2.24,
+    "thin_plate_cm": -2.41,
+    "nearest_cm": -1.22
+   }
+  ],
+  "limitations": [
+   "Promising, exploratory, single-geometry result; three interferometric pairs; one subarea.",
+   "Not a fully replicated or operationally validated water-level retrieval.",
+   "Phase is referenced and sign-set by training gauges; it is a gauge-calibrated estimate, not an absolute retrieval.",
+   "The multiquadric baseline is a proxy for EDEN-style gauge interpolation, not the operational EDEN system; EDEN surfaces were not used.",
+   "Does not show improvement over operational EDEN surfaces.",
+   "Does not demonstrate oxygen prediction, discharge, residence time or ecological risk forecasting.",
+   "Daily-mean gauge stage is compared with a morning overpass; provisional NISAR product with a possible ~1 dB mode caveat."
+  ]
+ },
+ "maurepas_low_oxygen": {
+  "title": "Lake Maurepas / Maurepas Swamp, Louisiana: measured dissolved oxygen, 2026",
+  "source": "CPRA CIMS discrete water-quality profiles, stations SWMP0201-SWMP0205, six monthly visits Jan-Jun 2026; values are min-max over the measured depths of each profile",
+  "profiles": [
+   {
+    "station": "SWMP0201",
+    "time_local": "2026-01-05T10:51:00-06:00",
+    "lon": -90.66184,
+    "lat": 30.2268,
+    "do_min_mg_l": 6.54,
+    "do_max_mg_l": 7.17,
+    "depth_ft": [
+     2.0,
+     22.0
+    ],
+    "n_depths": 11,
+    "temperature_c": [
+     15.1,
+     15.5
+    ],
+    "salinity_ppt": [
+     0.1,
+     0.12
+    ]
+   },
+   {
+    "station": "SWMP0201",
+    "time_local": "2026-02-02T09:56:00-06:00",
+    "lon": -90.66184,
+    "lat": 30.2268,
+    "do_min_mg_l": 8.28,
+    "do_max_mg_l": 9.45,
+    "depth_ft": [
+     2.0,
+     22.0
+    ],
+    "n_depths": 11,
+    "temperature_c": [
+     7.4,
+     7.8
+    ],
+    "salinity_ppt": [
+     0.04,
+     0.12
+    ]
+   },
+   {
+    "station": "SWMP0201",
+    "time_local": "2026-03-02T10:48:00-06:00",
+    "lon": -90.66184,
+    "lat": 30.2268,
+    "do_min_mg_l": 5.51,
+    "do_max_mg_l": 5.87,
+    "depth_ft": [
+     2.0,
+     22.0
+    ],
+    "n_depths": 11,
+    "temperature_c": [
+     18.4,
+     18.6
+    ],
+    "salinity_ppt": [
+     0.07,
+     0.07
+    ]
+   },
+   {
+    "station": "SWMP0201",
+    "time_local": "2026-04-01T10:01:00-06:00",
+    "lon": -90.66184,
+    "lat": 30.2268,
+    "do_min_mg_l": 4.54,
+    "do_max_mg_l": 5.53,
+    "depth_ft": [
+     2.0,
+     22.0
+    ],
+    "n_depths": 11,
+    "temperature_c": [
+     20.9,
+     22.4
+    ],
+    "salinity_ppt": [
+     0.08,
+     0.12
+    ]
+   },
+   {
+    "station": "SWMP0201",
+    "time_local": "2026-05-05T09:31:00-06:00",
+    "lon": -90.66184,
+    "lat": 30.2268,
+    "do_min_mg_l": 5.64,
+    "do_max_mg_l": 5.75,
+    "depth_ft": [
+     2.0,
+     22.0
+    ],
+    "n_depths": 11,
+    "temperature_c": [
+     19.6,
+     19.7
+    ],
+    "salinity_ppt": [
+     0.03,
+     0.03
+    ]
+   },
+   {
+    "station": "SWMP0201",
+    "time_local": "2026-06-01T10:04:00-06:00",
+    "lon": -90.66184,
+    "lat": 30.2268,
+    "do_min_mg_l": 2.15,
+    "do_max_mg_l": 3.15,
+    "depth_ft": [
+     2.0,
+     22.0
+    ],
+    "n_depths": 11,
+    "temperature_c": [
+     27.1,
+     27.9
+    ],
+    "salinity_ppt": [
+     0.05,
+     0.05
+    ]
+   },
+   {
+    "station": "SWMP0202",
+    "time_local": "2026-01-05T10:25:00-06:00",
+    "lon": -90.67418,
+    "lat": 30.2128,
+    "do_min_mg_l": 5.23,
+    "do_max_mg_l": 6.5,
+    "depth_ft": [
+     1.0,
+     19.0
+    ],
+    "n_depths": 19,
+    "temperature_c": [
+     15.5,
+     15.8
+    ],
+    "salinity_ppt": [
+     0.12,
+     0.16
+    ]
+   },
+   {
+    "station": "SWMP0202",
+    "time_local": "2026-02-02T10:18:00-06:00",
+    "lon": -90.67418,
+    "lat": 30.2128,
+    "do_min_mg_l": 7.68,
+    "do_max_mg_l": 9.14,
+    "depth_ft": [
+     2.0,
+     20.0
+    ],
+    "n_depths": 10,
+    "temperature_c": [
+     7.5,
+     7.6
+    ],
+    "salinity_ppt": [
+     0.15,
+     0.15
+    ]
+   },
+   {
+    "station": "SWMP0202",
+    "time_local": "2026-03-02T10:29:00-06:00",
+    "lon": -90.67418,
+    "lat": 30.2128,
+    "do_min_mg_l": 4.96,
+    "do_max_mg_l": 6.08,
+    "depth_ft": [
+     2.0,
+     20.0
+    ],
+    "n_depths": 10,
+    "temperature_c": [
+     18.3,
+     18.9
+    ],
+    "salinity_ppt": [
+     0.07,
+     0.07
+    ]
+   },
+   {
+    "station": "SWMP0202",
+    "time_local": "2026-04-01T09:35:00-06:00",
+    "lon": -90.67418,
+    "lat": 30.2128,
+    "do_min_mg_l": 6.32,
+    "do_max_mg_l": 6.73,
+    "depth_ft": [
+     2.0,
+     20.0
+    ],
+    "n_depths": 10,
+    "temperature_c": [
+     21.9,
+     22.2
+    ],
+    "salinity_ppt": [
+     0.18,
+     0.18
+    ]
+   },
+   {
+    "station": "SWMP0202",
+    "time_local": "2026-05-05T09:52:00-06:00",
+    "lon": -90.67418,
+    "lat": 30.2128,
+    "do_min_mg_l": 3.56,
+    "do_max_mg_l": 4.1,
+    "depth_ft": [
+     1.0,
+     18.0
+    ],
+    "n_depths": 18,
+    "temperature_c": [
+     21.2,
+     21.8
+    ],
+    "salinity_ppt": [
+     0.15,
+     0.16
+    ]
+   },
+   {
+    "station": "SWMP0202",
+    "time_local": "2026-06-01T10:41:00-06:00",
+    "lon": -90.67418,
+    "lat": 30.2128,
+    "do_min_mg_l": 1.19,
+    "do_max_mg_l": 1.64,
+    "depth_ft": [
+     1.0,
+     19.0
+    ],
+    "n_depths": 19,
+    "temperature_c": [
+     27.8,
+     28.3
+    ],
+    "salinity_ppt": [
+     0.12,
+     0.12
+    ]
+   },
+   {
+    "station": "SWMP0203",
+    "time_local": "2026-01-05T11:30:00-06:00",
+    "lon": -90.60151,
+    "lat": 30.19679,
+    "do_min_mg_l": 8.23,
+    "do_max_mg_l": 8.37,
+    "depth_ft": [
+     1.0,
+     10.0
+    ],
+    "n_depths": 10,
+    "temperature_c": [
+     15.0,
+     15.6
+    ],
+    "salinity_ppt": [
+     0.25,
+     0.26
+    ]
+   },
+   {
+    "station": "SWMP0203",
+    "time_local": "2026-02-02T11:44:00-06:00",
+    "lon": -90.60151,
+    "lat": 30.19679,
+    "do_min_mg_l": 7.79,
+    "do_max_mg_l": 8.3,
+    "depth_ft": [
+     1.0,
+     10.0
+    ],
+    "n_depths": 10,
+    "temperature_c": [
+     6.7,
+     8.6
+    ],
+    "salinity_ppt": [
+     0.28,
+     0.29
+    ]
+   },
+   {
+    "station": "SWMP0203",
+    "time_local": "2026-03-02T11:15:00-06:00",
+    "lon": -90.60151,
+    "lat": 30.19679,
+    "do_min_mg_l": 9.39,
+    "do_max_mg_l": 9.52,
+    "depth_ft": [
+     1.0,
+     12.0
+    ],
+    "n_depths": 12,
+    "temperature_c": [
+     19.2,
+     19.4
+    ],
+    "salinity_ppt": [
+     0.22,
+     0.22
+    ]
+   },
+   {
+    "station": "SWMP0203",
+    "time_local": "2026-04-01T10:42:00-06:00",
+    "lon": -90.60151,
+    "lat": 30.19679,
+    "do_min_mg_l": 4.96,
+    "do_max_mg_l": 5.21,
+    "depth_ft": [
+     1.0,
+     12.0
+    ],
+    "n_depths": 12,
+    "temperature_c": [
+     22.5,
+     22.9
+    ],
+    "salinity_ppt": [
+     0.24,
+     0.24
+    ]
+   },
+   {
+    "station": "SWMP0203",
+    "time_local": "2026-05-05T10:02:00-06:00",
+    "lon": -90.60151,
+    "lat": 30.19679,
+    "do_min_mg_l": 3.13,
+    "do_max_mg_l": 3.31,
+    "depth_ft": [
+     1.0,
+     12.0
+    ],
+    "n_depths": 12,
+    "temperature_c": [
+     20.8,
+     20.9
+    ],
+    "salinity_ppt": [
+     0.22,
+     0.22
+    ]
+   },
+   {
+    "station": "SWMP0203",
+    "time_local": "2026-06-01T12:14:00-06:00",
+    "lon": -90.60151,
+    "lat": 30.19679,
+    "do_min_mg_l": 1.0,
+    "do_max_mg_l": 1.25,
+    "depth_ft": [
+     1.0,
+     11.0
+    ],
+    "n_depths": 11,
+    "temperature_c": [
+     27.8,
+     27.9
+    ],
+    "salinity_ppt": [
+     0.15,
+     0.15
+    ]
+   },
+   {
+    "station": "SWMP0204",
+    "time_local": "2026-01-05T09:33:00-06:00",
+    "lon": -90.54782,
+    "lat": 30.15133,
+    "do_min_mg_l": 7.33,
+    "do_max_mg_l": 7.93,
+    "depth_ft": [
+     1.0,
+     13.0
+    ],
+    "n_depths": 13,
+    "temperature_c": [
+     14.6,
+     15.0
+    ],
+    "salinity_ppt": [
+     0.32,
+     0.32
+    ]
+   },
+   {
+    "station": "SWMP0204",
+    "time_local": "2026-02-02T09:15:00-06:00",
+    "lon": -90.54782,
+    "lat": 30.15133,
+    "do_min_mg_l": 7.84,
+    "do_max_mg_l": 8.09,
+    "depth_ft": [
+     1.0,
+     10.0
+    ],
+    "n_depths": 10,
+    "temperature_c": [
+     6.6,
+     6.8
+    ],
+    "salinity_ppt": [
+     0.3,
+     0.3
+    ]
+   },
+   {
+    "station": "SWMP0204",
+    "time_local": "2026-03-02T09:43:00-06:00",
+    "lon": -90.54782,
+    "lat": 30.15133,
+    "do_min_mg_l": 7.58,
+    "do_max_mg_l": 8.65,
+    "depth_ft": [
+     1.0,
+     13.0
+    ],
+    "n_depths": 13,
+    "temperature_c": [
+     17.4,
+     18.1
+    ],
+    "salinity_ppt": [
+     0.27,
+     0.27
+    ]
+   },
+   {
+    "station": "SWMP0204",
+    "time_local": "2026-04-01T08:37:00-06:00",
+    "lon": -90.54782,
+    "lat": 30.15133,
+    "do_min_mg_l": 4.34,
+    "do_max_mg_l": 4.52,
+    "depth_ft": [
+     1.0,
+     13.0
+    ],
+    "n_depths": 13,
+    "temperature_c": [
+     21.9,
+     22.0
+    ],
+    "salinity_ppt": [
+     0.29,
+     0.29
+    ]
+   },
+   {
+    "station": "SWMP0204",
+    "time_local": "2026-05-04T09:34:00-06:00",
+    "lon": -90.54782,
+    "lat": 30.15133,
+    "do_min_mg_l": 2.78,
+    "do_max_mg_l": 2.88,
+    "depth_ft": [
+     1.0,
+     13.0
+    ],
+    "n_depths": 13,
+    "temperature_c": [
+     20.0,
+     20.2
+    ],
+    "salinity_ppt": [
+     0.34,
+     0.34
+    ]
+   },
+   {
+    "station": "SWMP0204",
+    "time_local": "2026-06-01T09:54:00-06:00",
+    "lon": -90.54782,
+    "lat": 30.15133,
+    "do_min_mg_l": 0.89,
+    "do_max_mg_l": 1.27,
+    "depth_ft": [
+     1.0,
+     11.0
+    ],
+    "n_depths": 11,
+    "temperature_c": [
+     27.9,
+     28.3
+    ],
+    "salinity_ppt": [
+     0.15,
+     0.15
+    ]
+   },
+   {
+    "station": "SWMP0205",
+    "time_local": "2026-01-05T11:54:00-06:00",
+    "lon": -90.64069,
+    "lat": 30.12868,
+    "do_min_mg_l": 2.9,
+    "do_max_mg_l": 3.54,
+    "depth_ft": [
+     1.0,
+     4.0
+    ],
+    "n_depths": 4,
+    "temperature_c": [
+     15.4,
+     15.6
+    ],
+    "salinity_ppt": [
+     0.33,
+     0.33
+    ]
+   },
+   {
+    "station": "SWMP0205",
+    "time_local": "2026-02-02T11:14:00-06:00",
+    "lon": -90.64069,
+    "lat": 30.12868,
+    "do_min_mg_l": 7.7,
+    "do_max_mg_l": 7.72,
+    "depth_ft": [
+     1.0,
+     2.0
+    ],
+    "n_depths": 2,
+    "temperature_c": [
+     6.4,
+     6.4
+    ],
+    "salinity_ppt": [
+     0.26,
+     0.26
+    ]
+   },
+   {
+    "station": "SWMP0205",
+    "time_local": "2026-03-02T11:38:00-06:00",
+    "lon": -90.64069,
+    "lat": 30.12868,
+    "do_min_mg_l": 4.94,
+    "do_max_mg_l": 5.18,
+    "depth_ft": [
+     1.0,
+     4.0
+    ],
+    "n_depths": 4,
+    "temperature_c": [
+     18.8,
+     19.2
+    ],
+    "salinity_ppt": [
+     0.32,
+     0.32
+    ]
+   },
+   {
+    "station": "SWMP0205",
+    "time_local": "2026-04-01T11:23:00-06:00",
+    "lon": -90.64069,
+    "lat": 30.12868,
+    "do_min_mg_l": 2.6,
+    "do_max_mg_l": 2.91,
+    "depth_ft": [
+     1.0,
+     5.0
+    ],
+    "n_depths": 5,
+    "temperature_c": [
+     22.3,
+     22.6
+    ],
+    "salinity_ppt": [
+     0.19,
+     0.19
+    ]
+   },
+   {
+    "station": "SWMP0205",
+    "time_local": "2026-05-05T10:59:00-06:00",
+    "lon": -90.64069,
+    "lat": 30.12868,
+    "do_min_mg_l": 4.63,
+    "do_max_mg_l": 5.27,
+    "depth_ft": [
+     1.0,
+     4.0
+    ],
+    "n_depths": 4,
+    "temperature_c": [
+     21.5,
+     22.1
+    ],
+    "salinity_ppt": [
+     0.22,
+     0.22
+    ]
+   },
+   {
+    "station": "SWMP0205",
+    "time_local": "2026-06-01T12:43:00-06:00",
+    "lon": -90.64069,
+    "lat": 30.12868,
+    "do_min_mg_l": 1.56,
+    "do_max_mg_l": 1.6,
+    "depth_ft": [
+     1.0,
+     4.0
+    ],
+    "n_depths": 4,
+    "temperature_c": [
+     27.6,
+     27.7
+    ],
+    "salinity_ppt": [
+     0.14,
+     0.14
+    ]
+   }
+  ],
+  "lowest_observed_mg_l": 0.89,
+  "statement": "Measured field-probe snapshots show dissolved oxygen falling to about 1 mg/L at several stations on 1 June 2026. These are monthly daytime profiles; they do not establish a hypoxic event duration, fish stress, a flood cause, or any NISAR relationship.",
+  "no_causal_link": "No causal or predictive NISAR-to-oxygen relationship has been established at Maurepas or anywhere in this project. The Everglades and Maurepas panels use different sites, data and dates."
+ },
+ "provenance": {
+  "e15_predictions_sha256": "87b4fe9ab56623879d8e354b772799bd9e9cdf11a7db2c3df7b8a3f50742d01a",
+  "e15_score_sha256": "29334016be04b3bcd9d196a6d8b5a159174d4bd520763971cc84fbbc9f2540c1",
+  "maurepas_profile_summary_sha256": "613058c5c00e234b7e436550cfca822a054554c9ac4c44e7ce7bca46c6a0d88e"
+ }
+}
