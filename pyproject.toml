@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oxygen-debt"
+version = "0.3.0"
+description = "Investigate NISAR landscape observations alongside measured river oxygen"
+requires-python = ">=3.11"
+dependencies = ["fastapi", "uvicorn", "numpy", "scipy", "rasterio", "pyproj", "requests", "h5py", "matplotlib", "harmony-py", "shapely"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
