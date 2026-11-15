@@ -1,0 +1,99 @@
+{
+  "station": "A4261108",
+  "station_name": "Katarapko Creek 2km upstream Katarapko (Midreach)",
+  "location": "candidate-2",
+  "location_name": "Radar investigation 02",
+  "variable": "oxygen",
+  "unit": "mg/l",
+  "polarization": "HHHH",
+  "lag_days": 0,
+  "window_days": 1,
+  "mode": "retrospective",
+  "pairs": [
+    {
+      "radar_time": "2026-08-23T20:34:56.000000Z",
+      "radar_db": -11.603436815749607,
+      "granule_id": "NISAR_L2_PR_GCOV_028_153_A_160_2005_DHDH_A_20260823T203456_20260823T203531_P05023_N_F_J_001",
+      "target_utc": "2026-08-23T20:34:56+00:00",
+      "ground_mean": 10.277256944444444,
+      "ground_times": [
+        "2026-08-24T00:00:00+09:30"
+      ],
+      "ground_values": [
+        10.277256944444444
+      ],
+      "time_differences_hours": [
+        -6.082222222222223
+      ],
+      "count": 1,
+      "blocked_future_count": 0,
+      "status": "AVAILABLE",
+      "aggregation": "Arithmetic mean of retained GOOD daily aggregates"
+    },
+    {
+      "radar_time": "2026-09-28T20:34:56.000000Z",
+      "radar_db": -7.933312972762648,
+      "granule_id": "NISAR_L2_PR_GCOV_031_153_A_160_2005_DHDH_A_20260928T203456_20260928T203531_P05023_N_F_J_001",
+      "target_utc": "2026-09-28T20:34:56+00:00",
+      "ground_mean": 9.280850694444444,
+      "ground_times": [
+        "2026-09-29T00:00:00+09:30"
+      ],
+      "ground_values": [
+        9.280850694444444
+      ],
+      "time_differences_hours": [
+        -6.082222222222223
+      ],
+      "count": 1,
+      "blocked_future_count": 0,
+      "status": "AVAILABLE",
+      "aggregation": "Arithmetic mean of retained GOOD daily aggregates"
+    },
+    {
+      "radar_time": "2026-10-10T20:34:56.000000Z",
+      "radar_db": -7.564886765261908,
+      "granule_id": "NISAR_L2_PR_GCOV_032_153_A_160_2005_DHDH_A_20261010T203456_20261010T203531_P05023_N_F_J_001",
+      "target_utc": "2026-10-10T20:34:56+00:00",
+      "ground_mean": 8.993177083333334,
+      "ground_times": [
+        "2026-10-11T00:00:00+09:30"
+      ],
+      "ground_values": [
+        8.993177083333334
+      ],
+      "time_differences_hours": [
+        -6.082222222222223
+      ],
+      "count": 1,
+      "blocked_future_count": 0,
+      "status": "AVAILABLE",
+      "aggregation": "Arithmetic mean of retained GOOD daily aggregates"
+    }
+  ],
+  "statistics": {
+    "status": "INSUFFICIENT DATA",
+    "paired_values": 3,
+    "independent_radar_epochs": 3,
+    "pearson": null,
+    "spearman": null,
+    "p_value": null,
+    "reason": "Only 3 independent radar dates. Daily repeats and geographic blocks cannot increase the temporal sample size. Display guard requires at least 10; power and dependence would still need assessment."
+  },
+  "distance_m": 10273.48191935171,
+  "connectivity": "UNVERIFIED. Geographic distance is not hydraulic connectivity.",
+  "temporal_caution": "Daily aggregate window convention and historical product delivery times remain unverified. As-of mode checks recorded timestamps only.",
+  "evidence": {
+    "radar_oxygen_relationship": "INSUFFICIENT DATA",
+    "radar_proves_inundation": "INCONCLUSIVE",
+    "oxygen_depletion_event": "INCONCLUSIVE for short-duration minima",
+    "daily_means_below_2_mg_l": "CONTRADICTED by the retained GOOD daily means"
+  },
+  "missing": [
+    "Additional independent radar dates",
+    "Wetland outlet DO/DOC and flow",
+    "Hydraulic travel-time/connectivity evidence",
+    "Matched inundation labels"
+  ],
+  "source": "https://water.data.sa.gov.au/Export/BulkExportJson?DateRange=Custom&StartTime=2026-08-20+00%3A00&EndTime=2026-10-12+00%3A00&TimeZone=9.5&Calendar=CALENDARYEAR&Interval=Daily&Step=1&ExportFormat=json&TimeAligned=True&RoundData=False&IncludeGradeCodes=True&IncludeApprovalLevels=True&IncludeQualifiers=True&IncludeInterpolationTypes=True&Datasets%5B0%5D.DatasetName=O2+%28Dis%29.Best+Available--DO+Sensor-1m%40A4261108&Datasets%5B0%5D.Calculation=Aggregate&Datasets%5B0%5D.UnitId=35"
+}
