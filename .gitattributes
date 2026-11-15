@@ -1,0 +1,6 @@
+* text=auto eol=lf
+/data/observations/** -text
+*.png -text
+*.jpg -text
+*.mp4 -text
+*.npz -text
