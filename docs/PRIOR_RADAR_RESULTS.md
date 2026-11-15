@@ -75,7 +75,7 @@ ASF reports residual RFI/ripples and incomplete-L0B issues in provisional produc
 
 ## Reproduction and outputs
 
-Run from the repository root with .venv. With retained inputs, execute python -m scripts.validation_comparison followed by python -m scripts.submission_audit. The metrics script writes fold scores and all six results. The audit writes observation_timeline.csv, submission_audit.json and the application's validation.json. For raw processing use README.md. Independent-input acquisition is described in docs/REPRODUCIBILITY.md.
+Run from the repository root with .venv. With retained inputs, execute python -m scripts.validation_comparison followed by python -m scripts.submission_audit. The metrics script writes fold scores and all six results. The audit writes observation_timeline.csv, submission_audit.json and the application's validation.json. For raw processing use README.md. Independent-input acquisition is described in [docs/REPRODUCIBILITY.md](REPRODUCIBILITY.md).
 
 All analytical rasters, model rankings and field plots carry observed/derived/modeled labels in the final demonstration. The 3D terrain is the Copernicus GLO-30 digital surface model sampled every 400 m, with visually exaggerated relief. It includes canopy and structures. Radar-change color is derived from measured power. Only logistic ranking scores are modeled.
 

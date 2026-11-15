@@ -39,7 +39,7 @@ python -m canopy_pulse.process outputs/local/pair.json --output outputs/local/na
 
 The inventory falls back to the supplied provenance snapshot. The generated local pair file uses the configured raw power/mask/looks files and is excluded from Git. Outputs require a new or empty directory. Inputs must be calibrated power with confirmed subswath masks. Source COG paths in the published manifest are portable slash-separated paths relative to the chosen workspace. Optional source HDF5 configurations are also supported.
 
-The prior surface-water ranking experiment and its unsuccessful predefined forward evaluation are preserved in docs/PRIOR_RADAR_RESULTS.md, data/derived and published validation scripts. Raw comparison TIFFs must be downloaded before rerunning that experiment. It is separate from the Oxygen Debt inference, which remains sample-limited.
+The prior surface-water ranking experiment and its unsuccessful predefined forward evaluation are preserved in [docs/PRIOR_RADAR_RESULTS.md](PRIOR_RADAR_RESULTS.md), data/derived and published validation scripts. Raw comparison TIFFs must be downloaded before rerunning that experiment. It is separate from the Oxygen Debt inference, which remains sample-limited.
 
 ## Software and presentation
 
@@ -65,7 +65,7 @@ python scripts/check_flood_experiment.py
 
 acquire_flood_context.py without --live verifies the four retained response hashes and regenerates boundary context. --live explicitly refreshes the selected official datasets and responses; changing sources may change numerical results/grades. No credential is required for these DEW requests.
 
-run_flood_experiment.py regenerates default, disconnected and low-flow/large-area stress scenarios with fixed PCG64 seed 20261115 and 512 members each. No target oxygen is used in these calculations. It writes data/derived/flood_experiment.json. The numerical step adapts using the first 32 members' minimum-river refinement check; each output records the step and diagnostic. Jansen total-order indices and 200 paired bootstrap resamples accompany two distinct outputs. All parameter bounds and model assumptions remain in the JSON and docs/FLOOD_EXPERIMENT.md.
+run_flood_experiment.py regenerates default, disconnected and low-flow/large-area stress scenarios with fixed PCG64 seed 20261115 and 512 members each. No target oxygen is used in these calculations. It writes data/derived/flood_experiment.json. The numerical step adapts using the first 32 members' minimum-river refinement check; each output records the step and diagnostic. Jansen total-order indices and 200 paired bootstrap resamples accompany two distinct outputs. All parameter bounds and model assumptions remain in the JSON and [docs/FLOOD_EXPERIMENT.md](FLOOD_EXPERIMENT.md).
 
 To repeat the native radar audit without overwriting prior outputs, set OXYGEN_WORKSPACE_ROOT to an external legacy-layout workspace containing data/acquisition, data/raw and outputs/comparison, then run from this checkout:
 

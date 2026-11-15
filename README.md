@@ -9,13 +9,13 @@ O2tracker makes NASA NISAR L-band radar observations explorable. Open it and you
 - **Why it matters** — measured low dissolved oxygen in Louisiana (CPRA field profiles; a different site). No NISAR-to-oxygen relationship is established.
 - **About** — methods, sources, labels (Observed / Derived / Modeled / Exploratory) and the original Katarapko investigation at /investigation.
 
-O2tracker is not an oxygen sensor, hypoxia predictor or early-warning service. This project was developed as OXYGEN DEBT so historical records may contain that name. Viewer assets are built deterministically by scripts/build_viewer_assets.py from the original NISAR rasters (not redistributed); data/derived/viewer/manifest.json records geotransforms, encodings and source SHA-256 values.
+O2tracker is not an oxygen sensor, hypoxia predictor or early-warning service. This project was developed as OXYGEN DEBT so historical records may contain that name. Viewer assets are built deterministically by [scripts/build_viewer_assets.py](scripts/build_viewer_assets.py) from the original NISAR rasters (not redistributed); [data/derived/viewer/manifest.json](data/derived/viewer/manifest.json) records geotransforms, encodings and source SHA-256 values.
 
 ---
 
 O2tracker is an interactive scientific investigation. It connects real NISAR HH/HV observations over Katarapko/Pike, South Australia, with independently measured dissolved oxygen, temperature and water level during the 2026 environmental-watering season.
 
-The new experiment moves from independent flood evidence to a finite-carbon oxygen budget, conditional uncertainty, an explicit oxygen reveal and output-specific sensitivity. Published litter/chemistry bounds are separated from assumed hydrology. NISAR does not supply a validated flooded-area input here. Read docs/FLOOD_EXPERIMENT.md for the complete model and results.
+The new experiment moves from independent flood evidence to a finite-carbon oxygen budget, conditional uncertainty, an explicit oxygen reveal and output-specific sensitivity. Published litter/chemistry bounds are separated from assumed hydrology. NISAR does not supply a validated flooded-area input here. Read [docs/FLOOD_EXPERIMENT.md](docs/FLOOD_EXPERIMENT.md) for the complete model and results.
 
 Follow the Oxygen moves from the radar landscape to the river sensor. Select an area, station, polarization, acquisition, variable and lag. Reveal measured oxygen, inspect time offsets and geographic separation, explore competing explanations, then experiment with an explicitly educational oxygen-budget model. There are three independent radar dates. Two stations supply 53 GOOD-grade oxygen daily means each, ranging 8.918–10.737 and 8.422–11.149 mg/L.
 
@@ -23,7 +23,7 @@ Follow the Oxygen moves from the radar landscape to the river sensor. Select an 
 
 **The present oxygen model does not change.** Three controlled evidence arms produce identical complete numerical outputs under fixed assumptions, including a matched upstream-data check. NISAR is supportive of a surface-change investigation; its quantitative oxygen benefit remains unproven.
 
-Switch A/B/C in the app, remove NISAR from a live calculation and inspect its unchanged fingerprint. Compare actual HH/HV changes against conventional observations and reference proxies, then choose which missing observation would distinguish water, soil/vegetation, radiometric effects or the outlet-to-river oxygen pathway. The dependency map marks the unsupported radar-to-inundation link explicitly. This is a scientific limitation exposed through an interactive investigation, not a validated warning system. Read docs/NISAR_ESSENTIALITY.md.
+Switch A/B/C in the app, remove NISAR from a live calculation and inspect its unchanged fingerprint. Compare actual HH/HV changes against conventional observations and reference proxies, then choose which missing observation would distinguish water, soil/vegetation, radiometric effects or the outlet-to-river oxygen pathway. The dependency map marks the unsupported radar-to-inundation link explicitly. This is a scientific limitation exposed through an interactive investigation, not a validated warning system. Read [docs/NISAR_ESSENTIALITY.md](docs/NISAR_ESSENTIALITY.md).
 
 ## Run locally
 
@@ -46,7 +46,7 @@ python -m pytest -q
 npm run check
 ```
 
-See REPRODUCIBILITY.md for source verification, optional raw radar processing and the external-data configuration. Fresh radar acquisition requires Earthdata authentication in the local terminal. No credentials are bundled.
+See [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md) for source verification, optional raw radar processing and the external-data configuration. Fresh radar acquisition requires Earthdata authentication in the local terminal. No credentials are bundled.
 
 ## What is implemented
 
@@ -57,14 +57,18 @@ See REPRODUCIBILITY.md for source verification, optional raw radar processing an
 - A 512-member educational floodplain/river experiment with finite litter carbon, published parameter bounds, conservative transport, adaptive numerical checks and conditional Jansen sensitivity. The previous single-box lesson remains accessible.
 - Exportable evidence reports, eight linked story scenes, desktop/mobile controls and a local demonstration.
 
-Historical radar methods and negative outcomes remain available in docs/PRIOR_RADAR_RESULTS.md with the retained evaluation code and manifests.
+Historical radar methods and negative outcomes remain available in [docs/PRIOR_RADAR_RESULTS.md](docs/PRIOR_RADAR_RESULTS.md) with the retained evaluation code and manifests.
 
-## License
+## Disclosures
+
+#### License
 
 Project code uses the MIT license. External datasets retain their original rights and attribution.
 
-Read DATA_SOURCES.md.
+#### Data Sources
 
-## AI Disclosure
+Read [DATA_SOURCES.md](DATA_SOURCES.md).
 
-Read AI_DISCLOSURE.md.
+#### AI Disclosure
+
+Read [AI_DISCLOSURE.md](AI_DISCLOSURE.md).

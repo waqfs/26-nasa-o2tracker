@@ -72,11 +72,11 @@ The finite-carbon equations and published ranges are unchanged. Additional audit
 
 Stoichiometry is 32/12 kg O2 per kg oxidized C; finite litter pools and oxygen-limited reaction prevent unlimited oxygen consumption. Volumes, flow, connectivity and initial conditions remain explicit assumptions. Temperature relationships and ranges remain traced to Gibbs, Wallace & Mosley (2022), Table 1, and pinned DODOC formulas. Sensitivity indices and their bootstrap intervals remain conditional on independent uniform inputs and the simplified model. Mass balance is necessary software/physics consistency, not evidence those assumptions describe the event.
 
-DODOC/BRAT already represent floodplain litter, DOC/oxygen processes and, in DODOC, hydrological routing. Oxygen Debt's contribution is its sensor-dependency audit, evidence-to-hypothesis interface, conservative teaching budget and transparent measurement reveal/requirements. We neither claim invention of blackwater modeling nor reproduce published calibrated model skill. See docs/FLOOD_EXPERIMENT.md for structural omissions, units and exact parameter sources.
+DODOC/BRAT already represent floodplain litter, DOC/oxygen processes and, in DODOC, hydrological routing. Oxygen Debt's contribution is its sensor-dependency audit, evidence-to-hypothesis interface, conservative teaching budget and transparent measurement reveal/requirements. We neither claim invention of blackwater modeling nor reproduce published calibrated model skill. See [docs/FLOOD_EXPERIMENT.md](FLOOD_EXPERIMENT.md) for structural omissions, units and exact parameter sources.
 
 ## Reproduce and interpret
 
-Run `python scripts/run_ablation.py` and `python scripts/audit_model.py` from the public repository after installing dependencies. No raw radar files or network are needed for these snapshot-based experiments. Complete results are in data/derived/nisar_ablation.json and model_audit_03.json. The protocol record explicitly distinguishes the initial pre-execution audit document from the later machine-readable record; this is not an external preregistration. No search for a positive test was performed.
+Run `python scripts/run_ablation.py` and `python scripts/audit_model.py` from the public repository after installing dependencies. No raw radar files or network are needed for these snapshot-based experiments. Complete results are in [data/derived/nisar_ablation.json](../data/derived/nisar_ablation.json) and model_audit_03.json. The protocol record explicitly distinguishes the initial pre-execution audit document from the later machine-readable record; this is not an external preregistration. No search for a positive test was performed.
 
 ## Additional matched-boundary dependency control
 
