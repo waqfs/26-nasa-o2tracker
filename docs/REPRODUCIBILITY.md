@@ -43,11 +43,10 @@ The prior surface-water ranking experiment and its unsuccessful predefined forwa
 
 ## Software and presentation
 
-Tests distinguish implementation behavior from environmental validation. Browser checks exercise both stations, variable/lag controls, blocked future observations, exported reports, educational model changes, terrain switching and narrow layout. The demo uses Matplotlib's bundled DejaVu Sans font. scripts/audit_public.py records SHA-256 hashes for the public files; tests separately verify the source-response hashes against the observation manifest.
+Tests distinguish implementation behavior from environmental validation. Browser checks exercise both stations, variable/lag controls, blocked future observations, exported reports, educational model changes, terrain switching and narrow layout. The demo uses Matplotlib's bundled DejaVu Sans font.
 
 ```sh
 python scripts/check_application.py
-python scripts/audit_public.py
 ```
 
 Browser checks use an installed Microsoft Edge browser through Playwright, and the server must already be running.
