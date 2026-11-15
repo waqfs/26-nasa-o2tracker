@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Investigate NASA radar observations alongside independently measured river oxygen.">
+    <title>O2tracker · Katarapko–Pike investigation</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23111'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='15' font-weight='700' fill='white' text-anchor='middle'%3EO2%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&display=swap">
+    <link rel="stylesheet" href="/frontend/oxygen.css">
+</head>
+
+<body>
+    <header><a class="brand" href="/">O2<span>tracker</span></a><a href="/">Home</a><a href="/app#explore">O2tracker radar viewer</a><a href="/docs/SCIENCE.md">Evidence and methods</a></header>
+    <main>
+        <section class="hero">
+            <div>
+                <h1>Katarapko–Pike floodplain, South Australia: NISAR backscatter and river dissolved oxygen, August–October 2026</h1>
+                <p class="lede">Three NISAR L-band passes compared with DEW oxygen records at two river stations, plus an educational (modeled) oxygen-budget experiment and a test of what changes when NISAR is removed. Three radar dates are not enough to estimate a radar–oxygen relationship.</p>
+            </div>
+            <aside class="hero-evidence"><span class="eyebrow">Data used</span>
+                <div><strong>3</strong><span>independent radar dates</span></div>
+                <div><strong>106</strong><span>GOOD-grade oxygen daily means</span></div>
+                <p>Radar–oxygen relationship: <b>insufficient data</b></p>
+            </aside>
+        </section>
+        <nav id="journey" aria-label="Follow the Oxygen"><button data-scene="0" class="active">Background</button><button data-scene="1">Radar data</button><button data-scene="2">River sensors</button><button data-scene="3">Dependency test</button><button data-scene="4">Sensitivity</button><button data-scene="5">Oxygen budget (model)</button><button data-scene="6">Measurements needed</button><button data-scene="7">Future work</button></nav>
+        <section class="story">
+            <div>
+                <p id="story-type" class="eyebrow"></p>
+                <h2 id="story-title"></h2>
+                <p id="story-copy"></p>
+            </div><a id="story-source" target="_blank" rel="noreferrer">Primary source</a>
+        </section>
+        <section id="history" class="context-card">
+            <h3>Background: Menindee fish deaths, March 2023</h3>
+            <p>The NSW investigation identified low dissolved oxygen in the Menindee fish-death event. Temperature, biological demand and river conditions can interact. This earlier event explains the question; our 2026 South Australian measurements establish a different study context.</p><a href="https://www.epa.nsw.gov.au/Working-together/Community-engagement/updates-on-issues/Menindee-fish-kill" target="_blank" rel="noreferrer">Read the NSW EPA investigation ↗</a>
+        </section>
+        <section id="essentiality" class="alignment">
+            <div class="workspace-title">
+                <div>
+                    <h2>NISAR dependency test (ablation)</h2>
+                </div><span class="type-tag amber">Supportive; oxygen benefit unproven</span>
+            </div>
+            <p>Switch the observations available to this investigation. We hold the geographic area, original comparison dates, model assumptions and random draws fixed.</p>
+            <label>Evidence available<select id="evidence-arm">
+                    <option value="C">C / Field + conventional satellites + NISAR</option>
+                    <option value="B">B / Field + Landsat and Sentinel</option>
+                    <option value="A">A / Field and water-quality records</option>
+                </select></label>
+            <div class="dependency-chain" aria-label="NISAR dependency map">
+                <div><strong>NISAR HH / HV</strong><span>Observed L-band power</span></div><span>→</span>
+                <div><strong>Surface change</strong><span>Measured; cause uncertain</span></div><span class="blocked">×</span>
+                <div class="unsupported"><strong>Flooded area / depth</strong><span>No validated conversion</span></div><span>→</span>
+                <div><strong>Oxygen budget</strong><span>Assumed hydrology + literature</span></div>
+            </div>
+            <p id="arm-verdict" class="scope" aria-live="polite"></p>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Frozen default ablation</th>
+                            <th>Median potential demand</th>
+                            <th>Median minimum river O₂</th>
+                            <th>Difference from A</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ablation-rows"></tbody>
+                </table>
+            </div>
+            <p id="ablation-proof" class="small"></p>
+            <p class="small">This is an input-dependency test of the current implementation. The retained locations were originally selected using radar candidates and monitoring contexts. It cannot establish sensor accuracy, optimal sampling locations or the value of a sensor-blind study.</p><a href="/methods/essentiality" target="_blank">Dependency audit, frozen protocol and all results</a>
+        </section>
+        <section id="workspace">
+            <div class="workspace-title">
+                <div>
+                    <h2>Radar and river records</h2>
+                </div><span class="type-tag">Observed / derived</span>
+            </div>
+            <div class="connection-controls"><label>Radar area<select id="area"></select></label><label>River station<select id="station"></select></label><label>Acquisition<select id="pass">
+                        <option value="0">23 Aug 2026 · 20:34 UTC</option>
+                        <option value="1" selected>28 Sep 2026 · 20:34 UTC</option>
+                        <option value="2">10 Oct 2026 · 20:34 UTC</option>
+                    </select></label><label>Polarization<select id="polarization">
+                        <option value="HHHH">HH co-polarized power</option>
+                        <option value="HVHV">HV cross-polarized power</option>
+                    </select></label></div>
+            <div class="two-worlds">
+                <article class="without-nisar-panel">
+                    <p class="eyebrow">L-band observations removed</p>
+                    <h3 id="withheld-title">What evidence remains?</h3>
+                    <p id="withheld-evidence"></p>
+                    <p class="small">The original time anchor and geographic selection remain fixed. This removes measured NISAR values from the view; it does not create a sensor-blind site-selection experiment.</p>
+                </article>
+                <article class="space-panel">
+                    <div class="panel-heading">
+                        <div>
+                            <h3>NISAR backscatter at the selected 100 m block</h3>
+                        </div><span class="type-tag">Observed power</span>
+                    </div>
+                    <p id="radar-description"></p>
+                    <div class="terrain-controls"><label>Vertical axis<select id="mesh-surface">
+                                <option value="terrain">Surface elevation (m)</option>
+                                <option value="signal">Radar signal (dB)</option>
+                            </select></label><label>Layer<select id="mesh-layer">
+                                <option value="HH_20260823">HH · 23 August</option>
+                                <option value="HH_20260928" selected>HH · 28 September</option>
+                                <option value="HH_20261010">HH · 10 October</option>
+                                <option value="HV_20260823">HV · 23 August</option>
+                                <option value="HV_20260928">HV · 28 September</option>
+                                <option value="HV_20261010">HV · 10 October</option>
+                                <option value="HHHH">Derived HH change</option>
+                                <option value="HVHV">Derived HV change</option>
+                                <option value="vv">Sentinel-1 VV change</option>
+                            </select></label></div>
+                    <canvas id="signal-canvas" width="1100" height="600" tabindex="0" aria-label="Rotatable actual floodplain surface with observed radar colors. Use the rotation and viewing-elevation sliders for keyboard access."></canvas>
+                    <p id="mesh-readout" class="small">Drag to orbit. Click a sampled vertex to inspect its signal.</p>
+                    <div class="terrain-controls"><label>Rotation<input id="mesh-rotation" type="range" min="-180" max="180" value="-25"></label><label>Viewing elevation<input id="mesh-tilt" type="range" min="15" max="85" value="50"></label><label>Relief scale<input id="mesh-height" type="range" min="0" max="4" step=".1" value="1"></label><button id="mesh-reset">Reset</button></div>
+                    <p class="small">Copernicus GLO-30 surface elevation includes vegetation and structures. Display spacing is 400 m; radar values come from 100 m power averages. Relief is visually exaggerated.</p>
+                    <div id="radar-values" class="measurement-row"></div>
+                    <details>
+                        <summary>Granule & conventional observations</summary><code id="granule"></code>
+                        <p class="small">Full retrospective comparison archive; the recorded-timestamp filter applies to aligned ground records.</p>
+                        <p id="conventional"></p>
+                    </details>
+                </article>
+                <article class="river-panel">
+                    <div class="panel-heading">
+                        <div>
+                            <h3>Dissolved oxygen at the selected station</h3>
+                        </div><span class="type-tag blue">Independent sensor</span>
+                    </div>
+                    <p id="station-name"></p>
+                    <p id="spatial-scope" class="scope"></p>
+                    <div class="measurement-row">
+                        <div><strong id="do-range">—</strong><span>mg/L · revealed only on request</span></div>
+                        <div><strong id="do-count">—</strong><span>quality-controlled dates</span></div>
+                    </div>
+                    <div class="reveal-box">
+                        <h3>Predict first (oxygen values hidden until revealed)</h3>
+                        <p>Compare oxygen at the selected radar date with the August baseline.</p><label>Your hypothesis<select id="guess">
+                                <option value="unknown">Radar alone gives insufficient information</option>
+                                <option value="lower">Oxygen decreased</option>
+                                <option value="higher">Oxygen increased</option>
+                                <option value="similar">Little change</option>
+                            </select></label><button id="reveal">Reveal the measured oxygen</button>
+                    </div>
+                    <div id="reveal-result" hidden aria-live="polite">
+                        <p id="oxygen-reveal"></p><canvas id="oxygen-chart" width="900" height="340" aria-label="GOOD-grade measured dissolved oxygen over time, with actual radar dates"></canvas>
+                        <p class="small">Observed daily aggregates · mg/L · source fixed UTC+09:30. Vertical lines mark radar acquisition times. Gaps stay unconnected.</p>
+                    </div>
+                    <label>Environmental variable<select id="variable">
+                            <option value="oxygen">Dissolved oxygen (mg/L)</option>
+                            <option value="temperature">Water temperature (°C)</option>
+                            <option value="level">Water level (station datum)</option>
+                        </select></label><canvas id="context-chart" width="900" height="260" aria-label="Selected environmental variable at the monitoring station"></canvas>
+                    <p id="variable-note" class="small"></p>
+                </article>
+            </div>
+            <section class="alignment">
+                <div class="panel-heading">
+                    <div>
+                        <h3>Time alignment (a hypothesis, not an established link)</h3>
+                    </div><button id="export">Export investigation</button>
+                </div>
+                <div class="connection-controls"><label>Lag from radar<input id="lag" type="range" min="-14" max="21" value="0"><span id="lag-label">0 days</span></label><label>Window<select id="window">
+                            <option value="1">1 day</option>
+                            <option value="3">3 days</option>
+                            <option value="7">7 days</option>
+                        </select></label><label>Evidence mode<select id="mode">
+                            <option value="retrospective">Retrospective comparison</option>
+                            <option value="as_of">Recorded timestamps at or before radar</option>
+                        </select></label></div>
+                <p id="alignment-note"></p>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Radar UTC</th>
+                                <th class="nisar-cell">Power dB</th>
+                                <th>Ground UTC+09:30</th>
+                                <th>Mean / unit</th>
+                                <th>Time offset</th>
+                                <th>Quality / availability</th>
+                            </tr>
+                        </thead>
+                        <tbody id="aligned-rows"></tbody>
+                    </table>
+                </div>
+                <div class="evidence-message"><strong id="association-status"></strong>
+                    <p id="association-reason"></p>
+                </div>
+            </section>
+        </section>
+        <section id="surface-investigation" class="alignment">
+            <h2>Unresolved explanations for the backscatter change</h2>
+            <div id="physical-diagnostics"></div>
+            <div id="physical-hypotheses" class="hypothesis-grid"></div><label>Next measurement: which question?<select id="measurement-question">
+                    <option value="surface">Is the candidate actually wet?</option>
+                    <option value="radiometry">Could a common radar shift explain it?</option>
+                    <option value="oxygen">What links exposure to river oxygen?</option>
+                </select></label>
+            <div id="measurement-plan" class="scope" aria-live="polite"></div>
+            <p class="small">A transparent measurement requirement at a fixed existing location, not mathematically optimal placement or a demonstrated management benefit. For model uncertainty, inspect the actual conditional sensitivity below.</p>
+        </section>
+        <section id="flood-budget">
+            <div class="workspace-title">
+                <div>
+                    <h2>Floodplain oxygen budget (educational model)</h2>
+                </div><span class="type-tag amber">Educational; uncertain inputs</span>
+            </div>
+            <p class="section-intro">Potential demand is not river depletion. A changed radar signal does not give us flooded hectares. Compare the independent evidence first. Then test explicit assumptions about litter, water volume and the pathway to a river. The model never fits the oxygen measurements you will reveal. This experiment uses a fixed 14-day scenario from the selected radar timestamp; the legacy alignment lag/window controls above do not set its duration or onset.</p>
+            <label>Which evidence are you interrogating?<select id="evidence-choice">
+                    <option value="radar">NISAR candidate: measured power, uncertain inundation</option>
+                    <option value="field">Field water level: measured at a different location</option>
+                    <option value="landsat">Landsat: derived exposed-water labels</option>
+                </select></label>
+            <div id="flood-evidence" class="evidence-grid"></div>
+            <p id="flood-input-verdict" class="scope"></p>
+            <div class="two-worlds">
+                <article>
+                    <p class="eyebrow">Assumed hydrology; no event estimate</p><label>Scenario justification<select id="scenario-preset">
+                            <option value="educational">Educational literature-bounded mechanism experiment</option>
+                            <option value="disconnected">Mechanism control: no connected litter pathway</option>
+                            <option value="custom">Custom assumptions — no event constraint</option>
+                        </select></label>
+                    <p id="scenario-justification" class="small">Observed inundation and routing are insufficient for an event scenario. These choices test mechanisms only; evidence-arm changes do not change their physical inputs.</p>
+                    <h3>Scenario inputs (assumed)</h3>
+                    <p class="small">These bounds are user assumptions. A station-level rise is not local water depth. A 100 m candidate block is 1 ha, not evidence that a larger region flooded. No evidence choice converts radar into area.</p>
+                    <div class="connection-controls"><label>Scenario area (ha)<input id="flood-area" type="number" min="1" max="2000" value="100"></label><label>Mean depth (m)<input id="flood-depth" type="number" min=".1" max="3" step=".1" value=".5"></label><label>Floodplain exchange (1/day)<input id="flood-exchange" type="number" min="0" max="1" step=".01" value=".1"></label><label>Background river flow (m³/s)<input id="flood-flow" type="number" min="1" max="1000" value="100"></label><label>River mixing volume (ML)<input id="flood-volume" type="number" min="100" max="50000" value="5000"></label><label>Outlet fraction reaching river<input id="flood-connected" type="number" min="0" max="1" step=".1" value=".5"></label><label>Hydrology range ± fraction<input id="flood-spread" type="number" min="0" max=".9" step=".1" value=".5"></label><label>Assumed upstream O₂ (mg/L)<input id="flood-upstream" type="number" min="0" max="15" step=".1" value="9"></label></div>
+                    <label class="check"><input id="flood-use-boundary" type="checkbox"> Use aligned upstream River Murray oxygen and temperature as constant scenario boundaries</label>
+                    <p id="boundary-note" class="small"></p>
+                    <details>
+                        <summary>Published parameters & where this differs from DODOC</summary>
+                        <p>Gibbs, Wallace & Mosley (2022), Table 1 supplies uniform sensitivity bounds. They are not calibrated 2026 probabilities. All released carbon is assumed biodegradable; this is a major structural simplification. Simultaneous inundation, fixed storage and complete mixing replace DODOC's routing and changing floodplain areas.</p>
+                        <div class="table-wrap">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Parameter</th>
+                                        <th>Range / unit</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="published-parameters"></tbody>
+                            </table>
+                        </div><a href="/methods/flood" target="_blank">Full equations, units and uncertainty</a><br><a href="https://doi.org/10.1002/hyp.14529" target="_blank" rel="noreferrer">Gibbs, Wallace & Mosley (2022) ↗</a>
+                        <p>Two litter pools release finite carbon. CH₂O oxidation consumes 32/12 kg O₂ per kg C. Water movement conserves both carbon and oxygen; reaeration exchanges oxygen with air. No algae, stratification, sediment demand, antecedent litter dynamics or explicit travel times.</p>
+                    </details>
+                    <button id="calculate-flood">Calculate possible oxygen demand</button><button id="reset-flood">Reset assumptions</button>
+                    <p id="flood-progress" role="status" aria-live="polite"></p>
+                </article>
+                <article>
+                    <h3>Model output: 512 runs, fixed seed</h3>
+                    <div id="flood-summary" aria-live="polite">Calculate before revealing the ground measurements.</div>
+                    <div id="flood-output" hidden>
+                        <p id="live-arm-proof" class="scope"></p><button id="toggle-nisar">Remove NISAR from the evidence</button><label>Scenario compartment<select id="flood-compartment">
+                                <option value="river">Receiving river</option>
+                                <option value="floodplain">Floodplain water</option>
+                            </select></label><canvas id="flood-chart" width="900" height="400" aria-label="Hypothetical oxygen trajectories, with conditional 5th, median and 95th percentile lines"></canvas>
+                        <p class="small">Conditional 5th / median / 95th percentiles of instantaneous simulated trajectories. These are not confidence intervals or event probabilities. Orange points after reveal are daily station means with different spatial and time support.</p>
+                        <p id="flood-balance" class="small"></p><button id="reveal-flood">Reveal the ground measurements</button><button id="export-flood">Export experiment & assumptions</button>
+                        <div id="flood-reveal" hidden aria-live="polite"></div>
+                    </div>
+                </article>
+            </div>
+            <div id="flood-sensitivity" class="alignment" hidden>
+                <p class="eyebrow">Sensitivity</p>
+                <h3 id="flood-measurement"></h3><label>Output being explained<select id="sensitivity-target">
+                        <option value="minimum_river_oxygen_mg_l">Minimum receiving-river oxygen</option>
+                        <option value="potential_oxygen_demand_kg">Total potential stoichiometric demand</option>
+                    </select></label>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Uncertain input</th>
+                                <th>Total-order index</th>
+                                <th>Bootstrap 95% interval</th>
+                                <th>Range basis</th>
+                            </tr>
+                        </thead>
+                        <tbody id="sensitivity-rows"></tbody>
+                    </table>
+                </div>
+                <p id="sensitivity-caution" class="small"></p>
+            </div>
+            <p class="small">No causal or forecast verdict is fitted. The broad ensemble explores assumptions; agreement with a measured value does not validate the model. No probability of fish deaths is calculated.</p>
+        </section>
+        <section id="explanations" hidden>
+            <div class="workspace-title">
+                <div>
+                    <h2>Competing explanations</h2>
+                </div><span class="type-tag">Exploratory analysis</span>
+            </div>
+            <div id="hypotheses" class="hypothesis-grid"></div>
+            <div class="two-worlds">
+                <article>
+                    <h3>Temperature & oxygen</h3><canvas id="scatter" width="900" height="340" aria-label="Scatter of same-day observed water temperature and oxygen"></canvas>
+                    <p id="covariate-summary"></p>
+                </article>
+                <article>
+                    <h3>Temperature-only benchmark</h3>
+                    <p>First 35 days fit a temperature-only association. The last 18 days assess its error alongside a training-mean and prior-day persistence baseline. Same-day temperature makes this an explanatory benchmark.</p>
+                    <div class="table-wrap">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Method</th>
+                                    <th>MAE mg/L</th>
+                                    <th>RMSE mg/L</th>
+                                </tr>
+                            </thead>
+                            <tbody id="covariate-metrics"></tbody>
+                        </table>
+                    </div>
+                    <p class="small">This section always uses the full retained retrospective period, including when a radar timestamp filter is selected above. Daily samples are serially dependent. No p-value or causal result is reported. Radar has too few independent dates for a fitted comparison.</p>
+                </article>
+            </div>
+        </section>
+        <details id="legacy-model">
+            <summary>Previous release: single-box oxygen teaching experiment</summary>
+            <section id="simulation">
+                <div class="workspace-title">
+                    <div>
+                        <h2>Single-box oxygen model (previous release)</h2>
+                    </div><span class="type-tag amber">Modeled; uncalibrated</span>
+                </div>
+                <p class="section-intro">Change biodegradable oxygen demand, temperature, water exchange and reaeration in a mixed water box. These assumed parameters are independent of the observed 2026 river records.</p>
+                <div class="two-worlds">
+                    <article>
+                        <div class="connection-controls"><label>Temperature <span id="sim-temperature-label">20 °C</span><input id="sim-temperature" type="range" min="5" max="35" value="20"></label><label>Initial oxygen-equivalent demand <span id="sim-demand-label">8 mg/L</span><input id="sim-demand" type="range" min="0" max="40" value="8"></label><label>Water exchange <span id="sim-exchange-label">0.20 /day</span><input id="sim-exchange" type="range" min="0" max="2" step=".05" value=".2"></label><label>Reaeration at 20 °C <span id="sim-air-label">0.50 /day</span><input id="sim-air" type="range" min="0" max="2" step=".05" value=".5"></label></div><button id="run-simulation">Run educational scenario</button><button id="reset-simulation">Reset assumptions</button>
+                        <p class="small">Initial DO 9 mg/L; inflow DO 9 mg/L; inflow demand 2 mg O₂-equivalent/L; decay at 20 °C 0.15/day; 14 days. Temperature multipliers 1.047 and 1.024 are illustrative.</p>
+                        <details>
+                            <summary>Mass balance & scientific lineage</summary>
+                            <p>dO/dt = exchange × (Oin − O) + reaeration × (Osat − O) − consumption.<br>dL/dt = exchange × (Lin − L) − consumption.<br>Consumption = decay × L × O / (0.2 + O).</p>
+                            <p>Established oxygen-budget concepts motivate this simplified model. DODOC and BRAT provide more specific floodplain formulations. This implementation uses a mixed box with oxygen-limited consumption; it has no site calibration.</p><a href="https://ewater.atlassian.net/wiki/spaces/SD540/pages/255100113/Dissolved+Oxygen+Dissolved+Organic+Carbon" target="_blank" rel="noreferrer">DODOC documentation ↗</a>
+                        </details>
+                    </article>
+                    <article><canvas id="simulation-chart" width="900" height="380" aria-label="Modeled scenario oxygen and remaining oxygen-equivalent demand"></canvas>
+                        <p id="simulation-summary"></p>
+                        <p class="small">Blue = scenario oxygen. Orange = remaining oxygen-equivalent demand. Computed equilibrium assumes freshwater at standard atmospheric pressure.</p>
+                    </article>
+                </div>
+            </section>
+        </details>
+        <section id="next">
+            <h2>Measurements still needed</h2>
+            <div id="missing" class="hypothesis-grid"></div>
+            <p class="future">A future evaluated system could help researchers investigate return-water oxygen demand. Early warnings, fish-death prediction and prevention require separate field validation.</p><button id="report">Download full evidence report</button>
+        </section>
+        <p id="error" role="alert" hidden></p>
+    </main>
+    <footer><strong>O2tracker</strong><span>Observed · Derived · Modeled · Evidence and limitations</span>
+        <div><a href="/docs/DATA_SOURCES.md">Data sources</a><a href="/docs/LIMITATIONS.md">Limitations</a><a href="/docs/AI_DISCLOSURE.md">AI disclosure</a></div>
+    </footer>
+    <script type="module" src="/frontend/oxygen.js"></script>
+    <script type="module" src="/frontend/terrain.js"></script>
+    <script type="module" src="/frontend/flood.js"></script>
+    <script type="module" src="/frontend/essentiality.js"></script>
+</body>
+
+</html>

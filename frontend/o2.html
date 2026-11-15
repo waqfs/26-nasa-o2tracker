@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="O2tracker makes NASA NISAR radar observations explorable: real acquisitions, before/after comparison, interferometric coherence and an exploratory wetland water-level test.">
+    <title>O2tracker: NISAR radar viewer</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23111'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='15' font-weight='700' fill='white' text-anchor='middle'%3EO2%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&display=swap">
+    <link rel="stylesheet" href="/frontend/o2.css">
+</head>
+
+<body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="topbar">
+        <a class="wordmark" href="/">O2<span class="wm-light">tracker</span></a>
+        <nav class="tabs" aria-label="Sections">
+            <a href="/">Home</a>
+            <a href="#explore" data-view="explore">Radar viewer</a>
+            <a href="#evidence" data-view="evidence">Everglades test (E15)</a>
+            <a href="#context" data-view="context">Louisiana oxygen data</a>
+            <a href="#about" data-view="about">Methods &amp; sources</a>
+        </nav>
+    </header>
+
+    <main id="main">
+        <!-- ============================== RADAR VIEWER ============================== -->
+        <section id="view-explore" class="view" aria-labelledby="explore-h">
+            <div class="workspace">
+                <div class="stage">
+                    <div class="stage-head">
+                        <div>
+                            <h1 id="explore-h" class="stage-title"></h1>
+                            <p class="stage-sub" id="stage-sub"></p>
+                        </div>
+                        <fieldset class="opts inline">
+                            <legend class="label">Site</legend>
+                            <div id="site-seg"></div>
+                        </fieldset>
+                    </div>
+                    <div class="canvas-wrap" id="canvas-wrap">
+                        <canvas id="map" tabindex="0" aria-label="NISAR radar raster. Drag or use arrow keys to pan, plus and minus to zoom, click or Enter to inspect a pixel."></canvas>
+                        <div class="split-handle" id="split-handle" hidden></div>
+                        <div class="map-label left" id="label-left"></div>
+                        <div class="map-label right" id="label-right" hidden></div>
+                        <div class="map-tools">
+                            <button id="sel-toggle" aria-pressed="false" aria-label="Select area: drag on the map to measure a region" hidden>Select area</button>
+                            <button id="zoom-in" aria-label="Zoom in">+</button>
+                            <button id="zoom-out" aria-label="Zoom out">−</button>
+                            <button id="zoom-reset" aria-label="Reset view">Fit</button>
+                        </div>
+                        <div class="scalebar" id="scalebar"><span></span><em></em></div>
+                        <div class="loading" id="map-loading" role="status">Loading radar layer…</div>
+                        <div class="map-error" id="map-error" role="alert" hidden></div>
+                    </div>
+                    <input type="range" id="split-range" class="split-range" min="0" max="100" value="50" aria-label="Before/after divider position">
+                    <section class="area" id="area" aria-label="Selected area" hidden>
+                        <div class="area-nums" id="area-nums">
+                            <div><span class="al">This area</span><span class="av" id="a-area">·</span></div>
+                            <div><span class="al" id="a-cmp-l">Whole scene</span><span class="av" id="a-scene">·</span></div>
+                            <div class="diff"><span class="al" id="a-diff-l">Area minus scene</span><span class="av" id="a-diff">·</span></div>
+                        </div>
+                        <svg class="traj" id="traj" role="img" hidden></svg>
+                        <p class="area-detail" id="a-detail"></p>
+                        <p class="area-note" id="a-note"></p>
+                        <div class="area-actions" id="area-actions">
+                            <button type="button" id="dl-json">Download report (JSON)</button>
+                            <button type="button" id="dl-csv">CSV</button>
+                            <button type="button" id="set-ref">Use as reference</button>
+                            <button type="button" id="clear-ref" hidden>Clear reference</button>
+                            <button type="button" id="sel-clear">Clear box</button>
+                        </div>
+                        <p class="area-msg" id="a-msg" role="status" aria-live="polite"></p>
+                    </section>
+                    <div class="legend" id="legend"></div>
+                    <div class="timeline" id="timeline" aria-label="Acquisitions"></div>
+                </div>
+
+                <aside class="inspector" aria-label="Inspector">
+                    <p class="lede" id="lede"></p>
+                    <fieldset class="opts">
+                        <legend class="label">Layer</legend>
+                        <div id="layer-seg"></div>
+                    </fieldset>
+                    <fieldset class="opts" id="mode-field">
+                        <legend class="label">View</legend>
+                        <div id="mode-seg"></div>
+                    </fieldset>
+                    <div class="field" id="compare-field">
+                        <label class="label" for="before-sel">Before</label><select id="before-sel"></select>
+                        <label class="label" for="after-sel">After</label><select id="after-sel"></select>
+                    </div>
+                    <label class="check"><input type="checkbox" id="points-toggle" checked> <span id="points-label">Show points</span></label>
+                    <div class="readout" id="readout" aria-live="polite">
+                        <p class="label">Pixel values</p>
+                        <p class="muted">Click a pixel to show its values.</p>
+                    </div>
+                    <dl class="meta" id="meta"></dl>
+                    <details class="prov">
+                        <summary>Full provenance</summary>
+                        <dl id="info-body"></dl>
+                    </details>
+                    <p class="caveat" id="caveat"></p>
+                </aside>
+            </div>
+        </section>
+
+        <!-- ============================== E15 ============================== -->
+        <section id="view-evidence" class="view" aria-labelledby="evidence-h" hidden>
+            <div class="page">
+                <h1 id="evidence-h">E15: Everglades water-level change with and without NISAR phase <span class="badge exploratory">Exploratory</span></h1>
+                <p class="intro">Water Conservation Area 3A, Florida. We withheld each marsh gauge in turn and estimated its 12-day water-level change two ways: from the other gauges alone, and with NISAR interferometric phase calibrated by those same gauges. Both estimates were then compared with what the withheld gauge measured.</p>
+                <p class="result" id="result-lead"></p>
+                <table class="stat-table" id="metrics"></table>
+
+                <div class="figs">
+                    <figure class="fig">
+                        <div class="fig-head">
+                            <h2>Figure 1. Estimated vs measured change</h2>
+                            <fieldset class="opts inline">
+                                <legend class="label">Pair</legend>
+                                <div id="pair-seg"></div>
+                            </fieldset>
+                        </div>
+                        <div class="chart" id="scatter-wrap"><svg id="scatter" role="img" aria-labelledby="scatter-desc"></svg></div>
+                        <p class="chart-readout" id="tip" aria-live="polite">Hover over or tap a gauge for its values.</p>
+                        <div class="key"><span><i class="dot nisar"></i>NISAR-assisted estimate</span><span><i class="sq base"></i>Gauge-only baseline</span><span><i class="ln"></i>Perfect agreement</span></div>
+                        <figcaption id="scatter-desc"></figcaption>
+                    </figure>
+                    <figure class="fig">
+                        <h2>Figure 2. Error by radar pair</h2>
+                        <div class="chart"><svg id="bars" role="img" aria-labelledby="bars-desc"></svg></div>
+                        <figcaption id="bars-desc"></figcaption>
+                    </figure>
+                </div>
+
+                <section class="doc">
+                    <h2>Controls and limitations</h2>
+                    <h3>Placebo test</h3>
+                    <p id="placebo"></p>
+                    <h3>Replication</h3>
+                    <p id="replication"></p>
+                    <h3>What the baseline is</h3>
+                    <p id="baseline-note"></p>
+                    <h3>Limits of this result</h3>
+                    <ul id="limits"></ul>
+                </section>
+
+                <section class="doc">
+                    <h2>Table 2. All 33 withheld-gauge results</h2>
+                    <div class="table-scroll">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th scope="col">Pair</th>
+                                    <th scope="col">Gauge</th>
+                                    <th scope="col" class="num">Measured (cm)</th>
+                                    <th scope="col" class="num">NISAR-assisted (cm)</th>
+                                    <th scope="col" class="num">Gauge-only (cm)</th>
+                                </tr>
+                            </thead>
+                            <tbody id="rows"></tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- ============================== LOUISIANA ============================== -->
+        <section id="view-context" class="view" aria-labelledby="context-h" hidden>
+            <div class="page">
+                <h1 id="context-h">Low dissolved oxygen in Maurepas Swamp, Louisiana (field data) <span class="badge observed">Observed</span></h1>
+                <p class="intro">Louisiana CPRA probe profiles show how low dissolved oxygen falls in these swamp waterways. This is a different site from the radar data. The link between our NISAR hydrology estimates and oxygen remains unvalidated, and nothing here was observed by the satellite.</p>
+                <p class="result" id="ctx-metrics"></p>
+                <section class="doc">
+                    <h2>Figure 3. Dissolved-oxygen range per visit, stations SWMP0201–0205</h2>
+                    <div class="station-grid" id="stations"></div>
+                </section>
+                <section class="doc">
+                    <h2>How to read these measurements</h2>
+                    <ul id="ctx-limits"></ul>
+                </section>
+            </div>
+        </section>
+
+        <!-- ============================== METHODS ============================== -->
+        <section id="view-about" class="view" aria-labelledby="about-h" hidden>
+            <div class="page narrow">
+                <h1 id="about-h">Methods and sources</h1>
+                <p class="intro">O2tracker makes NASA NISAR radar observations explorable: real acquisitions, a checked before/after comparison, interferometric coherence and phase, and an exploratory test of what radar adds to wetland water-level estimates. It is not an oxygen sensor, hypoxia predictor or early-warning service.</p>
+
+                <section class="doc">
+                    <h2>Status labels</h2>
+                    <dl class="labels">
+                        <dt><span class="badge observed">Observed</span></dt>
+                        <dd>Direct satellite or field measurements (radar backscatter, coherence, phase, gauge stage, probe oxygen).</dd>
+                        <dt><span class="badge derived">Derived</span></dt>
+                        <dd>Quantities computed from measurements (backscatter difference, gauge-calibrated water-level estimates).</dd>
+                        <dt><span class="badge modeled">Modeled</span></dt>
+                        <dd>Outputs of an explicit model or simulation (the educational oxygen-budget experiment).</dd>
+                        <dt><span class="badge exploratory">Exploratory</span></dt>
+                        <dd>Findings that still need independent replication or validation.</dd>
+                    </dl>
+                </section>
+
+                <section class="doc">
+                    <h2>What NISAR measures</h2>
+                    <p>NISAR is an L-band synthetic aperture radar (wavelength about 24 cm). It sends its own microwave pulses, so it observes day and night and through cloud.</p>
+                    <p><strong>Backscatter</strong> is how much energy returns to the satellite; it changes with surface roughness, vegetation and water. A change in backscatter is not by itself a flooding change.</p>
+                    <p><strong>Coherence</strong> (0–1) shows how similar the radar echo stayed between two passes 12 days apart. <strong>Unwrapped phase</strong> records path-length change along the radar's line of sight; one 2π cycle is about 11.9 cm.</p>
+                </section>
+
+                <section class="doc">
+                    <h2>Data sources</h2>
+                    <ul class="plain" id="sources"></ul>
+                </section>
+
+                <section class="doc">
+                    <h2>Earlier site: Katarapko–Pike</h2>
+                    <p>The first study site was the Katarapko–Pike floodplain in South Australia. Its full investigation (3D radar terrain, independent river oxygen sensors, a <span class="badge modeled">Modeled</span> educational oxygen-budget experiment and a remove-the-satellite test) remains available.</p>
+                    <p id="ablation"></p>
+                    <p><a href="/investigation">Katarapko–Pike investigation (earlier site)</a></p>
+                    <p class="muted small">Project history: this work was developed as OXYGEN DEBT (releases 0.1–0.3) and renamed O2tracker for this release. Experiment records keep their original names.</p>
+                </section>
+
+                <section class="doc">
+                    <h2>Documentation</h2>
+                    <ul class="plain">
+                        <li><a href="/docs/SCIENCE.md">Science and methods</a></li>
+                        <li><a href="/docs/LIMITATIONS.md">Limitations</a></li>
+                        <li><a href="/docs/DATA_SOURCES.md">Data sources and licences</a></li>
+                        <li><a href="/docs/AI_DISCLOSURE.md">AI assistance disclosure</a></li>
+                        <li><a href="/docs/REPRODUCIBILITY.md">Reproducibility</a></li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+    </main>
+    <script src="/frontend/o2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "oxygen-debt",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Buildless scientific discovery interface",
+  "scripts": {
+    "start": "python -m uvicorn backend.app:app --host 127.0.0.1 --port 8010",
+    "check": "node --check frontend/oxygen.js && node --check frontend/terrain.js && node --check frontend/flood.js && node --check frontend/essentiality.js && node --check frontend/o2.js",
+    "test": "python -m pytest -q"
+  }
+}

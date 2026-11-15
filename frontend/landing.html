@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Real NASA NISAR radar over a South Australian floodplain, five weeks apart. Drag to see what changed, and read what the satellite measured.">
+    <title>O2tracker: what did the radar see change?</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23111'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='15' font-weight='700' fill='white' text-anchor='middle'%3EO2%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap">
+    <link rel="stylesheet" href="/frontend/landing.css">
+</head>
+
+<body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="bar">
+        <a class="wm" href="/">O2<span class="wm-light">tracker</span></a>
+        <nav aria-label="Sections">
+            <a href="/app#explore">Radar viewer</a>
+            <a href="/app#evidence">Everglades test</a>
+            <a href="/app#context">Louisiana oxygen data</a>
+            <a href="/app#about">Methods &amp; sources</a>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="hero" aria-labelledby="h">
+            <div class="copy">
+                <p class="kick">Real data from NASA's NISAR radar satellite</p>
+                <h1 id="h">Same ground.<br>Five weeks apart.<br>What changed?</h1>
+                <p class="sub">This is the River Murray floodplain in South Australia, seen by radar on 23 August and 28 September 2026. Drag the line. Move across the image and read exactly what the satellite measured at each spot.</p>
+                <div class="ctas">
+                    <a class="btn primary" href="/app#explore">Open the full explorer</a>
+                    <a class="btn" href="#result">See what we tested</a>
+                </div>
+                <p class="honest">Exploratory research. O2tracker is not an oxygen sensor or a flood or hypoxia warning system.</p>
+            </div>
+
+            <div class="viewer">
+                <div class="viewer-top">
+                    <div class="mode" role="group" aria-label="View">
+                        <button type="button" data-mode="compare" aria-pressed="true">Before and after</button>
+                        <button type="button" data-mode="change" aria-pressed="false">Show the change</button>
+                    </div>
+                    <span class="hint" id="hint">Drag the line</span>
+                </div>
+                <div class="stage" id="stage">
+                    <canvas id="cv" tabindex="0" aria-label="NISAR radar backscatter over the River Murray floodplain, 23 August and 28 September 2026. Drag the divider, or use left and right arrow keys, to compare. Move the pointer, or press Enter, to read the measurement at a spot."></canvas>
+                    <span class="tag left" id="tag-l">23 Aug</span>
+                    <span class="tag right" id="tag-r">28 Sep</span>
+                    <p class="loading" id="loading" role="status">Loading radar…</p>
+                </div>
+                <div class="readout" id="readout" aria-live="polite">
+                    <div><span class="rl" id="r1l">23 Aug</span><span class="rv" id="r1">·</span></div>
+                    <div><span class="rl" id="r2l">28 Sep</span><span class="rv" id="r2">·</span></div>
+                    <div class="delta"><span class="rl">Change</span><span class="rv" id="r3">·</span></div>
+                    <p class="rnote" id="rnote">Hover over the image. Click to pin a spot.</p>
+                </div>
+                <p class="cap">Radar backscatter (HH, γ⁰), NISAR L-band, track 153. Brighter means more energy returned. <a href="/app#explore">Provenance and more layers in the explorer.</a></p>
+            </div>
+        </section>
+
+        <section class="band" aria-labelledby="what">
+            <div class="band-inner">
+                <h2 id="what">Radar doesn't take a photo. It measures how the ground answers back.</h2>
+                <div class="cols">
+                    <p>NISAR sends its own microwave pulses and listens for the echo, so it sees at night and through cloud. Wet ground, bare soil and vegetation each return a different amount of energy. That is why one place can look different five weeks apart.</p>
+                    <p>A change in the echo is a clue, not a verdict. It isn't automatically flooding, and we say so every place it appears. Our question is narrower and more useful: where could radar add something that ground sensors alone cannot?</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="result" id="result" aria-labelledby="rh">
+            <div class="result-inner">
+                <div class="result-copy">
+                    <h2 id="rh">We tested whether radar helps estimate water level between gauges.</h2>
+                    <p>In the Everglades, we hid each marsh gauge in turn. We estimated its 12-day water-level change from the other gauges alone, and again with NISAR phase added. Then we checked both against what the hidden gauge actually measured.</p>
+                    <a class="btn" href="/app#evidence">See the full test</a>
+                </div>
+                <figure class="fig">
+                    <p class="big" id="big" aria-live="polite">—</p>
+                    <svg id="dumb" role="img" aria-labelledby="dumb-desc"></svg>
+                    <figcaption id="dumb-desc"></figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="close" aria-labelledby="ch">
+            <h2 id="ch">Built to be checked, not just admired.</h2>
+            <ul class="plain">
+                <li><strong>Observed</strong> means measured by the satellite or a field instrument.</li>
+                <li><strong>Derived</strong> means computed from measurements, such as a difference between two dates.</li>
+                <li><strong>Exploratory</strong> means it still needs independent replication.</li>
+            </ul>
+            <p class="try">In the explorer, draw a box anywhere on the radar and see how much that area changed compared with the whole scene, then download the numbers.</p>
+            <p><a class="btn primary" href="/app#explore">Measure an area yourself</a> <a class="link" href="/app#context">Why monitoring matters: low oxygen measured in Louisiana</a></p>
+        </section>
+    </main>
+    <footer class="foot">O2tracker · NASA Space Apps 2026 · Data: NASA/ISRO NISAR via ASF DAAC; USGS EDEN. <a href="/app#about">Methods and sources</a></footer>
+    <script src="/frontend/landing.js"></script>
+</body>
+
+</html>
